@@ -16,5 +16,16 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"sprMerfolkAquamancer","order":1,"path":"sprites/sprMerfolkAquamancer/sprMerfolkAquamancer.yy",},
+    {"name":"sprHumanCrossbowmen","order":5,"path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},
+    {"name":"sprHumanSwordsmen","order":9,"path":"sprites/sprHumanSwordsmen/sprHumanSwordsmen.yy",},
+    {"name":"sprHumanKnight","order":7,"path":"sprites/sprHumanKnight/sprHumanKnight.yy",},
+    {"name":"sprHumanArcher","order":6,"path":"sprites/sprHumanArcher/sprHumanArcher.yy",},
+    {"name":"sprWaterElemental","order":4,"path":"sprites/sprWaterElemental/sprWaterElemental.yy",},
+    {"name":"sprMerfolkScout","order":3,"path":"sprites/sprMerfolkScout/sprMerfolkScout.yy",},
+    {"name":"sprMerfolkSiren","order":10,"path":"sprites/sprMerfolkSiren/sprMerfolkSiren.yy",},
+    {"name":"sprMerfolkImpaler","order":2,"path":"sprites/sprMerfolkImpaler/sprMerfolkImpaler.yy",},
+    {"name":"sprHumanPriest","order":8,"path":"sprites/sprHumanPriest/sprHumanPriest.yy",},
+  ],
 }
