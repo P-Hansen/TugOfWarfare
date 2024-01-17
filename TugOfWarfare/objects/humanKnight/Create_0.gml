@@ -6,8 +6,6 @@ enemySide = 0;
 direction = enemySide;
 
 hp = 400;
-moveSpeed = 1;
-speed += moveSpeed;
 enemy = merfolkClass;
 weapon = swordSlash;
 range = 10;

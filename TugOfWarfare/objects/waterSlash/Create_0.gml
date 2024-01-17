@@ -4,7 +4,8 @@ image_xscale = scale;
 image_yscale = scale;
 
 speed = 0;
-damage = 40;
+damage = 20;
 damageDoneFlag = false;
+targets = [];
 
 alarm[1] = 8;

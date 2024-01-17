@@ -9,12 +9,10 @@ image_yscale = scale;
 enemySide = 180;
 direction = enemySide;
 
-hp = 400;
-moveSpeed = 1;
-speed += moveSpeed;
+hp = 600;
 enemy = humanClass;
 weapon = waterSlash;
-damage = 30;
+damage = 20;
 range = 10;
 cooldown = 2;
 

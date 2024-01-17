@@ -7,10 +7,8 @@ direction = enemySide;
 
 
 hp = 200;
-moveSpeed = 2;
-speed += moveSpeed;
 enemy = humanClass;
-range = 50;
+range = 60;
 weapon = spear;
 damage = 40;
 cooldown = 1;

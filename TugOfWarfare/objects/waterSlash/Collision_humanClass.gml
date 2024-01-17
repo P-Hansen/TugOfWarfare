@@ -1,10 +1,9 @@
 /// @description Insert description here
 
-if(damageDoneFlag == false){
+if(!array_contains(targets, other)){
 	other.hp -= damage;
 	other.flashTimer = 5;
-	//instance_destroy(self);
-	damageDoneFlag = true;
+	array_push(targets, other);
 }
 
 
