@@ -7,7 +7,7 @@ direction = enemySide;
 
 hp = 300;
 moveSpeed = 1;
-speed = moveSpeed;
+speed += moveSpeed;
 enemy = humanClass;
 weapon = tridentStab;
 range = 10;

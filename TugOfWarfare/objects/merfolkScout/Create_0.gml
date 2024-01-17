@@ -8,7 +8,7 @@ direction = enemySide;
 
 hp = 200;
 moveSpeed = 2;
-speed = moveSpeed;
+speed += moveSpeed;
 enemy = humanClass;
 range = 50;
 weapon = spear;

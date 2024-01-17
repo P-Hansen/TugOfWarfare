@@ -4,7 +4,7 @@ image_xscale = scale;
 image_yscale = scale;
 
 speed = 4;
-damage = 50;
+damage = 30;
 
 
 

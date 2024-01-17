@@ -12,7 +12,7 @@ direction = enemySide;
 
 hp = 200;
 moveSpeed = 2;
-speed = moveSpeed;
+speed += moveSpeed;
 enemy = merfolkClass;
 range = 70;
 weapon = arrow;

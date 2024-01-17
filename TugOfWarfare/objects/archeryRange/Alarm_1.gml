@@ -1,7 +1,9 @@
 /// @description creating units
 
-instance_create_layer(x, y-15, layer, unit);
-instance_create_layer(x, y+15, layer, unit);
-
+for(var i = 2; i > 0; i--){
+	var xOffset = random_range(-15, 15);
+	var yOffset = random_range(-15, 15);
+	instance_create_layer(x+xOffset, y+yOffset, layer, unit);
+}
 
 alarm[1] = room_speed*5;

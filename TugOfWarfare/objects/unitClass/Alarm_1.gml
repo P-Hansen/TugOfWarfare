@@ -1,7 +1,7 @@
 /// @description attack
 
 if(speed = 0){
-	var attack = instance_create_layer(x, y, layer, weapon);
+	var attack = instance_create_layer(x, y-10, "weaponLayer", weapon);
 	attack.direction = direction;
 	attack.image_angle = direction;
 }
