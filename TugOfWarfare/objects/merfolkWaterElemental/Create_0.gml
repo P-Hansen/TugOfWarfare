@@ -9,7 +9,7 @@ image_yscale = scale;
 enemySide = 180;
 direction = enemySide;
 
-hp = 600;
+hp = 700;
 enemy = humanClass;
 weapon = waterSlash;
 damage = 20;

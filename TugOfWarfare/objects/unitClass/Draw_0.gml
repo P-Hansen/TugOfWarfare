@@ -1,5 +1,7 @@
 /// @description Insert description here
 
+depth = -y;
+
 if(flashTimer > 0){
 	gpu_set_fog(true, c_white, 0, 0);
 	flashTimer--;

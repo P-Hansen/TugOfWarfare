@@ -6,4 +6,4 @@ for(var i = 3; i > 0; i--){
 	instance_create_layer(x+xOffset, y+yOffset, layer, unit);
 }
 
-alarm[1] = room_speed*10;
+alarm[1] = room_speed*20;
