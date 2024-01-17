@@ -16,6 +16,7 @@ speed += moveSpeed;
 enemy = merfolkClass;
 range = 70;
 weapon = arrow;
+damage = 30;
 cooldown = 1.5;
 
 alarm[1] = room_speed*cooldown;

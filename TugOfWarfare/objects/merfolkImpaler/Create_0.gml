@@ -10,6 +10,7 @@ moveSpeed = 1;
 speed += moveSpeed;
 enemy = humanClass;
 weapon = tridentStab;
+damage = 40;
 range = 10;
 cooldown = 2;
 

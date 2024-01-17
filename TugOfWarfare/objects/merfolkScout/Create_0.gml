@@ -12,6 +12,7 @@ speed += moveSpeed;
 enemy = humanClass;
 range = 50;
 weapon = spear;
+damage = 40;
 cooldown = 1;
 
 alarm[1] = room_speed*cooldown;

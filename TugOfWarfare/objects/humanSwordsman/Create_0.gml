@@ -5,13 +5,13 @@ event_inherited();
 enemySide = 0;
 direction = enemySide;
 
-hp = 400;
+hp = 300;
 moveSpeed = 1;
 speed += moveSpeed;
 enemy = merfolkClass;
 weapon = swordSlash;
+damage = 40;
 range = 10;
-damage = 30;
 cooldown = 1;
 
 
