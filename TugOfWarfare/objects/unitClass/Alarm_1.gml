@@ -6,4 +6,4 @@ if(speed = 0){
 	attack.image_angle = direction;
 }
 
-alarm[1] = room_speed*1;
+alarm[1] = room_speed*cooldown;

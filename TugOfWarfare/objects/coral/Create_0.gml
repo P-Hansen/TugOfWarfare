@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-unit = merfolkScout;
+unit = merfolkImpaler;
 
 
 alarm[1] = room_speed*1;

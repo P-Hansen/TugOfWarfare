@@ -2,16 +2,20 @@
 
 // Inherit the parent event
 event_inherited();
+
+image_xscale = 0.5;
+image_yscale = 0.5;
+
 enemySide = 0;
 direction = enemySide;
 
-hp = 400;
-moveSpeed = 1;
+
+hp = 200;
+moveSpeed = 2;
 speed = moveSpeed;
 enemy = merfolkClass;
-weapon = swordSlash;
-range = 10;
-cooldown = 1;
-
+range = 70;
+weapon = arrow;
+cooldown = 1.5;
 
 alarm[1] = room_speed*cooldown;
