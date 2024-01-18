@@ -1,7 +1,17 @@
 /// @description
 
+//finding a target
+if(!instance_exists(target) or target.hp >= target.maxHp){
+	for (var i = 0; i < instance_number(enemy); ++i;) {
+	    var pTarget = instance_find(enemy, i);
+		if(pTarget.hp < pTarget.maxHp and pTarget != id){
+			target = pTarget;
+			break;
+		}
+	}
+}
+
 //point direction
-target = instance_nearest(x, y, enemy);
 if(instance_exists(target)){
 	direction = point_direction(x, y, target.x, target.y);
 } else {
@@ -27,6 +37,10 @@ if _colliding {
 	x += lengthdir_x(1, _dir);
 	y += lengthdir_y(1, _dir);
 }
+
+//range finder
+//sightRange.x = x;
+//sightRange.y = y-yOffset;
 
 //death
 if(hp <= 0){
