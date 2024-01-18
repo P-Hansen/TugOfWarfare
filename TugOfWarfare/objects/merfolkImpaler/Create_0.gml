@@ -5,11 +5,12 @@ event_inherited();
 enemySide = 180;
 direction = enemySide;
 
-hp = 300;
+maxHp = 300;
+hp = maxHp;
 enemy = humanClass;
 weapon = tridentStab;
 damage = 40;
 range = 10;
-cooldown = 2;
+cooldown = 1;
 
 alarm[1] = room_speed*cooldown;

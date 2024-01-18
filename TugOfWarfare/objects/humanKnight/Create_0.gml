@@ -5,12 +5,13 @@ event_inherited();
 enemySide = 0;
 direction = enemySide;
 
-hp = 400;
+maxHp = 450;
+hp = maxHp;
 enemy = merfolkClass;
 weapon = swordSlash;
 range = 10;
 damage = 30;
-cooldown = 1;
+cooldown = 1.5;
 
 
 alarm[1] = room_speed*cooldown;

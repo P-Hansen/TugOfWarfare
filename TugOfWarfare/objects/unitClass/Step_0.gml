@@ -1,7 +1,7 @@
 /// @description
 
 //point direction
-var target = instance_nearest(x, y, enemy);
+target = instance_nearest(x, y, enemy);
 if(instance_exists(target)){
 	direction = point_direction(x, y, target.x, target.y);
 } else {

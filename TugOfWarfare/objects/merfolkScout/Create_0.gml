@@ -6,11 +6,12 @@ enemySide = 180;
 direction = enemySide;
 
 
-hp = 200;
+maxHp = 200;
+hp = maxHp;
 enemy = humanClass;
 range = 70;
 weapon = spear;
-damage = 40;
-cooldown = 1;
+damage = 50;
+cooldown = 1.6;
 
 alarm[1] = room_speed*cooldown;

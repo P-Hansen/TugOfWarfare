@@ -9,12 +9,12 @@ image_yscale = 0.5;
 enemySide = 0;
 direction = enemySide;
 
-
-hp = 150;
+maxHp = 150;
+hp = maxHp;
 enemy = merfolkClass;
-range = 70;
+range = 80;
 weapon = arrow;
-damage = 30;
-cooldown = 1.5;
+damage = 25;
+cooldown = 1.1;
 
 alarm[1] = room_speed*cooldown;

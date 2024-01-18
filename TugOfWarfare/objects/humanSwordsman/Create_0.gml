@@ -5,7 +5,8 @@ event_inherited();
 enemySide = 0;
 direction = enemySide;
 
-hp = 300;
+maxHp = 300;
+hp = maxHp;
 enemy = merfolkClass;
 weapon = swordSlash;
 damage = 40;
