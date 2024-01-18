@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "range1",
-  "eventList": [],
+  "name": "magicCoral",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprRange256",
-    "path": "sprites/sprRange256/sprRange256.yy",
+    "name": "sprTestCube",
+    "path": "sprites/sprTestCube/sprTestCube.yy",
   },
   "spriteMaskId": null,
   "visible": true,
