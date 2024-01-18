@@ -1,9 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "humanSwordsman",
+  "name": "humanPriest",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,8 +14,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "humanPriestTargets",
-    "path": "objects/humanPriestTargets/humanPriestTargets.yy",
+    "name": "humanClass",
+    "path": "objects/humanClass/humanClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprHumanSwordsmen",
-    "path": "sprites/sprHumanSwordsmen/sprHumanSwordsmen.yy",
+    "name": "sprHumanPriest",
+    "path": "sprites/sprHumanPriest/sprHumanPriest.yy",
   },
   "spriteMaskId": null,
   "visible": true,

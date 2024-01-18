@@ -12,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "humanClass",
-    "path": "objects/humanClass/humanClass.yy",
+    "name": "humanPriestTargets",
+    "path": "objects/humanPriestTargets/humanPriestTargets.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
