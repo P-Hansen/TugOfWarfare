@@ -68,6 +68,7 @@
     {"id":{"name":"spear","path":"objects/spear/spear.yy",},},
     {"id":{"name":"sprHumanKnightButton","path":"sprites/sprHumanKnightButton/sprHumanKnightButton.yy",},},
     {"id":{"name":"merfolkAquamancer","path":"objects/merfolkAquamancer/merfolkAquamancer.yy",},},
+    {"id":{"name":"statusEffectBubble","path":"objects/statusEffectBubble/statusEffectBubble.yy",},},
     {"id":{"name":"sprHumanArcherButton","path":"sprites/sprHumanArcherButton/sprHumanArcherButton.yy",},},
     {"id":{"name":"humanSwordsmenButton","path":"objects/humanSwordsmenButton/humanSwordsmenButton.yy",},},
     {"id":{"name":"buildingsClass","path":"objects/buildingsClass/buildingsClass.yy",},},

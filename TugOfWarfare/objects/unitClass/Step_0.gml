@@ -1,6 +1,6 @@
 /// @description
 
-if(currentStatus = status.active){
+if(currentStatus == status.active){
 	//point direction
 	target = instance_nearest(x, y, enemy);
 	if(instance_exists(target)){

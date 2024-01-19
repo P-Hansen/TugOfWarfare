@@ -49,6 +49,7 @@
     {"name":"humanKnightButton","order":40,"path":"objects/humanKnightButton/humanKnightButton.yy",},
     {"name":"spear","order":1,"path":"objects/spear/spear.yy",},
     {"name":"sprHumanKnightButton","order":21,"path":"sprites/sprHumanKnightButton/sprHumanKnightButton.yy",},
+    {"name":"statusEffectBubble","order":45,"path":"objects/statusEffectBubble/statusEffectBubble.yy",},
     {"name":"sprHumanArcherButton","order":20,"path":"sprites/sprHumanArcherButton/sprHumanArcherButton.yy",},
     {"name":"humanSwordsmenButton","order":43,"path":"objects/humanSwordsmenButton/humanSwordsmenButton.yy",},
     {"name":"buildingsClass","order":10,"path":"objects/buildingsClass/buildingsClass.yy",},
