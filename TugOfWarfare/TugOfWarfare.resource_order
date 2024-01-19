@@ -72,6 +72,7 @@
     {"name":"sprSpear","order":12,"path":"sprites/sprSpear/sprSpear.yy",},
     {"name":"humanPriestButton","order":42,"path":"objects/humanPriestButton/humanPriestButton.yy",},
     {"name":"sprMerfolkSiren","order":10,"path":"sprites/sprMerfolkSiren/sprMerfolkSiren.yy",},
+    {"name":"goldNumber","order":46,"path":"objects/goldNumber/goldNumber.yy",},
     {"name":"blacksmith","order":1,"path":"objects/blacksmith/blacksmith.yy",},
     {"name":"sprBubble","order":18,"path":"sprites/sprBubble/sprBubble.yy",},
     {"name":"humanCrossbowmenButton","order":41,"path":"objects/humanCrossbowmenButton/humanCrossbowmenButton.yy",},

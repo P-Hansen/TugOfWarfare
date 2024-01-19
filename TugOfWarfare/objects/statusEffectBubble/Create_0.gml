@@ -1,9 +1,8 @@
 /// @description Insert description here
 
-statusTimer = 5*4;
+statusTimer = 4*4;
 targetW = 0;
 targetH = 0;
-unitSprite = noone;
 target = noone;
 
 function onHit(unit){
@@ -15,7 +14,6 @@ function onHit(unit){
 	})){
 		targetW = unit.sprite_width;
 		targetH = unit.sprite_height;
-		unitSprite = unit.image_index;
 		target = unit;
 		unit.currentStatus = status.disabled;
 		unit.speed = 0;

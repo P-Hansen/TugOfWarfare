@@ -1,6 +1,6 @@
 /// @description
 
-if(currentStatus = status.active){
+if(currentStatus == status.active){
 	//finding a target
 	if(!instance_exists(target) or target.hp >= target.maxHp){
 		for (var i = 0; i < instance_number(enemy); ++i;) {

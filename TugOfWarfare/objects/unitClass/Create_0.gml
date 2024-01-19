@@ -13,6 +13,6 @@ target = noone;
 unitColour = c_white;
 currentStatus = status.active;
 statusEffects = [];
-
+drop = 5;
 
 alarm[2] = room_speed*0.25;

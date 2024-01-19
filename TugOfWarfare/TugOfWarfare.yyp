@@ -93,6 +93,7 @@
     {"id":{"name":"sprSpear","path":"sprites/sprSpear/sprSpear.yy",},},
     {"id":{"name":"humanPriestButton","path":"objects/humanPriestButton/humanPriestButton.yy",},},
     {"id":{"name":"sprMerfolkSiren","path":"sprites/sprMerfolkSiren/sprMerfolkSiren.yy",},},
+    {"id":{"name":"goldNumber","path":"objects/goldNumber/goldNumber.yy",},},
     {"id":{"name":"blacksmith","path":"objects/blacksmith/blacksmith.yy",},},
     {"id":{"name":"sprBubble","path":"sprites/sprBubble/sprBubble.yy",},},
     {"id":{"name":"humanCrossbowmenButton","path":"objects/humanCrossbowmenButton/humanCrossbowmenButton.yy",},},
