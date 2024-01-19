@@ -6,15 +6,16 @@ event_inherited();
 image_xscale = 0.5;
 image_yscale = 0.5;
 
-enemySide = 0;
+enemySide = 180;
 direction = enemySide;
 
-maxHp = 150;
+
+maxHp = 200;
 hp = maxHp;
-enemy = merfolkClass;
+enemy = humanClass;
 range = 70;
-weapon = arrow;
-damage = 25;
-cooldown = 1;
+weapon = song;
+damage = 50;
+cooldown = 2;
 
 alarm[1] = room_speed*cooldown;
