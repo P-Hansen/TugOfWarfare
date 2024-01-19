@@ -14,7 +14,7 @@ hp = maxHp;
 enemy = merfolkClass;
 range = 100;
 weapon = arrow;
-damage = 25;
-cooldown = 1;
+damage = 40;
+cooldown = 2;
 
 alarm[1] = room_speed*cooldown;

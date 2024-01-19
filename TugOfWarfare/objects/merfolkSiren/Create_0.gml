@@ -15,7 +15,7 @@ hp = maxHp;
 enemy = humanClass;
 range = 70;
 weapon = song;
-damage = 50;
+damage = 40;
 cooldown = 2;
 
 alarm[1] = room_speed*cooldown;

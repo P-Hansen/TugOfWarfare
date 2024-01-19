@@ -8,12 +8,12 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "humans",
+    "path": "folders/Objects/humans.yy",
   },
   "parentObjectId": {
-    "name": "humanPriestTargets",
-    "path": "objects/humanPriestTargets/humanPriestTargets.yy",
+    "name": "humanClass",
+    "path": "objects/humanClass/humanClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

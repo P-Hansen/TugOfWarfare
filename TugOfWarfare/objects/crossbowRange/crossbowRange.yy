@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "humanPriestTargets",
-  "eventList": [],
+  "name": "crossbowRange",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "buildings",
+    "path": "folders/Objects/buildings.yy",
   },
   "parentObjectId": {
-    "name": "humanClass",
-    "path": "objects/humanClass/humanClass.yy",
+    "name": "buildingsClass",
+    "path": "objects/buildingsClass/buildingsClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprTestCube",
+    "path": "sprites/sprTestCube/sprTestCube.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

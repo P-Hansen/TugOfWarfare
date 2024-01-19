@@ -9,10 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "buildings",
+    "path": "folders/Objects/buildings.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "buildingsClass",
+    "path": "objects/buildingsClass/buildingsClass.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

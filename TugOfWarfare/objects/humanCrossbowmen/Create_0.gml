@@ -9,10 +9,10 @@ image_yscale = 0.5;
 enemySide = 0;
 direction = enemySide;
 
-maxHp = 150;
+maxHp = 200;
 hp = maxHp;
 enemy = merfolkClass;
-range = 70;
+range = 60;
 weapon = arrow;
 damage = 25;
 cooldown = 1;

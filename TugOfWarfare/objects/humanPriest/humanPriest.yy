@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "humans",
+    "path": "folders/Objects/humans.yy",
   },
   "parentObjectId": {
     "name": "humanClass",
