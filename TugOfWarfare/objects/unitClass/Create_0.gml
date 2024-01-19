@@ -12,3 +12,7 @@ speed = moveSpeed;
 target = noone;
 unitColour = c_white;
 currentStatus = status.active;
+statusEffects = [];
+
+
+alarm[2] = room_speed*0.25;
