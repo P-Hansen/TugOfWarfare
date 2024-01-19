@@ -54,6 +54,7 @@
     {"name":"church","order":3,"path":"objects/church/church.yy",},
     {"name":"shallows","order":8,"path":"objects/shallows/shallows.yy",},
     {"name":"sprHumanKnight","order":7,"path":"sprites/sprHumanKnight/sprHumanKnight.yy",},
+    {"name":"sprBackboard","order":25,"path":"sprites/sprBackboard/sprBackboard.yy",},
     {"name":"crystal","order":6,"path":"objects/crystal/crystal.yy",},
     {"name":"sprTestCube","order":11,"path":"sprites/sprTestCube/sprTestCube.yy",},
     {"name":"sprHumanArcher","order":6,"path":"sprites/sprHumanArcher/sprHumanArcher.yy",},

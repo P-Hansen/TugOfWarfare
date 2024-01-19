@@ -73,6 +73,7 @@
     {"id":{"name":"church","path":"objects/church/church.yy",},},
     {"id":{"name":"shallows","path":"objects/shallows/shallows.yy",},},
     {"id":{"name":"sprHumanKnight","path":"sprites/sprHumanKnight/sprHumanKnight.yy",},},
+    {"id":{"name":"sprBackboard","path":"sprites/sprBackboard/sprBackboard.yy",},},
     {"id":{"name":"crystal","path":"objects/crystal/crystal.yy",},},
     {"id":{"name":"sprTestCube","path":"sprites/sprTestCube/sprTestCube.yy",},},
     {"id":{"name":"sprHumanArcher","path":"sprites/sprHumanArcher/sprHumanArcher.yy",},},
