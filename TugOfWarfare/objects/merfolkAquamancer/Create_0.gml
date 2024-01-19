@@ -11,7 +11,7 @@ hp = maxHp;
 enemy = humanClass;
 range = 70;
 weapon = bubble;
-damage = 45;
-cooldown = 1.6;
+damage = 30;
+cooldown = 2;
 
 alarm[1] = room_speed*cooldown;

@@ -43,6 +43,8 @@
     {"id":{"name":"sprArrow","path":"sprites/sprArrow/sprArrow.yy",},},
     {"id":{"name":"waterSlash","path":"objects/waterSlash/waterSlash.yy",},},
     {"id":{"name":"sprHumanCrossbowmen","path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},},
+    {"id":{"name":"humanCrossbowmen","path":"objects/humanCrossbowmen/humanCrossbowmen.yy",},},
+    {"id":{"name":"corssbowRange","path":"objects/corssbowRange/corssbowRange.yy",},},
     {"id":{"name":"humanPriest","path":"objects/humanPriest/humanPriest.yy",},},
     {"id":{"name":"sprHumanSwordsmen","path":"sprites/sprHumanSwordsmen/sprHumanSwordsmen.yy",},},
     {"id":{"name":"rmBattlefield1","path":"rooms/rmBattlefield1/rmBattlefield1.yy",},},

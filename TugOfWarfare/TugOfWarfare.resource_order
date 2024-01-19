@@ -25,6 +25,8 @@
     {"name":"sprArrow","order":14,"path":"sprites/sprArrow/sprArrow.yy",},
     {"name":"waterSlash","order":3,"path":"objects/waterSlash/waterSlash.yy",},
     {"name":"sprHumanCrossbowmen","order":5,"path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},
+    {"name":"humanCrossbowmen","order":30,"path":"objects/humanCrossbowmen/humanCrossbowmen.yy",},
+    {"name":"corssbowRange","order":31,"path":"objects/corssbowRange/corssbowRange.yy",},
     {"name":"humanPriest","order":25,"path":"objects/humanPriest/humanPriest.yy",},
     {"name":"sprHumanSwordsmen","order":9,"path":"sprites/sprHumanSwordsmen/sprHumanSwordsmen.yy",},
     {"name":"rmBattlefield1","order":1,"path":"rooms/rmBattlefield1/rmBattlefield1.yy",},
