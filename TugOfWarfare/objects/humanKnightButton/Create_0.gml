@@ -1,6 +1,6 @@
 /// @description
 
-building = castle;
+building = humanKnightBuilding;
 buildingSprite = sprTestCube;
 price = 100;
 

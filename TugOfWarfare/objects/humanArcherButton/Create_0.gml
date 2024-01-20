@@ -1,6 +1,6 @@
 /// @description
 
-building = archeryRange;
+building = humanArcherBuilding;
 buildingSprite = sprTestCube;
 price = 100;
 

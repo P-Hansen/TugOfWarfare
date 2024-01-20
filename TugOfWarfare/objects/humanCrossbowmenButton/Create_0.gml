@@ -1,6 +1,6 @@
 /// @description
 
-building = crossbowRange;
+building = humanCrossbownmanBuilding;
 buildingSprite = sprTestCube;
 price = 100;
 
