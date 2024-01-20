@@ -6,7 +6,7 @@ enum status {
 }
 
 global.GRIDSIZE = 16;
-global.goldTotal = 500;
+global.goldTotal = 200;
 global.playerFaction = humanClass;
 global.availableBuildings = [humanArcherButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
 
