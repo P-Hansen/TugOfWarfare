@@ -10,6 +10,7 @@ range = 1;
 moveSpeed = 1 + random_range(-0.1, 0.1);
 speed = moveSpeed;
 target = noone;
+target2 = noone;
 unitColour = c_white;
 currentStatus = status.active;
 statusEffects = [];

@@ -1,8 +1,14 @@
 /// @description
 
 if(currentStatus == status.active){
-	//point direction
+	//pick target
 	target = instance_nearest(x, y, enemy);
+	target2 = instance_nearest(x, y, enemyBuildings);
+	if(distance_to_object(target2) < distance_to_object(target)){
+		target = target2;
+	}
+	
+	//point direction
 	if(instance_exists(target)){
 		direction = point_direction(x, y, target.x, target.y);
 	} else {

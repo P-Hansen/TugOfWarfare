@@ -12,6 +12,7 @@ direction = enemySide;
 maxHp = 650;
 hp = maxHp;
 enemy = humanClass;
+enemyBuildings = humanBuildingClass;
 weapon = waterSlash;
 damage = 20;
 range = 10;
