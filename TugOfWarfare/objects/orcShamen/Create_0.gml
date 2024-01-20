@@ -6,7 +6,7 @@ event_inherited();
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 200;
+maxHp = 400;
 hp = maxHp;
 enemy = orcClass;
 range = 60;

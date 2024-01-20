@@ -7,8 +7,8 @@ direction = enemySide;
 
 maxHp = 450;
 hp = maxHp;
-enemy = merfolkClass;
-enemyBuildings = merfolkBuildingClass;
+enemy = global.enemyFaction;
+enemyBuildings = global.enemyBuildings;
 weapon = swordSlash;
 range = 10;
 damage = 30;

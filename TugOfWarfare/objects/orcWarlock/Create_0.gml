@@ -7,10 +7,10 @@ enemySide = 180;
 direction = enemySide;
 
 
-maxHp = 200;
+maxHp = 400;
 hp = maxHp;
-enemy = humanClass;
-enemyBuildings = humanBuildingClass;
+enemy = global.playerFaction;
+enemyBuildings = global.playerBuildings
 range = 70;
 weapon = song;
 damage = 40;

@@ -11,8 +11,8 @@ direction = enemySide;
 
 maxHp = 150;
 hp = maxHp;
-enemy = merfolkClass;
-enemyBuildings = merfolkBuildingClass;
+enemy = global.enemyFaction;
+enemyBuildings = global.enemyBuildings;
 range = 100;
 weapon = arrow;
 damage = 40;
