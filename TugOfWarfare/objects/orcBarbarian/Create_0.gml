@@ -1,0 +1,19 @@
+/// @description Insert description here
+
+// Inherit the parent event
+event_inherited();
+
+enemySide = 180;
+direction = enemySide;
+
+maxHp = 450;
+hp = maxHp;
+enemy = humanClass;
+enemyBuildings = humanBuildingClass;
+weapon = swordSlash;
+range = 10;
+damage = 30;
+cooldown = 1.5;
+
+
+alarm[1] = room_speed*cooldown;
