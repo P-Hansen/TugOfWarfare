@@ -5,6 +5,6 @@ image_yscale = scale;
 
 speed = 1.5;
 damage = 30;
-
+enemy = [];
 
 

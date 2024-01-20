@@ -12,7 +12,7 @@ enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings
 weapon = swordSlash;
 range = 10;
-damage = 30;
+damage = 20;
 cooldown = 1.5;
 
 

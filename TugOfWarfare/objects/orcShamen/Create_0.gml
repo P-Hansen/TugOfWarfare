@@ -6,14 +6,14 @@ event_inherited();
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 400;
+maxHp = 300;
 hp = maxHp;
 enemy = orcClass;
-range = 60;
+range = 40;
 weapon = arrow;
 damage = 0;
 healing = 50;
-cooldown = 3;
+cooldown = 2;
 system = noone;
 
 yOffset = sprite_get_height(sprite_index);

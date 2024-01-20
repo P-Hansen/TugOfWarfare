@@ -8,6 +8,7 @@ if(currentStatus == status.active){
 		xOffset = (xOffset * image_xscale)/2;
 		xOffset = lengthdir_x(xOffset, direction);
 		var attack = instance_create_layer(x+xOffset, y-yOffset, "weaponLayer", weapon);
+		attack.enemy = [enemy, enemyBuildings];
 		attack.damage = damage;
 		attack.direction = direction;
 		attack.image_angle = direction;
@@ -17,6 +18,7 @@ if(currentStatus == status.active){
 			var xOffset = lengthdir_x(dist, direction);
 			var yOffset = lengthdir_y(dist, direction);
 			var attack = instance_create_layer(x+xOffset, y+yOffset, "weaponLayer", weapon);
+			attack.enemy = [enemy, enemyBuildings];
 			attack.damage = damage;
 			attack.direction = direction;
 			attack.image_angle = direction;

@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "orcs",
+    "path": "folders/Objects/orcs.yy",
   },
   "parentObjectId": {
     "name": "orcClass",
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcBarbarian",
-    "path": "sprites/sprOrcBarbarian/sprOrcBarbarian.yy",
+    "name": "sprOrcBarbarian2",
+    "path": "sprites/sprOrcBarbarian2/sprOrcBarbarian2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

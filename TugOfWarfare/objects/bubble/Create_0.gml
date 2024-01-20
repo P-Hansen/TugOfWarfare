@@ -8,6 +8,6 @@ counter = random_range(0,360);
 
 speed = 2;
 damage = 30;
-
+enemy = [];
 
 
