@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "humanBuildingClass",
-  "eventList": [],
+  "name": "poisonArrow",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "humans",
-    "path": "folders/Objects/humans.yy",
+    "name": "weapons",
+    "path": "folders/Objects/weapons.yy",
   },
   "parentObjectId": {
-    "name": "buildingClass",
-    "path": "objects/buildingClass/buildingClass.yy",
+    "name": "projectileClass",
+    "path": "objects/projectileClass/projectileClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprArrowPoison",
+    "path": "sprites/sprArrowPoison/sprArrowPoison.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

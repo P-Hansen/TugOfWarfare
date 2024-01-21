@@ -5,12 +5,12 @@ event_inherited();
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 300;
+maxHp = 200;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
 weapon = swordSlash;
-damage = 40;
+damage = 25;
 range = 10;
 cooldown = 1;
 

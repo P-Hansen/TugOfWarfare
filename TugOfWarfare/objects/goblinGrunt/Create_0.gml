@@ -2,15 +2,17 @@
 
 // Inherit the parent event
 event_inherited();
+sprite_index = choose(sprGoblinBrawler, sprGoblinGrunt);
+
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 300;
+maxHp = 250;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
 weapon = swordSlash;
-damage = 40;
+damage = 10;
 range = 10;
 cooldown = 1;
 
