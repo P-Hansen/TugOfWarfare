@@ -4,13 +4,14 @@
 event_inherited();
 enemySide = 180;
 direction = enemySide;
+image_xscale = -image_xscale;
 
-maxHp = 300;
+maxHp = 150;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
-weapon = tridentStab;
-damage = 40;
+weapon = poisonStab;
+damage = 20;
 range = 10;
 cooldown = 1;
 

@@ -9,10 +9,11 @@ function onHit(unit){
 			return true;
 		}
 	})){
-		unit.unitColour = c_lime;
-		unit.moveSpeed -= 0.5;
-		array_push(unit.statusEffects, self);
-		
+		if(instance_exists(unit)){
+			unit.unitColour = c_lime;
+			unit.moveSpeed -= 0.5;
+			array_push(unit.statusEffects, self);
+		}
 	} else { //if unit is already poisoned
 		var i = array_find_index(unit.statusEffects, function(element, index){
 			if(element.object_index == statusEffectPoison){
@@ -20,7 +21,9 @@ function onHit(unit){
 			}
 		});
 		//find the bubble and add time
-		unit.statusEffects[i].statusTimer += statusTimer;
+		if(instance_exists(unit)){
+			unit.statusEffects[i].statusTimer += statusTimer;
+		}
 		instance_destroy(self);
 	}
 }
