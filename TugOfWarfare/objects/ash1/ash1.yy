@@ -1,23 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "goblinSapper",
+  "name": "ash1",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "goblins",
-    "path": "folders/Objects/goblins.yy",
+    "name": "weapons",
+    "path": "folders/Objects/weapons.yy",
   },
-  "parentObjectId": {
-    "name": "goblinClass",
-    "path": "objects/goblinClass/goblinClass.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -34,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprGoblinSapper",
-    "path": "sprites/sprGoblinSapper/sprGoblinSapper.yy",
+    "name": "sprExplosion1Ash",
+    "path": "sprites/sprExplosion1Ash/sprExplosion1Ash.yy",
   },
   "spriteMaskId": null,
   "visible": true,

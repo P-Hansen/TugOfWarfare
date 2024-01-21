@@ -5,12 +5,12 @@ event_inherited();
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 300;
+maxHp = 150;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
-weapon = tridentStab;
-damage = 40;
+weapon = swordSlash;
+damage = 10;
 range = 10;
 cooldown = 1;
 
