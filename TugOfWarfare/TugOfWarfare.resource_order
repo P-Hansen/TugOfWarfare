@@ -19,9 +19,9 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"human","order":26,"path":"folders/Sprites/human.yy",},
     {"name":"merfolk","order":27,"path":"folders/Sprites/merfolk.yy",},
+    {"name":"orc","order":34,"path":"folders/Sprites/orc.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"orc","order":34,"path":"folders/Sprites/orc.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"merfolkWaterElemental","order":5,"path":"objects/merfolkWaterElemental/merfolkWaterElemental.yy",},
@@ -39,6 +39,7 @@
     {"name":"waterSlash","order":3,"path":"objects/waterSlash/waterSlash.yy",},
     {"name":"sprHumanCrossbowmen","order":2,"path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},
     {"name":"humanCrossbowmen","order":2,"path":"objects/humanCrossbowmen/humanCrossbowmen.yy",},
+    {"name":"sprGolblinRogue","order":40,"path":"sprites/sprGolblinRogue/sprGolblinRogue.yy",},
     {"name":"humanCrossbownmanBuilding","order":10,"path":"objects/humanCrossbownmanBuilding/humanCrossbownmanBuilding.yy",},
     {"name":"humanPriest","order":4,"path":"objects/humanPriest/humanPriest.yy",},
     {"name":"humanBuildingClass","order":15,"path":"objects/humanBuildingClass/humanBuildingClass.yy",},
