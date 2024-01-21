@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprGoblinRaider",
+  "name": "sprGoblinWarrior",
   "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 14,
@@ -35,7 +35,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprGoblinRaider",
+    "name": "sprGoblinWarrior",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -57,10 +57,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b94cb09-4793-4318-90ec-e9efb67aaa3a","path":"sprites/sprGoblinRaider/sprGoblinRaider.yy",},},},"Disabled":false,"id":"bf994ed8-888b-426d-a73a-55b619f9dc65","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c00379ef-5750-4bff-8c13-e6ec9ada90c4","path":"sprites/sprGoblinRaider/sprGoblinRaider.yy",},},},"Disabled":false,"id":"897191e5-ed23-4864-9822-fd6fa2266d0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"05002b47-fc72-41bd-b101-edb971115bc4","path":"sprites/sprGoblinRaider/sprGoblinRaider.yy",},},},"Disabled":false,"id":"0466218c-cd7e-43af-9bb6-0f645256df15","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9e364d87-eeec-48be-81cb-377d90ae6af6","path":"sprites/sprGoblinRaider/sprGoblinRaider.yy",},},},"Disabled":false,"id":"1b885806-38c8-4d6b-84e5-a54f0ae0016d","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b94cb09-4793-4318-90ec-e9efb67aaa3a","path":"sprites/sprGoblinWarrior/sprGoblinWarrior.yy",},},},"Disabled":false,"id":"bf994ed8-888b-426d-a73a-55b619f9dc65","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c00379ef-5750-4bff-8c13-e6ec9ada90c4","path":"sprites/sprGoblinWarrior/sprGoblinWarrior.yy",},},},"Disabled":false,"id":"897191e5-ed23-4864-9822-fd6fa2266d0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"05002b47-fc72-41bd-b101-edb971115bc4","path":"sprites/sprGoblinWarrior/sprGoblinWarrior.yy",},},},"Disabled":false,"id":"0466218c-cd7e-43af-9bb6-0f645256df15","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9e364d87-eeec-48be-81cb-377d90ae6af6","path":"sprites/sprGoblinWarrior/sprGoblinWarrior.yy",},},},"Disabled":false,"id":"1b885806-38c8-4d6b-84e5-a54f0ae0016d","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

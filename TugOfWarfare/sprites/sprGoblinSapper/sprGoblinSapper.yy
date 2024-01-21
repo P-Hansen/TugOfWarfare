@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprGoblinBomber",
+  "name": "sprGoblinSapper",
   "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 15,
@@ -35,7 +35,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprGoblinBomber",
+    "name": "sprGoblinSapper",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -57,10 +57,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db25f769-4db3-48cf-8986-6cc5ecd546e5","path":"sprites/sprGoblinBomber/sprGoblinBomber.yy",},},},"Disabled":false,"id":"bc50eb7b-2a7d-46fb-864d-d483373a9bd3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b13df14d-badd-4c2b-82c8-2a564c6713b4","path":"sprites/sprGoblinBomber/sprGoblinBomber.yy",},},},"Disabled":false,"id":"67614c25-5864-4f91-a6ac-1e0cfc1d6286","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d6b0904b-4ec9-45dc-bf33-96da28acffc9","path":"sprites/sprGoblinBomber/sprGoblinBomber.yy",},},},"Disabled":false,"id":"87839f31-620d-4308-89bd-6d2e1185fdce","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e0fa53bd-c681-46f5-a731-62b49da51075","path":"sprites/sprGoblinBomber/sprGoblinBomber.yy",},},},"Disabled":false,"id":"036f22f7-93b2-43db-b42e-726e1d9186ce","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db25f769-4db3-48cf-8986-6cc5ecd546e5","path":"sprites/sprGoblinSapper/sprGoblinSapper.yy",},},},"Disabled":false,"id":"bc50eb7b-2a7d-46fb-864d-d483373a9bd3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b13df14d-badd-4c2b-82c8-2a564c6713b4","path":"sprites/sprGoblinSapper/sprGoblinSapper.yy",},},},"Disabled":false,"id":"67614c25-5864-4f91-a6ac-1e0cfc1d6286","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d6b0904b-4ec9-45dc-bf33-96da28acffc9","path":"sprites/sprGoblinSapper/sprGoblinSapper.yy",},},},"Disabled":false,"id":"87839f31-620d-4308-89bd-6d2e1185fdce","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e0fa53bd-c681-46f5-a731-62b49da51075","path":"sprites/sprGoblinSapper/sprGoblinSapper.yy",},},},"Disabled":false,"id":"036f22f7-93b2-43db-b42e-726e1d9186ce","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
