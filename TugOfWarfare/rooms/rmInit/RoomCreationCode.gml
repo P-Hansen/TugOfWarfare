@@ -13,4 +13,4 @@ global.enemyFaction = giantClass;
 global.enemyBuildings = giantBuildingClass;
 global.availableBuildings = [humanArcherButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
 
-room_goto(rmBattlefield1);
+room_goto(rmFactionSelect);

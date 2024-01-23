@@ -1,19 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "merfolkWaterElemental",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "factionSelectButtonHuman",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "merfolk",
-    "path": "folders/Objects/merfolk.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "merfolkClass",
-    "path": "objects/merfolkClass/merfolkClass.yy",
+    "name": "factionSelectButtonParent",
+    "path": "objects/factionSelectButtonParent/factionSelectButtonParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprMerfolkWaterElemental",
-    "path": "sprites/sprMerfolkWaterElemental/sprMerfolkWaterElemental.yy",
+    "name": "sprFactionButtonHuman",
+    "path": "sprites/sprFactionButtonHuman/sprFactionButtonHuman.yy",
   },
   "spriteMaskId": null,
   "visible": true,

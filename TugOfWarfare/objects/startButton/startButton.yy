@@ -1,20 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "merfolkWaterElemental",
+  "name": "startButton",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "merfolk",
-    "path": "folders/Objects/merfolk.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "merfolkClass",
-    "path": "objects/merfolkClass/merfolkClass.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprMerfolkWaterElemental",
-    "path": "sprites/sprMerfolkWaterElemental/sprMerfolkWaterElemental.yy",
+    "name": "sprStartButton",
+    "path": "sprites/sprStartButton/sprStartButton.yy",
   },
   "spriteMaskId": null,
   "visible": true,
