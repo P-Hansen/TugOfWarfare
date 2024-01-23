@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprMerfolkWaterElementalButton",
-    "path": "sprites/sprMerfolkWaterElementalButton/sprMerfolkWaterElementalButton.yy",
+    "name": "sprMerfolkWaterElementalBuilding",
+    "path": "sprites/sprMerfolkWaterElementalBuilding/sprMerfolkWaterElementalBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

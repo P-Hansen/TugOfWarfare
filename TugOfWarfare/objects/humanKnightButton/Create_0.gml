@@ -5,4 +5,5 @@ event_inherited();
 
 building = humanKnightBuilding;
 buildingSprite = sprTestCube;
+unitSprite = sprHumanKnight;
 price = 100;

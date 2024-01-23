@@ -5,4 +5,5 @@ event_inherited();
 
 building = merfolkScoutBuilding;
 buildingSprite = sprTestCube;
+unitSprite = sprMerfolkScout;
 price = 100;

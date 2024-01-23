@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprMerfolkSirenButton",
+  "name": "sprMerfolkImpalerBuilding",
   "bbox_bottom": 47,
   "bbox_left": 0,
   "bbox_right": 47,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprMerfolkSirenButton",
+    "name": "sprMerfolkImpalerBuilding",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,7 +55,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96","path":"sprites/sprMerfolkSirenButton/sprMerfolkSirenButton.yy",},},},"Disabled":false,"id":"38b4b38e-7d0f-45f8-abe1-181054aab881","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96","path":"sprites/sprMerfolkImpalerBuilding/sprMerfolkImpalerBuilding.yy",},},},"Disabled":false,"id":"94843e1d-5246-4c3b-b333-6c3f69111889","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

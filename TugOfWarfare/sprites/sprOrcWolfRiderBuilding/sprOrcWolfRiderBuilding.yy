@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprMerfolkAquamancerButton",
+  "name": "sprOrcWolfRiderBuilding",
   "bbox_bottom": 47,
   "bbox_left": 0,
   "bbox_right": 47,
@@ -20,20 +20,19 @@
   "height": 48,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e3c51ef6-fbee-4516-abd7-8e187df3d021","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a67e99d1-6c1b-434c-a653-b854c7ac74f4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "merfolk",
-    "path": "folders/Sprites/merfolk.yy",
+    "name": "orc",
+    "path": "folders/Sprites/orc.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprMerfolkAquamancerButton",
+    "name": "sprOrcWolfRiderBuilding",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96","path":"sprites/sprMerfolkAquamancerButton/sprMerfolkAquamancerButton.yy",},},},"Disabled":false,"id":"50239d6f-a92a-480c-a16a-32d4431f02fb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96","path":"sprites/sprOrcWolfRiderBuilding/sprOrcWolfRiderBuilding.yy",},},},"Disabled":false,"id":"12037bd2-c268-4205-921b-8a889456f895","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

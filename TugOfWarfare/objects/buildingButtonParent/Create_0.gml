@@ -2,6 +2,7 @@
 
 building = noone;
 buildingSprite = sprTestCube;
+unitSprite = noone;
 price = 100;
 
 clicked = false;

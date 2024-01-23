@@ -8,8 +8,7 @@ direction = enemySide;
 
 maxHp = 350;
 hp = maxHp;
-enemy = global.playerFaction;
-enemyBuildings = global.playerBuildings
+
 range = 70;
 weapon = spear;
 damage = 45;

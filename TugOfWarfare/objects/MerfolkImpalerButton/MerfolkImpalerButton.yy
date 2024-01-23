@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprMerfolkImpalerButton",
-    "path": "sprites/sprMerfolkImpalerButton/sprMerfolkImpalerButton.yy",
+    "name": "sprMerfolkImpalerBuilding",
+    "path": "sprites/sprMerfolkImpalerBuilding/sprMerfolkImpalerBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

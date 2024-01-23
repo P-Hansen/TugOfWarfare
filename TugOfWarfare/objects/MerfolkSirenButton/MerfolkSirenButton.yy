@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprMerfolkSirenButton",
-    "path": "sprites/sprMerfolkSirenButton/sprMerfolkSirenButton.yy",
+    "name": "sprMerfolkSirenBuilding",
+    "path": "sprites/sprMerfolkSirenBuilding/sprMerfolkSirenBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

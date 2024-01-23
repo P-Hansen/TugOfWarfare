@@ -15,3 +15,4 @@ if(clicked == true){
 
 
 draw_self();
+draw_sprite_stretched_ext(unitSprite, 0, x-8, y-8, 32, 32, c_white, 1);

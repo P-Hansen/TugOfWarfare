@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprMerfolkAquamancerButton",
-    "path": "sprites/sprMerfolkAquamancerButton/sprMerfolkAquamancerButton.yy",
+    "name": "sprMerfolkAquamancerBuilding",
+    "path": "sprites/sprMerfolkAquamancerBuilding/sprMerfolkAquamancerBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

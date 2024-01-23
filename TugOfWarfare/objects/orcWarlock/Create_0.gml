@@ -9,8 +9,7 @@ direction = enemySide;
 
 maxHp = 300;
 hp = maxHp;
-enemy = global.playerFaction;
-enemyBuildings = global.playerBuildings
+
 range = 70;
 weapon = song;
 damage = 40;

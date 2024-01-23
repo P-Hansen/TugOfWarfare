@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcAxe",
-    "path": "sprites/sprOrcAxe/sprOrcAxe.yy",
+    "name": "sprOrcWarrior",
+    "path": "sprites/sprOrcWarrior/sprOrcWarrior.yy",
   },
   "spriteMaskId": null,
   "visible": true,
