@@ -5,7 +5,7 @@ event_inherited();
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 150;
+maxHp = 100;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;

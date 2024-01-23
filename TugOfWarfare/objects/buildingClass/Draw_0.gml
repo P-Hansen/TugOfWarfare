@@ -18,6 +18,9 @@ draw_self();
 
 if(hp < maxHp){
 	draw_healthbar(x-23, y+30, x+23, y+30+3, (hp/maxHp)*100, c_black, c_red, c_lime, 0, 1, true)
+	//draw_set_halign(fa_center);
+	//draw_text_transformed(x, y+34, string(hp)+"/"+string(maxHp), 0.75, 0.75, 0);
+	//draw_set_halign(fa_left);
 }
 
 gpu_set_fog(false, c_white, 0, 0);

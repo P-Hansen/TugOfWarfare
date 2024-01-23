@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-scale = 0.75;
+scale = 0.65;
 image_xscale = scale;
 image_yscale = scale;
 damage = 100;
