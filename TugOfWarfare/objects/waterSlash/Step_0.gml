@@ -1,10 +1,17 @@
 /// @description Insert description here
 
-if(place_meeting(x, y, enemy)){
-	var target = instance_place(x, y, enemy);
+var enemiesInRange = ds_list_create();
+var enemyCount = instance_place_list(x, y, enemy, enemiesInRange, false);
+var target = noone;
+
+for (var i = 0; i < enemyCount; i++;) {
+	target = ds_list_find_value(enemiesInRange, i);
 	if(!array_contains(targets, target)){
 		target.hp -= damage;
 		target.flashTimer = 5;
 		array_push(targets, target);
+		//audio_play_sound(sfxHit, 0, 0);
 	}
 }
+
+ds_list_destroy(enemiesInRange);

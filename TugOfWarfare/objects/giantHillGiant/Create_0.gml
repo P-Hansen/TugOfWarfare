@@ -15,7 +15,7 @@ enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
 weapon = swordSlashSplashGiant;
 range = 10;
-damage = 100;
-cooldown = 2.5;
+damage = 90;
+cooldown = 2.7;
 
 alarm[1] = room_speed*cooldown;
