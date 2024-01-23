@@ -11,8 +11,7 @@ direction = enemySide;
 
 maxHp = 2200;
 hp = maxHp;
-enemy = global.playerFaction;
-enemyBuildings = global.playerBuildings;
+
 weapon = swordSlashSplashGiant;
 range = 10;
 damage = 90;

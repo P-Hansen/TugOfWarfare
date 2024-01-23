@@ -11,8 +11,7 @@ direction = enemySide;
 
 maxHp = 1500;
 hp = maxHp;
-enemy = global.playerFaction;
-enemyBuildings = global.playerBuildings;
+
 range = 100;
 weapon = bolder;
 damage = 150;

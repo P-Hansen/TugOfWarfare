@@ -8,7 +8,6 @@ direction = enemySide;
 maxHp = 450;
 hp = maxHp;
 
-enemyBuildings = global.enemyBuildings;
 weapon = swordSlash;
 range = 10;
 damage = 30;
