@@ -7,8 +7,7 @@ direction = enemySide;
 
 maxHp = 200;
 hp = maxHp;
-enemy = global.playerFaction;
-enemyBuildings = global.playerBuildings;
+
 weapon = swordSlash;
 damage = 25;
 range = 10;

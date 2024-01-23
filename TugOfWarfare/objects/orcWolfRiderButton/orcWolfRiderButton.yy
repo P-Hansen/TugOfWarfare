@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcWarriorBuilding",
-    "path": "sprites/sprOrcWarriorBuilding/sprOrcWarriorBuilding.yy",
+    "name": "sprOrcWolfRiderBuilding",
+    "path": "sprites/sprOrcWolfRiderBuilding/sprOrcWolfRiderBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -9,8 +9,7 @@ image_xscale = -image_xscale;
 
 maxHp = 100;
 hp = maxHp;
-enemy = global.playerFaction;
-enemyBuildings = global.playerBuildings;
+
 range = 60;
 weapon = poisonArrow;
 damage = 15;

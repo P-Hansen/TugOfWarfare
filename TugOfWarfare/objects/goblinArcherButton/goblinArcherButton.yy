@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "orcShamenButton",
+  "name": "goblinArcherButton",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcShamenBuilding",
-    "path": "sprites/sprOrcShamenBuilding/sprOrcShamenBuilding.yy",
+    "name": "sprGoblinArcherBuilding",
+    "path": "sprites/sprGoblinArcherBuilding/sprGoblinArcherBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

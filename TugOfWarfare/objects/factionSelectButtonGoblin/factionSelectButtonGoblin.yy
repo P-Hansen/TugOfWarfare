@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "orcShamenButton",
+  "name": "factionSelectButtonGoblin",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -12,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "buildingButtonParent",
-    "path": "objects/buildingButtonParent/buildingButtonParent.yy",
+    "name": "factionSelectButtonParent",
+    "path": "objects/factionSelectButtonParent/factionSelectButtonParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcShamenBuilding",
-    "path": "sprites/sprOrcShamenBuilding/sprOrcShamenBuilding.yy",
+    "name": "sprFactionButtonGoblin",
+    "path": "sprites/sprFactionButtonGoblin/sprFactionButtonGoblin.yy",
   },
   "spriteMaskId": null,
   "visible": true,

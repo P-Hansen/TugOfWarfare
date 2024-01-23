@@ -8,8 +8,7 @@ image_xscale = -image_xscale;
 
 maxHp = 150;
 hp = maxHp;
-enemy = global.playerFaction;
-enemyBuildings = global.playerBuildings;
+
 weapon = poisonStab;
 damage = 20;
 range = 10;
