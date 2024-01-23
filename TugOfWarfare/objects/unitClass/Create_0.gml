@@ -15,5 +15,7 @@ unitColour = c_white;
 currentStatus = status.active;
 statusEffects = [];
 drop = 5;
+enemy = global.playerFaction;
+enemyBuildings = global.playerBuildings;
 
 alarm[2] = room_speed*0.25;

@@ -3,6 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
-building = humanKnightBuilding;
+building = merfolkWaterElementalBuilding;
 buildingSprite = sprTestCube;
 price = 100;

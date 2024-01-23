@@ -8,8 +8,6 @@ direction = enemySide;
 
 maxHp = 200;
 hp = maxHp;
-enemy = humanClass;
-enemyBuildings = humanBuildingClass;
 range = 70;
 weapon = bubble;
 damage = 20;

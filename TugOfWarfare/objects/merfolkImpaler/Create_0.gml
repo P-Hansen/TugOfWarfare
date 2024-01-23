@@ -7,7 +7,7 @@ direction = enemySide;
 
 maxHp = 300;
 hp = maxHp;
-enemy = humanClass;
+
 enemyBuildings = humanBuildingClass;
 weapon = tridentStab;
 damage = 40;

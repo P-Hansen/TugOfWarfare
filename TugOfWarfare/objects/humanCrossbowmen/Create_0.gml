@@ -11,7 +11,7 @@ direction = enemySide;
 
 maxHp = 200;
 hp = maxHp;
-enemy = global.enemyFaction;
+
 enemyBuildings = global.enemyBuildings;
 range = 60;
 weapon = arrow;
