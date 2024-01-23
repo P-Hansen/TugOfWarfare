@@ -3,9 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-scale = 0.5
-image_xscale = -scale;
-image_yscale = scale;
+image_xscale = -image_xscale;
 
 enemySide = 180;
 direction = enemySide;

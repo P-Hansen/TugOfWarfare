@@ -16,6 +16,6 @@ enemyBuildings = global.playerBuildings;
 range = 100;
 weapon = bolder;
 damage = 150;
-cooldown = 2;
+cooldown = 2.7;
 
 alarm[1] = room_speed*cooldown;

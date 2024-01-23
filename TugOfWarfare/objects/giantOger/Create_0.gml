@@ -10,13 +10,13 @@ image_yscale = scale;
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 1500;
+maxHp = 1200;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
 weapon = swordSlash;
 range = 10;
-damage = 90;
+damage = 50;
 cooldown = 1.5;
 
 

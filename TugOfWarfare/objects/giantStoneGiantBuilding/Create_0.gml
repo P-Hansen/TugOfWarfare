@@ -5,4 +5,4 @@ event_inherited();
 
 unit = giantStoneGiant;
 numberPerSpawn = 1;
-cooldown = room_speed*30;
+cooldown = room_speed*40;

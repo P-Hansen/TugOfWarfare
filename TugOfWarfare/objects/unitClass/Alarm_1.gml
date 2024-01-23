@@ -14,6 +14,14 @@ if(currentStatus == status.active){
 		attack.image_angle = direction;
 	} else if(speed = 0 and range <= 10){
 		if(instance_exists(target)){
+			var yOffset = target.sprite_height/2;
+			var attack = instance_create_layer(target.x, target.y-yOffset, "weaponLayer", weapon);
+			attack.enemy = [enemy, enemyBuildings];
+			attack.damage = damage;
+			attack.direction = direction;
+			attack.image_angle = direction;
+		}
+		/*if(instance_exists(target)){
 			var dist = distance_to_point(target.x, target.y);
 			var xOffset = lengthdir_x(dist, direction);
 			var yOffset = lengthdir_y(dist, direction);
@@ -22,7 +30,7 @@ if(currentStatus == status.active){
 			attack.damage = damage;
 			attack.direction = direction;
 			attack.image_angle = direction;
-		}
+		}*/
 	}
 }
 

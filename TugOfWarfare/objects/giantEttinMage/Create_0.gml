@@ -11,7 +11,7 @@ enemySide = 180;
 direction = enemySide;
 
 
-maxHp = 1100;
+maxHp = 600;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings

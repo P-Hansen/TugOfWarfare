@@ -9,14 +9,13 @@ image_yscale = 0.85;
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 2000;
+maxHp = 2200;
 hp = maxHp;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
-weapon = swordSlash;
+weapon = swordSlashSplashGiant;
 range = 10;
-damage = 90;
-cooldown = 1.5;
-
+damage = 100;
+cooldown = 2.5;
 
 alarm[1] = room_speed*cooldown;
