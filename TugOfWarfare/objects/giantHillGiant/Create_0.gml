@@ -17,4 +17,5 @@ range = 10;
 damage = 90;
 cooldown = 2.7;
 
+
 alarm[1] = room_speed*cooldown;

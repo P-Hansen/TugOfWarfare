@@ -35,5 +35,8 @@
     "path": "sprites/sprStoneGiantBuilding/sprStoneGiantBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "halfSpawn",
+  ],
   "visible": true,
 }

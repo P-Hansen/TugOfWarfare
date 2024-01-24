@@ -35,5 +35,8 @@
     "path": "sprites/sprHillGiantBuilding/sprHillGiantBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "halfSpawn",
+  ],
   "visible": true,
 }
