@@ -35,5 +35,8 @@
     "path": "sprites/sprStoneGiant/sprStoneGiant.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "bubbleImmune",
+  ],
   "visible": true,
 }

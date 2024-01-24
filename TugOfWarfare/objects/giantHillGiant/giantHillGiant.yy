@@ -35,5 +35,8 @@
     "path": "sprites/sprHillGiant/sprHillGiant.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "bubbleImmune",
+  ],
   "visible": true,
 }

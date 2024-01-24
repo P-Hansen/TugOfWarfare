@@ -15,6 +15,7 @@ function onHit(unit){
 		targetW = unit.sprite_width;
 		targetH = unit.sprite_height;
 		target = unit;
+		depth = unit.depth-10;
 		unit.currentStatus = status.disabled;
 		unit.speed = 0;
 		unit.image_speed = 0;
