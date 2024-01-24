@@ -10,3 +10,7 @@ global.availableBuildings = buttons;
 global.playerFaction = class;
 global.playerBuildings = classBuildings;
 global.enemyFaction = class;
+selected = true;
+
+animationSpeed = 0;
+alarm[1] = room_speed/5;

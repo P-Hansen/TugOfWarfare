@@ -34,5 +34,13 @@ switch(roll){
 	break;
 }
 
+archer = choose(sprHumanArcher, sprHumanCrossbowmen);
+archer2 = choose(sprMerfolkScout, sprOrcWolfRider);
+mage = choose(sprHumanPriest, sprOrcWarlock);
+frontLine = choose(sprHumanSwordsmen, sprGoblinWarrior, sprOrcWarrior);
+tank = choose(sprHumanKnight, sprOrcBarbarian);
 
+selected = false;
+animationSpeed = 0;
+alarm[1] = room_speed/5;
 
