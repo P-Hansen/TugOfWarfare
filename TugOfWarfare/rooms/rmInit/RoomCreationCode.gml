@@ -7,6 +7,7 @@ enum status {
 
 global.GRIDSIZE = 16;
 global.goldTotal = 200;
+global.timer = 10;
 
 global.humanBuildings = [humanArcherButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
 global.merfolkBuildings = [MerfolkAquamancerButton, MerfolkImpalerButton, MerfolkScoutButton, MerfolkSirenButton, MerfolkWaterElementalButton]

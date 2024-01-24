@@ -12,4 +12,4 @@ depth = -y;
 cooldown = room_speed*20;
 
 
-alarm[1] = room_speed*1;
+//alarm[1] = room_speed*20;

@@ -9,5 +9,5 @@ _y = round(_y/global.GRIDSIZE)*global.GRIDSIZE;
 var roll = irandom_range(0, array_length(global.enemyAvailableBuildings)-1);
 instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[roll]);
 
-alarm[1] = room_speed*30;
+alarm[1] = room_speed*32;
 

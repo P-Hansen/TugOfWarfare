@@ -7,7 +7,7 @@ sprite_index = choose(sprGoblinBrawler, sprGoblinGrunt);
 enemySide = 180;
 direction = enemySide;
 
-maxHp = 250;
+maxHp = 260;
 hp = maxHp;
 
 weapon = swordSlash;
