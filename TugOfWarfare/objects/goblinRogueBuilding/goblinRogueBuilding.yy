@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprGoblinRogueBuilding",
+    "path": "sprites/sprGoblinRogueBuilding/sprGoblinRogueBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

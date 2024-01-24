@@ -14,6 +14,12 @@ if(currentStatus == status.active){
 	} else {
 		direction = enemySide;
 	}
+	//change the direction of the sprite
+	if(direction <= 90 or direction >= 270){
+		image_xscale = abs(image_xscale);
+	} else {
+		image_xscale = -abs(image_xscale);
+	}
 
 	//attack
 	if(instance_exists(target)){

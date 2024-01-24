@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprEttinMageBuilding",
+    "path": "sprites/sprEttinMageBuilding/sprEttinMageBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprHarpyBuilding",
+    "path": "sprites/sprHarpyBuilding/sprHarpyBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

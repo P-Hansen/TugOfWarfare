@@ -10,3 +10,5 @@ var buildButtons = function(element, index){
 
 array_foreach(global.availableBuildings, buildButtons);
 
+global.goldTotal = 200;
+alarm[1] = room_speed*1;

@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-statusTimer = 4*4;
+statusTimer = 3*4;
 targetW = 0;
 targetH = 0;
 target = noone;

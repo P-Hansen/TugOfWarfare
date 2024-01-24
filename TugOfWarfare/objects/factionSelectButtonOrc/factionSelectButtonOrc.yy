@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "buttons",
+    "path": "folders/Objects/orcs/buttons.yy",
   },
   "parentObjectId": {
     "name": "factionSelectButtonParent",

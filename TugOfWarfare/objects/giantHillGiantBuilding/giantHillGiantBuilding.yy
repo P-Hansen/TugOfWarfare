@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprHillGiantBuilding",
+    "path": "sprites/sprHillGiantBuilding/sprHillGiantBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -8,7 +8,7 @@ direction = enemySide;
 
 maxHp = 200;
 hp = maxHp;
-
+enemy = humanClass;
 range = 60;
 weapon = arrow;
 damage = 0;
