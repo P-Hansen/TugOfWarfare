@@ -74,6 +74,7 @@
     {"id":{"name":"sprGoblinArcherBuilding","path":"sprites/sprGoblinArcherBuilding/sprGoblinArcherBuilding.yy",},},
     {"id":{"name":"goblinArcherBuilding","path":"objects/goblinArcherBuilding/goblinArcherBuilding.yy",},},
     {"id":{"name":"factionSelectButtonMerfolk","path":"objects/factionSelectButtonMerfolk/factionSelectButtonMerfolk.yy",},},
+    {"id":{"name":"enemyAI","path":"objects/enemyAI/enemyAI.yy",},},
     {"id":{"name":"waterSlash","path":"objects/waterSlash/waterSlash.yy",},},
     {"id":{"name":"sprHumanCrossbowmen","path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},},
     {"id":{"name":"swordSlashSplashGiant","path":"objects/swordSlashSplashGiant/swordSlashSplashGiant.yy",},},

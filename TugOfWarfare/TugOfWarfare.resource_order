@@ -53,6 +53,7 @@
     {"name":"sprGoblinArcherBuilding","order":6,"path":"sprites/sprGoblinArcherBuilding/sprGoblinArcherBuilding.yy",},
     {"name":"goblinArcherBuilding","order":1,"path":"objects/goblinArcherBuilding/goblinArcherBuilding.yy",},
     {"name":"factionSelectButtonMerfolk","order":27,"path":"objects/factionSelectButtonMerfolk/factionSelectButtonMerfolk.yy",},
+    {"name":"enemyAI","order":51,"path":"objects/enemyAI/enemyAI.yy",},
     {"name":"waterSlash","order":3,"path":"objects/waterSlash/waterSlash.yy",},
     {"name":"sprHumanCrossbowmen","order":2,"path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},
     {"name":"swordSlashSplashGiant","order":14,"path":"objects/swordSlashSplashGiant/swordSlashSplashGiant.yy",},

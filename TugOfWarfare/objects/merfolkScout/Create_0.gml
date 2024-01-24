@@ -9,7 +9,6 @@ direction = enemySide;
 maxHp = 200;
 hp = maxHp;
 
-
 range = 70;
 weapon = spear;
 damage = 45;

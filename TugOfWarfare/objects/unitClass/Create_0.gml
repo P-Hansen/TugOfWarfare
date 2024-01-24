@@ -14,7 +14,7 @@ target2 = noone;
 unitColour = c_white;
 currentStatus = status.active;
 statusEffects = [];
-drop = 5;
+drop = 10;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
 

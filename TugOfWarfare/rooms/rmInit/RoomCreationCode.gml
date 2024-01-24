@@ -18,8 +18,9 @@ global.playerFaction = humanClass;
 global.playerBuildings = humanBuildingClass;
 global.availableBuildings = global.humanBuildings;
 
-global.enemyFaction = humanClass;
-global.enemyBuildings = humanBuildingClass;
+global.enemyFaction = noone;
+global.enemyBuildings = noone;
+global.enemyAvailableBuildings = [];
 
 
 

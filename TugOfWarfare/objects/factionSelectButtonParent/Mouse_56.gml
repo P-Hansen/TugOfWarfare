@@ -5,6 +5,7 @@ if(position_meeting(mouse_x, mouse_y, self)){
 	global.availableBuildings = buttons;
 	global.playerFaction = class;
 	global.playerBuildings = classBuildings;
+	global.enemyFaction = class;
 } else {
 	image_index = 0;
 }

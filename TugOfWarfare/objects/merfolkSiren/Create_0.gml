@@ -9,7 +9,6 @@ image_yscale = 0.5;
 enemySide = 180;
 direction = enemySide;
 
-
 maxHp = 200;
 hp = maxHp;
 
