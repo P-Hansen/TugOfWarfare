@@ -9,7 +9,7 @@ maxHp = 450;
 hp = maxHp;
 
 weapon = swordSlashSplash;
-damage = 40;
+damage = 20;
 range = 10;
 cooldown = 1.1;
 

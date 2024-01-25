@@ -6,7 +6,7 @@ enemySide = 180;
 direction = enemySide;
 image_xscale = -image_xscale;
 
-maxHp = 150;
+maxHp = 250;
 hp = maxHp;
 
 weapon = poisonStab;

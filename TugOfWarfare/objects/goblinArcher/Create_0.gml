@@ -7,7 +7,7 @@ enemySide = 180;
 direction = enemySide;
 image_xscale = -image_xscale;
 
-maxHp = 100;
+maxHp = 150;
 hp = maxHp;
 
 range = 60;

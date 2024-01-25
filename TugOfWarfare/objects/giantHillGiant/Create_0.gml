@@ -14,7 +14,7 @@ hp = maxHp;
 
 weapon = swordSlashSplashGiant;
 range = 10;
-damage = 90;
+damage = 50;
 cooldown = 2.7;
 
 

@@ -14,7 +14,7 @@ hp = maxHp;
 
 
 weapon = waterSlash;
-damage = 20;
+damage = 10;
 range = 10;
 cooldown = 2;
 
