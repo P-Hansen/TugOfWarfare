@@ -4,27 +4,31 @@ statusTimer = 5*4;
 
 function onHit(unit){
 
-	if(!array_any(unit.statusEffects, function(element, index){
-		if(element.object_index == statusEffectPoison){
-			return true;
-		}
-	})){
-		if(instance_exists(unit)){
-			unit.unitColour = c_lime;
-			unit.moveSpeed -= 0.5;
-			array_push(unit.statusEffects, self);
-		}
-	} else { //if unit is already poisoned
-		var i = array_find_index(unit.statusEffects, function(element, index){
-			if(element.object_index == statusEffectPoison){
-				return true;
+	if(instance_exists(unit)){
+		if(!array_any(unit.statusEffects, function(element, index){
+			return element.object_index == statusEffectPoison;
+			//if(element.object_index == statusEffectPoison){
+			//	return true;
+			//}
+		})){
+			if(instance_exists(unit)){
+				unit.unitColour = c_lime;
+				unit.moveSpeed -= 0.5;
+				array_push(unit.statusEffects, self);
 			}
-		});
-		//find the bubble and add time
-		if(instance_exists(unit)){
-			unit.statusEffects[i].statusTimer += statusTimer;
+		} else { //if unit is already poisoned
+			var i = array_find_index(unit.statusEffects, function(element, index){
+				return element.object_index == statusEffectPoison;
+				//if(element.object_index == statusEffectPoison){
+				//	return true;
+				//}
+			});
+			//find the bubble and add time
+			if(instance_exists(unit)){
+				unit.statusEffects[i].statusTimer += statusTimer;
+			}
+			instance_destroy(self);
 		}
-		instance_destroy(self);
 	}
 }
 

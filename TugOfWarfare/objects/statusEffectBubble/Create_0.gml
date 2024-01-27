@@ -6,31 +6,35 @@ targetH = 0;
 target = noone;
 
 function onHit(unit){
-	//only add a bubble if there is none
-	if(!array_any(unit.statusEffects, function(element, index){
-		if(element.object_index == statusEffectBubble){
-			return true;
-		}
-	})){
-		targetW = unit.sprite_width;
-		targetH = unit.sprite_height;
-		target = unit;
-		depth = unit.depth-10;
-		unit.currentStatus = status.disabled;
-		unit.speed = 0;
-		unit.image_speed = 0;
-		unit.image_angle = 15;
-		array_push(unit.statusEffects, self);
+	if(instance_exists(unit)){
+		//only add a bubble if there is none
+		if(!array_any(unit.statusEffects, function(element, index){
+			return element.object_index == statusEffectBubble;
+			//	if(element.object_index == statusEffectBubble){
+			//		return true;
+			//	}
+		})){
+			targetW = unit.sprite_width;
+			targetH = unit.sprite_height;
+			target = unit;
+			depth = unit.depth-10;
+			unit.currentStatus = status.disabled;
+			unit.speed = 0;
+			unit.image_speed = 0;
+			unit.image_angle = 15;
+			array_push(unit.statusEffects, self);
 		
-	} else { //if there already is a bubble
-		var i = array_find_index(unit.statusEffects, function(element, index){
-			if(element.object_index == statusEffectBubble){
-				return true;
-			}
-		});
-		//find the bubble and add time
-		unit.statusEffects[i].statusTimer += statusTimer;
-		instance_destroy(self);
+		} else { //if there already is a bubble
+			var i = array_find_index(unit.statusEffects, function(element, index){
+				return element.object_index == statusEffectBubble;
+				//if(element.object_index == statusEffectBubble){
+				//	return true;
+				//}
+			});
+			//find the bubble and add time
+			unit.statusEffects[i].statusTimer += statusTimer;
+			instance_destroy(self);
+		}
 	}
 }
 
