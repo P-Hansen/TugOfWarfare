@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-statusTimer = 3*2;
+statusTimer = 2*4;
 
 function onHit(unit){
 	if(instance_exists(unit)){

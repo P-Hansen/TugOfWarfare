@@ -18,4 +18,5 @@ drop = 1;
 enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
 
+
 alarm[2] = room_speed*0.25;

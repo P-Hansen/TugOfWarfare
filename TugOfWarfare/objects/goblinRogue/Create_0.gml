@@ -2,9 +2,6 @@
 
 // Inherit the parent event
 event_inherited();
-enemySide = 180;
-direction = enemySide;
-image_xscale = -image_xscale;
 
 maxHp = 250;
 hp = maxHp;

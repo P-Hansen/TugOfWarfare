@@ -3,9 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
-enemySide = 0;
-direction = enemySide;
-
 maxHp = 200;
 hp = maxHp;
 enemy = humanClass;

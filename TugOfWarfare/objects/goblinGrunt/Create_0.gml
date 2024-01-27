@@ -4,9 +4,6 @@
 event_inherited();
 sprite_index = choose(sprGoblinBrawler, sprGoblinGrunt);
 
-enemySide = 180;
-direction = enemySide;
-
 maxHp = 270;
 hp = maxHp;
 

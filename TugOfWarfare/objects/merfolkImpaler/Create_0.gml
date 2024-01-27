@@ -2,8 +2,6 @@
 
 // Inherit the parent event
 event_inherited();
-enemySide = 180;
-direction = enemySide;
 
 maxHp = 300;
 hp = maxHp;

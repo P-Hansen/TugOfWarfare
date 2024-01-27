@@ -6,9 +6,6 @@ scale = 3;
 image_xscale = scale;
 image_yscale = scale;
 
-enemySide = 180;
-direction = enemySide;
-
 maxHp = 650;
 hp = maxHp;
 

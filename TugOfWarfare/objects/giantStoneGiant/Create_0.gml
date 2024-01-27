@@ -6,9 +6,6 @@ event_inherited();
 image_xscale = -0.85;
 image_yscale = 0.85;
 
-enemySide = 0;
-direction = enemySide;
-
 maxHp = 1500;
 hp = maxHp;
 
