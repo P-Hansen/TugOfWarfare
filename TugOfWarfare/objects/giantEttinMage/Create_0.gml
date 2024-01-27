@@ -15,7 +15,7 @@ maxHp = 600;
 hp = maxHp;
 
 range = 70;
-weapon = song;
+weapon = fireball;
 damage = 40;
 cooldown = 2;
 

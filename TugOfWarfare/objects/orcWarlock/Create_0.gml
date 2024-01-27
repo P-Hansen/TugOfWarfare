@@ -10,8 +10,8 @@ direction = enemySide;
 maxHp = 300;
 hp = maxHp;
 
-range = 70;
-weapon = song;
+range = 80;
+weapon = fireball;
 damage = 40;
 cooldown = 2;
 
