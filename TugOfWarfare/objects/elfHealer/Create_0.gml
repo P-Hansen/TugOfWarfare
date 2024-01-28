@@ -1,0 +1,21 @@
+/// @description Insert description here
+
+// Inherit the parent event
+event_inherited();
+
+maxHp = 400;
+hp = maxHp;
+enemy = elfClass;
+range = 70;
+weapon = arrow;
+damage = 0;
+healing = 70;
+cooldown = 2;
+system = noone;
+
+yOffset = sprite_get_height(sprite_index);
+yOffset = yOffset*image_yscale;
+yOffset = yOffset/2;
+//sightRange = instance_create_depth(x,y-yOffset, depth+1, range1);
+
+alarm[1] = room_speed*cooldown+random_range(-5,5);

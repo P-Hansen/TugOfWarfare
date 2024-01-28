@@ -14,6 +14,7 @@ global.merfolkBuildings = [MerfolkAquamancerButton, MerfolkImpalerButton, Merfol
 global.orcBuildings = [orcBarbarianButton, orcShamenButton, orcWarlockButton, orcWarriorButton, orcWolfRiderButton];
 global.goblinBuldings = [goblinArcherButton, goblinGruntButton, goblinRogueButton, goblinSapperButton, goblinWarriorButton];
 global.giantBuildings = [giantEttinMageButton, giantHarpyButton, giantHillGiantButton, giantOgerButton, giantStoneGiantButton];
+global.elfBuildings = [elfArcherButton, elfBlademasterButton, elfHealerButton, elfLordButton, elfMageButton]
 
 global.playerFaction = humanClass;
 global.playerBuildings = humanBuildingClass;
