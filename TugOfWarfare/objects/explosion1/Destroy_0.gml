@@ -1,5 +1,5 @@
 /// @description Insert description here
 
 
-instance_create_depth(x, y, 900, ash1);
+instance_create_depth(x, y, 0, ash1);
 
