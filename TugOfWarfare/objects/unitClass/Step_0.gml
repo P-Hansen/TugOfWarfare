@@ -34,7 +34,7 @@ if(currentStatus == status.active){
 	}
 
 	//preventing stacking
-	var _colliding = instance_place(x, y, unitClass);
+	var _colliding = instance_place(x, y, [unitClass, tree1]);
 	if _colliding {
 		var _dir = point_direction(_colliding.x, _colliding.y, x, y);
 		x += lengthdir_x(1, _dir);

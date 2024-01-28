@@ -6,6 +6,7 @@ image_yscale = scale;
 damage = 100;
 
 alarm[1] = 1;
-alarm[2] = 2;
+alarm[2] = 1;
+alarm[3] = 1;
 
 //audio_play_sound(sfxExplosion1, 0, 0);
