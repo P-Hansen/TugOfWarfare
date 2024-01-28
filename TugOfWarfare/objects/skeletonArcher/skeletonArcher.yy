@@ -1,19 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "elfArcherButton",
+  "name": "skeletonArcher",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "buttons",
-    "path": "folders/Objects/elf/buttons.yy",
+    "name": "skeleton",
+    "path": "folders/Objects/skeleton.yy",
   },
   "parentObjectId": {
-    "name": "buildingButtonParent",
-    "path": "objects/buildingButtonParent/buildingButtonParent.yy",
+    "name": "skeletonClass",
+    "path": "objects/skeletonClass/skeletonClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcBarbarianBuilding",
-    "path": "sprites/sprOrcBarbarianBuilding/sprOrcBarbarianBuilding.yy",
+    "name": "sprBrittleArcher",
+    "path": "sprites/sprBrittleArcher/sprBrittleArcher.yy",
   },
   "spriteMaskId": null,
   "visible": true,

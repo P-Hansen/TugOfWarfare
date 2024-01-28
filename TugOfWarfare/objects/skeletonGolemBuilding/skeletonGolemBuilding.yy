@@ -1,19 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "elfArcherButton",
+  "name": "skeletonGolemBuilding",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "buttons",
-    "path": "folders/Objects/elf/buttons.yy",
+    "name": "skeleton",
+    "path": "folders/Objects/skeleton.yy",
   },
   "parentObjectId": {
-    "name": "buildingButtonParent",
-    "path": "objects/buildingButtonParent/buildingButtonParent.yy",
+    "name": "skeletonBuildingClass",
+    "path": "objects/skeletonBuildingClass/skeletonBuildingClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcBarbarianBuilding",
-    "path": "sprites/sprOrcBarbarianBuilding/sprOrcBarbarianBuilding.yy",
+    "name": "sprTestCube",
+    "path": "sprites/sprTestCube/sprTestCube.yy",
   },
   "spriteMaskId": null,
   "visible": true,

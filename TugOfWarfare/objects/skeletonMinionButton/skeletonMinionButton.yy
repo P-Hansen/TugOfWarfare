@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "elfArcherButton",
+  "name": "skeletonMinionButton",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "buttons",
-    "path": "folders/Objects/elf/buttons.yy",
+    "path": "folders/Objects/skeleton/buttons.yy",
   },
   "parentObjectId": {
     "name": "buildingButtonParent",
