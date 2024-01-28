@@ -7,7 +7,7 @@ scale = 3;
 image_xscale = scale;
 image_yscale = scale;
 
-maxHp = 900;
+maxHp = 650;
 hp = maxHp;
 
 weapon = swordSlash;

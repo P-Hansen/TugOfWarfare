@@ -8,7 +8,7 @@ hp = maxHp;
 
 range = 60;
 weapon = fireball;
-damage = 25;
+damage = 20;
 cooldown = 1;
 
 alarm[1] = room_speed*cooldown;
