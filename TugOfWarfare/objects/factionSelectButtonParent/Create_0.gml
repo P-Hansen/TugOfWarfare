@@ -1,7 +1,7 @@
 /// @description Insert description here
 
 //random army
-roll = irandom_range(1, 5);
+roll = irandom_range(1, 6);
 switch(roll){
 	case 1:
 		buttons = global.giantBuildings;
@@ -25,6 +25,18 @@ switch(roll){
 		buttons = global.orcBuildings;
 		class = orcClass;
 		classBuildings = orcBuildingClass;
+	break;
+	
+	case 5:
+		buttons = global.elfBuildings;
+		class = elfClass;
+		classBuildings = elfBuildingClass;
+	break;
+	
+	case 6:
+		buttons = global.skeletonBuildings;
+		class = skeletonClass;
+		classBuildings = skeletonBuildingClass;
 	break;
 	
 	default:
