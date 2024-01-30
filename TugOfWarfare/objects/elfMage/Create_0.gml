@@ -7,7 +7,7 @@ maxHp = 600;
 hp = maxHp;
 
 range = 80;
-weapon = fireball;
+weapon = magicMissle3x;
 damage = 20;
 cooldown = 1;
 
