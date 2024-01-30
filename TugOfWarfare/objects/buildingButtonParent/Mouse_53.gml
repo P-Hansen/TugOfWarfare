@@ -5,7 +5,7 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 	
 	if(place_meeting(_x, _y, grass1)){
 		var targets = ds_list_create();
-		var count = instance_place_list(_x, _y, grass1, targets, false);
+		var count = instance_place_list(_x, _y, [grass1, grassBurnt], targets, false);
 		for (var i = 0; i < count; i++) {
 			var target = ds_list_find_value(targets, i)
 			instance_destroy(target, false);

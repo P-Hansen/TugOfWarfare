@@ -1,6 +1,6 @@
 /// @description Initialize Variables
 
-depth -= y;
+depth -= y+10;
 scale = 2;
 image_xscale = scale;
 image_yscale = scale;
