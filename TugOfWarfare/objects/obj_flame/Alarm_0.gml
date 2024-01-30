@@ -42,6 +42,7 @@ if checkTarget
 	}
 		
 }
+
 //Reset alarm and wait till the next flame-burn and spread-action
 alarm[0] = room_speed * spreadInterval;
 

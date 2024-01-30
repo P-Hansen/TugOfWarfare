@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-maxHp = 600;
+maxHp = 500;
 hp = maxHp;
 
 range = 80;
