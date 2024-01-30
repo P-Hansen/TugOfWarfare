@@ -6,8 +6,12 @@ var target = noone;
 
 for (var i = 0; i < enemyCount; i++;) {
 	target = ds_list_find_value(enemiesInRange, i);
-	var burn = instance_create_depth(x, y, target.depth-1, statusEffectBurning);
-	burn.onHit(target);
+	
+	//if target doesn't have fireImmune tag
+	if(!asset_has_tags(target.object_index, "fireImmune", asset_object)){
+		var burn = instance_create_depth(x, y, target.depth-1, statusEffectBurning);
+		burn.onHit(target);
+	}
 
 	target.hp -= damage;
 	target.flashTimer = 5;
