@@ -12,7 +12,10 @@
     "name": "relics",
     "path": "folders/Objects/relics.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "relicClass",
+    "path": "objects/relicClass/relicClass.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

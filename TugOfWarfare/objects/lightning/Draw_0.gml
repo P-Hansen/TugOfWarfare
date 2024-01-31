@@ -11,8 +11,12 @@ if(strikeFlag){
 		draw_line_width_color(arrayPosX[i], arrayPosY[i], arrayPosX[i+1], arrayPosY[i+1], 3, c_yellow, c_yellow);
 
 	}
-	
-	instance_destroy(target);
+
 	gpu_set_blendmode(bm_normal);
+	instance_destroy(target);
 	
+	if(scorchFlag == false){
+		instance_create_layer(targetX, targetY, "ground", lightningScorch);
+		scorchFlag = true;
+	}
 }

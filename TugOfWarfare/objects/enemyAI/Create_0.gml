@@ -1,5 +1,12 @@
 /// @description Insert description here
 
+//relics
+var buildRelics = function(element, index){
+	instance_create_layer((room_width-48)-(index*48), 10, "weaponLayer", element);
+}
+array_foreach(global.enemyRelics, buildRelics);
+
+//initial buildings
 var _x = irandom_range(room_width-100, room_width-48);
 _x = round(_x/global.GRIDSIZE)*global.GRIDSIZE;
 
