@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 buttons = global.goblinBuldings;
-class = goblinClass;
-classBuildings = goblinBuildingClass;
+class = [goblinClass];
+classBuildings = [goblinBuildingClass];
 selected = false;
 
 animationSpeed = 0;

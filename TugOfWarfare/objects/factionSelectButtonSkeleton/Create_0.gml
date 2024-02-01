@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 buttons = global.skeletonBuildings;
-class = skeletonClass;
-classBuildings = skeletonBuildingClass;
+class = [skeletonClass];
+classBuildings = [skeletonBuildingClass];
 selected = false;
 
 animationSpeed = 0;

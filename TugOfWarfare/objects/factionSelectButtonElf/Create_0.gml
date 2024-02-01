@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 buttons = global.elfBuildings;
-class = elfClass;
-classBuildings = elfBuildingClass;
+class = [elfClass];
+classBuildings = [elfBuildingClass];
 selected = false;
 
 animationSpeed = 0;

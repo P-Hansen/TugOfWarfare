@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 buttons = global.orcBuildings;
-class = orcClass;
-classBuildings = orcBuildingClass;
+class = [orcClass];
+classBuildings = [orcBuildingClass];
 selected = false;
 
 animationSpeed = 0;

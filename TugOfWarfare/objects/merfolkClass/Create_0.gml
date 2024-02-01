@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-if(global.playerFaction == merfolkClass){
+if(array_contains(global.playerFaction, merfolkClass)){
 	enemy = global.enemyFaction;
 	enemyBuildings = global.enemyBuildings;
 	enemySide = 0;

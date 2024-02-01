@@ -5,44 +5,44 @@ roll = irandom_range(1, 6);
 switch(roll){
 	case 1:
 		buttons = global.giantBuildings;
-		class = giantClass;
-		classBuildings = giantBuildingClass;
+		class = [giantClass];
+		classBuildings = [giantBuildingClass];
 	break;
 	
 	case 2:
 		buttons = global.goblinBuldings;
-		class = goblinClass;
-		classBuildings = goblinBuildingClass;
+		class = [goblinClass];
+		classBuildings = [goblinBuildingClass];
 	break;
 	
 	case 3:
 		buttons = global.merfolkBuildings;
-		class = merfolkClass;
-		classBuildings = merfolkBuildingClass;
+		class = [merfolkClass];
+		classBuildings = [merfolkBuildingClass];
 	break;
 	
 	case 4:
 		buttons = global.orcBuildings;
-		class = orcClass;
-		classBuildings = orcBuildingClass;
+		class = [orcClass];
+		classBuildings = [orcBuildingClass];
 	break;
 	
 	case 5:
 		buttons = global.elfBuildings;
-		class = elfClass;
-		classBuildings = elfBuildingClass;
+		class = [elfClass];
+		classBuildings = [elfBuildingClass];
 	break;
 	
 	case 6:
 		buttons = global.skeletonBuildings;
-		class = skeletonClass;
-		classBuildings = skeletonBuildingClass;
+		class = [skeletonClass];
+		classBuildings = [skeletonBuildingClass];
 	break;
 	
 	default:
 		buttons = global.humanBuildings;
-		class = humanClass;
-		classBuildings = humanBuildingClass;
+		class = [humanClass];
+		classBuildings = [humanBuildingClass];
 	break;
 }
 

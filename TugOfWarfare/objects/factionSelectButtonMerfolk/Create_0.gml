@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 buttons = global.merfolkBuildings;
-class = merfolkClass;
-classBuildings = merfolkBuildingClass;
+class = [merfolkClass];
+classBuildings = [merfolkBuildingClass];
 selected = false;
 
 animationSpeed = 0;

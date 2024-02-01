@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-if(global.playerFaction == goblinClass){
+if(array_contains(global.playerFaction, goblinClass)){
 	enemy = global.enemyFaction;
 	enemyBuildings = global.enemyBuildings;
 	enemySide = 0;

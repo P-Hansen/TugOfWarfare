@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 buttons = global.giantBuildings;
-class = giantClass;
-classBuildings = giantBuildingClass;
+class = [giantClass];
+classBuildings = [giantBuildingClass];
 selected = false;
 
 animationSpeed = 0;

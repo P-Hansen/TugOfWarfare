@@ -3,11 +3,12 @@
 function pickTarget(unitArray, _x, _y){
 	var targets = [];
 	
-	var nearest = function(element, index){
-		var unit = instance_nearest(_x, _y, element);
-		array_push(targets, unit);
+	for(var i = 0; i < array_length(unitArray); i++){
+		for (var j = 0; j < instance_number(unitArray[i]); j++;){
+		    var unit = instance_find(unitArray[i], j);
+			array_push(targets, unit);
+		}
 	}
-	array_foreach(unitArray, nearest);
 	
 	while(array_length(targets) > 1){
 		var loser = highestDistance(targets[0], targets[1]);
@@ -15,7 +16,11 @@ function pickTarget(unitArray, _x, _y){
 		array_delete(targets, index, 1);
 	}
 	
-	return targets[0];
+	if(array_length(targets) > 0){
+		return targets[0];
+	} else {
+		return noone;
+	}
 }
 
 function highestDistance(target1, target2){
