@@ -17,7 +17,12 @@ array_foreach(global.availableBuildings, buildButtons);
 
 //relics
 var buildRelics = function(element, index){
-	instance_create_layer(70+(index*48), 10, "weaponLayer", element);
+	var relic = instance_create_layer(85+(index*48), 25, "weaponLayer", element);
+	relic.enemy = global.enemyFaction;
+	relic.enemyBuildings = global.enemyBuildings;
+	relic.ownersUnits = global.playerFaction;
+	relic.ownersBuildings = global.playerBuildings;
+	relic.ownerBank = global.enemyGoldTotal;
 }
 array_foreach(global.playerRelics, buildRelics);
 

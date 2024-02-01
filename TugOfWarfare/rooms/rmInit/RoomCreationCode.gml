@@ -21,12 +21,12 @@ global.skeletonBuildings = [skeletonDeathKnightButton, skeletonGolemButton, skel
 global.playerFaction = [humanClass];
 global.playerBuildings = [humanBuildingClass];
 global.availableBuildings = global.humanBuildings;
-global.playerRelics = [thunderStone, treasureChest];
+global.playerRelics = [];
 
 global.enemyFaction = [];
 global.enemyBuildings = [];
 global.enemyAvailableBuildings = [];
-global.enemyRelics = [thunderStone];
+global.enemyRelics = [];
 
 
 room_goto(rmFactionSelect);
