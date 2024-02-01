@@ -123,6 +123,7 @@
     {"name":"elfMageBuilding","order":11,"path":"objects/elfMageBuilding/elfMageBuilding.yy",},
     {"name":"orcBarbarianBuilding","order":1,"path":"objects/orcBarbarianBuilding/orcBarbarianBuilding.yy",},
     {"name":"ash1","order":12,"path":"objects/ash1/ash1.yy",},
+    {"name":"scriptTargeting","order":1,"path":"scripts/scriptTargeting/scriptTargeting.yy",},
     {"name":"sprFactionButtonOrc","order":25,"path":"sprites/sprFactionButtonOrc/sprFactionButtonOrc.yy",},
     {"name":"sprArrowPoison","order":13,"path":"sprites/sprArrowPoison/sprArrowPoison.yy",},
     {"name":"giantHarpyBuilding","order":11,"path":"objects/giantHarpyBuilding/giantHarpyBuilding.yy",},

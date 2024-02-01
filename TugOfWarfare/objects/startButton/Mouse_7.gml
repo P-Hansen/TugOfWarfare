@@ -2,11 +2,11 @@
 
 //random army
 while(global.playerFaction == global.enemyFaction){
-	roll = irandom_range(1, 5);
+	roll = 1;//irandom_range(1, 5);
 	switch(roll){
 		case 1:
-			global.enemyFaction = giantClass;
-			global.enemyBuildings = giantBuildingClass;
+			global.enemyFaction = [giantClass];
+			global.enemyBuildings = [giantBuildingClass];
 			global.enemyAvailableBuildings = [giantEttinMageBuilding, giantHarpyBuilding, giantHillGiantBuilding, giantOgerBuilding, giantStoneGiantBuilding];
 		break;
 	

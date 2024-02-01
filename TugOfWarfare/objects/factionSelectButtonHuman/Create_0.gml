@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 buttons = global.humanBuildings;
-class = humanClass;
-classBuildings = humanBuildingClass;
+class = [humanClass];
+classBuildings = [humanBuildingClass];
 
 //human start a defualt selected race
 image_index = 1;

@@ -7,6 +7,7 @@ enum status {
 
 global.GRIDSIZE = 16;
 global.goldTotal = 200;
+global.enemyGoldTotal = 0;
 global.timer = 10;
 
 global.humanBuildings = [humanArcherButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
@@ -17,13 +18,13 @@ global.giantBuildings = [giantEttinMageButton, giantHarpyButton, giantHillGiantB
 global.elfBuildings = [elfArcherButton, elfBlademasterButton, elfHealerButton, elfLordButton, elfMageButton];
 global.skeletonBuildings = [skeletonDeathKnightButton, skeletonGolemButton, skeletonMageButton, skeletonWarriorButton, skeletonMinionButton];
 
-global.playerFaction = humanClass;
-global.playerBuildings = humanBuildingClass;
+global.playerFaction = [humanClass];
+global.playerBuildings = [humanBuildingClass];
 global.availableBuildings = global.humanBuildings;
 global.playerRelics = [thunderStone, treasureChest];
 
-global.enemyFaction = noone;
-global.enemyBuildings = noone;
+global.enemyFaction = [];
+global.enemyBuildings = [];
 global.enemyAvailableBuildings = [];
 global.enemyRelics = [thunderStone];
 

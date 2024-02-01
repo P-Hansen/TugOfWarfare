@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scripFire",
+  "name": "scriptTargeting",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
