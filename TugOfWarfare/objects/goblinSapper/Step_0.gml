@@ -2,7 +2,7 @@
 
 if(currentStatus == status.active){
 	//pick target
-	target = instance_nearest(x, y, enemyBuildings);
+	target = pickTarget(enemyBuildings, x, y);
 	//target2 = instance_nearest(x, y, enemyBuildings);
 	//if(distance_to_object(target2) < distance_to_object(target)){
 	//	target = target2;

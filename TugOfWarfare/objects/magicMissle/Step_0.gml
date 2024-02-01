@@ -2,7 +2,7 @@
 
 //unit tracking
 if(trackFlag == true){
-	var target = instance_nearest(x, y, enemy[0]);
+	var target = pickTarget(enemy, x, y);
 	if(instance_exists(target)){
 		var turn = point_direction(x, y, target.x, target.y);
 		var angleDifference = angle_difference(direction, turn);
