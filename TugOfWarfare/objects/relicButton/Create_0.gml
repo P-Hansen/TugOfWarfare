@@ -3,7 +3,7 @@
 image_xscale = 6;
 image_yscale = 16;
 
-item = choose(thunderStone, treasureChest, goblinConscripts, crabGuards);
+item = choose(thunderStone, treasureChest, goblinConscripts, crabGuards, HireASquire);
 itemSprite = object_get_sprite(item);
 
 switch (item) {
@@ -27,6 +27,10 @@ switch (item) {
 		itemDescription = "Crabs will spawn around your buildings and protect them.";
 	break;
 	
+	case HireASquire:
+		itemName = "Squires";
+		itemDescription = "Hire squires for your army that spawn from each building.";
+	break;
 	
 	
 	default:

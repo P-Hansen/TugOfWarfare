@@ -75,6 +75,28 @@ if(global.timer == -1){
 				goblin.direction = enemySide;
 			}
 		}
+			
+		//squires
+		if(array_contains(global.playerRelics, HireASquire)){
+			if(owner == "player"){
+				var xOffset = random_range(-15, 15);
+				var yOffset = random_range(-15, 15);
+				var enemySide = 0;
+				var goblin = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
+				goblin.enemy = global.enemyFaction;
+				goblin.enemyBuildings = global.enemyBuildings;
+				goblin.direction = enemySide;
+			}
+		}
+		if(array_contains(global.enemyRelics, HireASquire)){
+			if(owner == "enemy"){
+				var xOffset = random_range(-15, 15);
+				var yOffset = random_range(-15, 15);
+				var enemySide = 180;
+				var goblin = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
+				goblin.direction = enemySide;
+			}
+		}
 		
 	}
 	global.timer = 20;
