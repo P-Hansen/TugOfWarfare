@@ -1,6 +1,12 @@
 /// @description Insert description here
 
-//relics
+//picking random relic
+array_shuffle_ext(global.availbleRelics);
+item = global.availbleRelics[0];
+array_delete(global.availbleRelics, 0, 1);
+array_push(global.enemyRelics, item);
+
+//building relics
 var buildRelics = function(element, index){
 	instance_create_layer((room_width-24)-(index*48), 25, "weaponLayer", element);
 }

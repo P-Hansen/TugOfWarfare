@@ -3,7 +3,10 @@
 image_xscale = 6;
 image_yscale = 16;
 
-item = choose(thunderStone, treasureChest, goblinConscripts, crabGuards, HireASquire);
+array_shuffle_ext(global.availbleRelics);
+item = global.availbleRelics[0];
+array_delete(global.availbleRelics, 0, 1);
+
 itemSprite = object_get_sprite(item);
 
 switch (item) {
