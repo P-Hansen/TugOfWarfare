@@ -3,6 +3,7 @@
 //will build if space is free and you have the money
 if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buildingClass) and _y < room_height-100){
 	
+	//killing grass
 	if(place_meeting(_x, _y, grass1)){
 		var targets = ds_list_create();
 		var count = instance_place_list(_x, _y, [grass1, grassBurnt], targets, false);
@@ -12,7 +13,8 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 		}
 		ds_list_destroy(targets);
 	}
-	instance_create_layer(_x, _y, "Instances", building);
+	var newBuilding = instance_create_layer(_x, _y, "Instances", building);
+	newBuilding.owner = "player";
 	global.goldTotal -= price;
 	clicked = false;
 }

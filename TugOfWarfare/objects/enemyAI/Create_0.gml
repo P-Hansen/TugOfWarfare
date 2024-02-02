@@ -2,7 +2,7 @@
 
 //relics
 var buildRelics = function(element, index){
-	instance_create_layer((room_width-48)-(index*48), 10, "weaponLayer", element);
+	instance_create_layer((room_width-24)-(index*48), 25, "weaponLayer", element);
 }
 array_foreach(global.enemyRelics, buildRelics);
 

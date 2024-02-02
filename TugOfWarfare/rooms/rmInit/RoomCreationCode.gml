@@ -26,7 +26,7 @@ global.playerRelics = [];
 global.enemyFaction = [];
 global.enemyBuildings = [];
 global.enemyAvailableBuildings = [];
-global.enemyRelics = [];
+global.enemyRelics = [goblinConscripts];
 
 
 room_goto(rmFactionSelect);

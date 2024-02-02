@@ -4,6 +4,7 @@ global.timer -= 1;
 
 if(global.timer == -1){
 	with(buildingClass){
+		//giant half spawn
 		if(asset_has_tags(object_index, "halfSpawn", asset_object)){
 			if(spawn == true){
 				for(var i = numberPerSpawn; i > 0; i--){
@@ -13,6 +14,7 @@ if(global.timer == -1){
 				}
 			}
 			spawn = !spawn;
+		//skeleton random of 2 minion spawn
 		} else if(asset_has_tags(object_index, "skeletonMinionSpawn", asset_object)){
 			for(var i = numberPerSpawn; i > 0; i--){
 				var xOffset = random_range(-15, 15);
@@ -21,6 +23,7 @@ if(global.timer == -1){
 				unit = units[roll];
 				instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
 			}
+		//regular spawn
 		} else {
 			for(var i = numberPerSpawn; i > 0; i--){
 				var xOffset = random_range(-15, 15);
@@ -28,6 +31,29 @@ if(global.timer == -1){
 				instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
 			}
 		}
+		
+		//goblin conscripts
+		if(array_contains(global.playerRelics, goblinConscripts)){
+			if(owner == "player"){
+				var xOffset = random_range(-15, 15);
+				var yOffset = random_range(-15, 15);
+				var enemySide = 0;
+				var goblin = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
+				goblin.enemy = global.enemyFaction;
+				goblin.enemyBuildings = global.enemyBuildings;
+				goblin.direction = enemySide;
+			}
+		}
+		if(array_contains(global.enemyRelics, goblinConscripts)){
+			if(owner == "enemy"){
+				var xOffset = random_range(-15, 15);
+				var yOffset = random_range(-15, 15);
+				var enemySide = 180;
+				var goblin = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
+				goblin.direction = enemySide;
+			}
+		}
+		
 	}
 	global.timer = 20;
 }

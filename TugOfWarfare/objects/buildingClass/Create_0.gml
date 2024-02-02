@@ -10,6 +10,6 @@ currentStatus = status.active;
 drop = 10;
 depth = -y;
 cooldown = room_speed*20;
-
+owner = "enemy";
 
 //alarm[1] = room_speed*20;
