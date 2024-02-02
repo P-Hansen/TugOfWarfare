@@ -3,7 +3,7 @@
 image_xscale = 6;
 image_yscale = 16;
 
-item = choose(thunderStone, treasureChest, goblinConscripts);
+item = choose(thunderStone, treasureChest, goblinConscripts, crabGuards);
 itemSprite = object_get_sprite(item);
 
 switch (item) {
@@ -22,6 +22,10 @@ switch (item) {
 		itemDescription = "A goblin conscript will spawn along side your units at each building.";
 	break;
 	
+	case crabGuards:
+		itemName = "Crab Guards";
+		itemDescription = "Crabs will spawn around your buildings and protect them.";
+	break;
 	
 	
 	

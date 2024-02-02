@@ -43,6 +43,7 @@
   "ResourceOrderSettings": [
     {"name":"skeletonWarriorBuilding","order":14,"path":"objects/skeletonWarriorBuilding/skeletonWarriorBuilding.yy",},
     {"name":"elfBlademasterBuilding","order":8,"path":"objects/elfBlademasterBuilding/elfBlademasterBuilding.yy",},
+    {"name":"crab","order":11,"path":"objects/crab/crab.yy",},
     {"name":"merfolkWaterElemental","order":5,"path":"objects/merfolkWaterElemental/merfolkWaterElemental.yy",},
     {"name":"statusEffectSlow","order":6,"path":"objects/statusEffectSlow/statusEffectSlow.yy",},
     {"name":"goblinClass","order":3,"path":"objects/goblinClass/goblinClass.yy",},
@@ -163,7 +164,6 @@
     {"name":"sprDeathKnight","order":3,"path":"sprites/sprDeathKnight/sprDeathKnight.yy",},
     {"name":"sprOrcBarbarian","order":1,"path":"sprites/sprOrcBarbarian/sprOrcBarbarian.yy",},
     {"name":"orcWolfRiderButton","order":4,"path":"objects/orcWolfRiderButton/orcWolfRiderButton.yy",},
-    {"name":"crab","order":3,"path":"objects/crab/crab.yy",},
     {"name":"statusEffectBubble","order":7,"path":"objects/statusEffectBubble/statusEffectBubble.yy",},
     {"name":"sprHumanArcherButton","order":1,"path":"sprites/sprHumanArcherButton/sprHumanArcherButton.yy",},
     {"name":"skeletonMinionButton","order":3,"path":"objects/skeletonMinionButton/skeletonMinionButton.yy",},
@@ -198,6 +198,7 @@
     {"name":"sprOssifiedSlayer","order":4,"path":"sprites/sprOssifiedSlayer/sprOssifiedSlayer.yy",},
     {"name":"skeletonBuildingClass","order":9,"path":"objects/skeletonBuildingClass/skeletonBuildingClass.yy",},
     {"name":"merfolkScout","order":3,"path":"objects/merfolkScout/merfolkScout.yy",},
+    {"name":"crabGuards","order":12,"path":"objects/crabGuards/crabGuards.yy",},
     {"name":"projectileClass","order":5,"path":"objects/projectileClass/projectileClass.yy",},
     {"name":"giantStoneGiantBuilding","order":5,"path":"objects/giantStoneGiantBuilding/giantStoneGiantBuilding.yy",},
     {"name":"sprElfBlademaster","order":1,"path":"sprites/sprElfBlademaster/sprElfBlademaster.yy",},

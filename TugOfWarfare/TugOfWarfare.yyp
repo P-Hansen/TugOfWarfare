@@ -60,6 +60,7 @@
   "resources": [
     {"id":{"name":"skeletonWarriorBuilding","path":"objects/skeletonWarriorBuilding/skeletonWarriorBuilding.yy",},},
     {"id":{"name":"elfBlademasterBuilding","path":"objects/elfBlademasterBuilding/elfBlademasterBuilding.yy",},},
+    {"id":{"name":"crab","path":"objects/crab/crab.yy",},},
     {"id":{"name":"merfolkWaterElemental","path":"objects/merfolkWaterElemental/merfolkWaterElemental.yy",},},
     {"id":{"name":"statusEffectSlow","path":"objects/statusEffectSlow/statusEffectSlow.yy",},},
     {"id":{"name":"goblinClass","path":"objects/goblinClass/goblinClass.yy",},},
@@ -199,7 +200,6 @@
     {"id":{"name":"sprOrcBarbarian","path":"sprites/sprOrcBarbarian/sprOrcBarbarian.yy",},},
     {"id":{"name":"orcWolfRiderButton","path":"objects/orcWolfRiderButton/orcWolfRiderButton.yy",},},
     {"id":{"name":"sprEttinMage","path":"sprites/sprEttinMage/sprEttinMage.yy",},},
-    {"id":{"name":"crab","path":"objects/crab/crab.yy",},},
     {"id":{"name":"statusEffectBubble","path":"objects/statusEffectBubble/statusEffectBubble.yy",},},
     {"id":{"name":"sprHumanArcherButton","path":"sprites/sprHumanArcherButton/sprHumanArcherButton.yy",},},
     {"id":{"name":"skeletonMinionButton","path":"objects/skeletonMinionButton/skeletonMinionButton.yy",},},
@@ -237,6 +237,7 @@
     {"id":{"name":"sprOssifiedSlayer","path":"sprites/sprOssifiedSlayer/sprOssifiedSlayer.yy",},},
     {"id":{"name":"skeletonBuildingClass","path":"objects/skeletonBuildingClass/skeletonBuildingClass.yy",},},
     {"id":{"name":"merfolkScout","path":"objects/merfolkScout/merfolkScout.yy",},},
+    {"id":{"name":"crabGuards","path":"objects/crabGuards/crabGuards.yy",},},
     {"id":{"name":"projectileClass","path":"objects/projectileClass/projectileClass.yy",},},
     {"id":{"name":"giantStoneGiantBuilding","path":"objects/giantStoneGiantBuilding/giantStoneGiantBuilding.yy",},},
     {"id":{"name":"sprElfBlademaster","path":"sprites/sprElfBlademaster/sprElfBlademaster.yy",},},

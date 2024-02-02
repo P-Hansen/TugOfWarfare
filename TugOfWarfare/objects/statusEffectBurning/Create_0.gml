@@ -14,7 +14,7 @@ function onHit(unit){
 				unit.unitColour = c_red;
 				array_push(unit.statusEffects, self);
 			}
-		} else { //if unit is already poisoned
+		} else { //if unit is already burning
 			var i = array_find_index(unit.statusEffects, function(element, index){
 				return element.object_index == statusEffectBurning;
 				//if(element.object_index == statusEffectBurning){
@@ -34,9 +34,9 @@ function onHit(unit){
 function onTick(unit, i){
 	//every 1 second
 	if(frac(statusTimer/2) == 0){
-		unit.hp -= statusTimer/2;
+		unit.hp -= 5;
 		var num = instance_create_depth(unit.x, unit.y-16, unit.depth-1, poisonNumber);
-		num.amount = statusTimer/2;
+		num.amount = 5;
 		num.textColour = c_red;
 		//show_debug_message(string(statusTimer/4));
 		//audio_play_sound(sfxHit, 1, 0);

@@ -7,7 +7,10 @@ scale = 1;
 image_xscale = scale;
 image_yscale = scale;
 
-maxHp = 25;
+enemySide = 180;
+direction = enemySide;
+
+maxHp = 100;
 hp = maxHp;
 
 weapon = swordSlash;
