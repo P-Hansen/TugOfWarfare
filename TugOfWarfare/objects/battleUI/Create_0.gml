@@ -6,12 +6,7 @@ startingY = window_get_height()-50;
 
 //building buttons
 var buildButtons = function(element, index){
-	var relic = instance_create_layer(startingX+(index*space), startingY, "weaponLayer", element);
-	relic.enemy = global.enemyFaction;
-	relic.enemyBuildings = global.enemyBuildings;
-	relic.ownersUnits = global.playerFaction;
-	relic.ownersBuildings = global.playerBuildings;
-	relic.ownerBank = global.enemyGoldTotal;
+	instance_create_layer(startingX+(index*space), startingY, "weaponLayer", element);
 }
 array_foreach(global.availableBuildings, buildButtons);
 
@@ -22,7 +17,7 @@ var buildRelics = function(element, index){
 	relic.enemyBuildings = global.enemyBuildings;
 	relic.ownersUnits = global.playerFaction;
 	relic.ownersBuildings = global.playerBuildings;
-	relic.ownerBank = global.enemyGoldTotal;
+	relic.owner = "player";
 }
 array_foreach(global.playerRelics, buildRelics);
 

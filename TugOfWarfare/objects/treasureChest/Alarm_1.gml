@@ -1,6 +1,9 @@
 /// @description +1 gold per second
 
-global.goldTotal += 1;
-
+if(owner == "player"){
+	global.goldTotal += 1;
+} else {
+	global.enemyGoldTotal += 1;
+}
 
 alarm[1] = room_speed*1;
