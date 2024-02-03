@@ -1,8 +1,12 @@
 /// @description create building
 
-var _x = 144;
+if(owner == "player"){
+	var _x = 144;
+} else {
+	var _x = room_width - 96;
+}
 var _y = (room_height/2)/global.GRIDSIZE * global.GRIDSIZE;
-	
+
 //killing grass
 if(place_meeting(_x, _y, grass1)){
 	var targets = ds_list_create();
@@ -13,5 +17,6 @@ if(place_meeting(_x, _y, grass1)){
 	}
 	ds_list_destroy(targets);
 }
+
 var newBuilding = instance_create_layer(_x, _y, "Instances", building);
-newBuilding.owner = "player";
+newBuilding.owner = owner;

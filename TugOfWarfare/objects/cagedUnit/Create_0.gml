@@ -1,8 +1,11 @@
 /// @description Insert description here
 
+// Inherit the parent event
+event_inherited();
+
 unit = orcBarbarian;
 sprite = sprOrcBarbarian2;
 building = cagedUnitBuilding;
 
-array_push(global.playerFaction, unit);
-array_push(global.playerBuildings, building);
+
+alarm[1] = 2;
