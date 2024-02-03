@@ -33,7 +33,7 @@ if(global.timer == -1){
 		}
 		
 		//goblin conscripts
-		if(array_contains(global.playerRelics, goblinConscripts)){
+		if(relicArrayContains(global.playerRelics, goblinConscripts)){
 			if(owner == "player"){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
@@ -44,7 +44,7 @@ if(global.timer == -1){
 				goblin.direction = enemySide;
 			}
 		}
-		if(array_contains(global.enemyRelics, goblinConscripts)){
+		if(relicArrayContains(global.enemyRelics, goblinConscripts)){
 			if(owner == "enemy"){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
@@ -55,7 +55,7 @@ if(global.timer == -1){
 		}
 		
 		//crabs!!
-		if(array_contains(global.playerRelics, crabGuards)){
+		if(relicArrayContains(global.playerRelics, crabGuards)){
 			if(owner == "player"){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
@@ -66,7 +66,7 @@ if(global.timer == -1){
 				goblin.direction = enemySide;
 			}
 		}
-		if(array_contains(global.enemyRelics, crabGuards)){
+		if(relicArrayContains(global.enemyRelics, crabGuards)){
 			if(owner == "enemy"){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
@@ -77,7 +77,7 @@ if(global.timer == -1){
 		}
 			
 		//squires
-		if(array_contains(global.playerRelics, HireASquire)){
+		if(relicArrayContains(global.playerRelics, HireASquire)){
 			if(owner == "player"){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
@@ -88,7 +88,7 @@ if(global.timer == -1){
 				goblin.direction = enemySide;
 			}
 		}
-		if(array_contains(global.enemyRelics, HireASquire)){
+		if(relicArrayContains(global.enemyRelics, HireASquire)){
 			if(owner == "enemy"){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);

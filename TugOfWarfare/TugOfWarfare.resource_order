@@ -106,6 +106,7 @@
     {"name":"buildingButtonParent","order":5,"path":"objects/buildingButtonParent/buildingButtonParent.yy",},
     {"name":"sprGoblinGrunt","order":2,"path":"sprites/sprGoblinGrunt/sprGoblinGrunt.yy",},
     {"name":"skeletonArcher","order":1,"path":"objects/skeletonArcher/skeletonArcher.yy",},
+    {"name":"scriptRelics","order":2,"path":"scripts/scriptRelics/scriptRelics.yy",},
     {"name":"lightning","order":1,"path":"objects/lightning/lightning.yy",},
     {"name":"goblinSapperButton","order":3,"path":"objects/goblinSapperButton/goblinSapperButton.yy",},
     {"name":"sprDecrepitBones","order":7,"path":"sprites/sprDecrepitBones/sprDecrepitBones.yy",},

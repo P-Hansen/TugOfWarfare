@@ -11,6 +11,7 @@ var buildButtons = function(element, index){
 array_foreach(global.availableBuildings, buildButtons);
 
 //relics
+/*
 var buildRelics = function(element, index){
 	var relic = instance_create_layer(85+(index*48), 25, "weaponLayer", element);
 	relic.enemy = global.enemyFaction;
@@ -20,6 +21,7 @@ var buildRelics = function(element, index){
 	relic.owner = "player";
 }
 array_foreach(global.playerRelics, buildRelics);
+*/
 
 global.timer = 10;
 global.goldTotal = 200;
