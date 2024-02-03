@@ -23,6 +23,15 @@ if(global.timer == -1){
 				unit = units[roll];
 				instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
 			}
+		//caged unit spawn
+		} else if (asset_has_tags(object_index, "cagedUnit", asset_object)){
+			for(var i = numberPerSpawn; i > 0; i--){
+				var xOffset = random_range(-15, 15);
+				var yOffset = random_range(-15, 15);
+				var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+				newUnit.enemy = global.enemyFaction;
+				newUnit.enemyBuildings = global.enemyBuildings;
+			}
 		//regular spawn
 		} else {
 			for(var i = numberPerSpawn; i > 0; i--){
