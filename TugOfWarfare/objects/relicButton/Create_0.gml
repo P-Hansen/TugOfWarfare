@@ -37,7 +37,12 @@ switch (item) {
 	
 	case attackUpgrade:
 		itemName = "Sharpened steel";
-		itemDescription = "units deal 10% more damage.";
+		itemDescription = "Units deal 10% more damage.";
+	break;
+	
+	case defenceUpgrade:
+		itemName = "Improved Armour";
+		itemDescription = "Units gain 10% more Hp.";
 	break;
 	
 	

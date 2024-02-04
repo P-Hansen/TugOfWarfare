@@ -9,7 +9,7 @@ global.GRIDSIZE = 16;
 global.goldTotal = 200;
 global.enemyGoldTotal = 0;
 global.timer = 10;
-global.availbleRelics = [cagedUnit, thunderStone, attackUpgrade]//treasureChest, goblinConscripts, crabGuards, HireASquire, cagedUnit];
+global.availbleRelics = [cagedUnit, thunderStone, attackUpgrade, defenceUpgrade]//treasureChest, goblinConscripts, crabGuards, HireASquire, cagedUnit];
 
 global.humanBuildings = [humanArcherButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
 global.merfolkBuildings = [MerfolkAquamancerButton, MerfolkImpalerButton, MerfolkScoutButton, MerfolkSirenButton, MerfolkWaterElementalButton]
