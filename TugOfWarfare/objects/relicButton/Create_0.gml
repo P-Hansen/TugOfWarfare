@@ -35,6 +35,11 @@ switch (item) {
 		itemDescription = "Hire squires for your army that spawn from each building.";
 	break;
 	
+	case attackUpgrade:
+		itemName = "Sharpened steel";
+		itemDescription = "units deal 10% more damage.";
+	break;
+	
 	
 	default:
 		itemName = "-";

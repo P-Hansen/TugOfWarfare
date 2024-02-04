@@ -81,6 +81,7 @@
     {"id":{"name":"sprGoblinSapper","path":"sprites/sprGoblinSapper/sprGoblinSapper.yy",},},
     {"id":{"name":"sprOrcBarbarian2","path":"sprites/sprOrcBarbarian2/sprOrcBarbarian2.yy",},},
     {"id":{"name":"merfolkImpalerBuilding","path":"objects/merfolkImpalerBuilding/merfolkImpalerBuilding.yy",},},
+    {"id":{"name":"statusEffectAttackUp","path":"objects/statusEffectAttackUp/statusEffectAttackUp.yy",},},
     {"id":{"name":"magicMissle","path":"objects/magicMissle/magicMissle.yy",},},
     {"id":{"name":"goblinGrunt","path":"objects/goblinGrunt/goblinGrunt.yy",},},
     {"id":{"name":"sprOrcWolfRiderBuilding","path":"sprites/sprOrcWolfRiderBuilding/sprOrcWolfRiderBuilding.yy",},},

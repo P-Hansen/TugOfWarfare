@@ -59,6 +59,7 @@
     {"name":"sprGoblinSapper","order":3,"path":"sprites/sprGoblinSapper/sprGoblinSapper.yy",},
     {"name":"sprOrcBarbarian2","order":2,"path":"sprites/sprOrcBarbarian2/sprOrcBarbarian2.yy",},
     {"name":"merfolkImpalerBuilding","order":6,"path":"objects/merfolkImpalerBuilding/merfolkImpalerBuilding.yy",},
+    {"name":"statusEffectAttackUp","order":33,"path":"objects/statusEffectAttackUp/statusEffectAttackUp.yy",},
     {"name":"magicMissle","order":16,"path":"objects/magicMissle/magicMissle.yy",},
     {"name":"goblinGrunt","order":4,"path":"objects/goblinGrunt/goblinGrunt.yy",},
     {"name":"sprOrcWolfRiderBuilding","order":7,"path":"sprites/sprOrcWolfRiderBuilding/sprOrcWolfRiderBuilding.yy",},
