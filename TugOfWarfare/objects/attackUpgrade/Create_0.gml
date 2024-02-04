@@ -3,5 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
+effect = statusEffectSlow;
 
 

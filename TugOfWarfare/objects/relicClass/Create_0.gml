@@ -6,3 +6,4 @@ enemyBuildings = global.playerBuildings;
 owner = "enemy";
 ownersUnits = global.enemyFaction;
 ownersBuildings = global.enemyBuildings;
+effect = noone;

@@ -27,4 +27,5 @@ function arrayReturnTagItems(array, tag){
 			array_push(taggedArray, array[i]);
 		}
 	}
+	return taggedArray;
 }

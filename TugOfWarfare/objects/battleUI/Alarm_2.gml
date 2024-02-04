@@ -11,24 +11,79 @@ if(global.timer == -1){
 					var xOffset = random_range(-15, 15);
 					var yOffset = random_range(-15, 15);
 					var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+					//adding status effects to spawned units
+					if(arrayContainsTag(global.playerRelics, "statusEffect")){
+						if(owner == "player"){
+							var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
+							for(var j = 0; j < array_length(statusEffectsArray); j++){
+								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+								effect.onHit(newUnit);
+							}
+						}
+					} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
+						if(owner == "enemy"){
+							var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
+							for(var j = 0; j < array_length(statusEffectsArray); j++){
+								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+								effect.onHit(newUnit);
+							}
+						}
+					}
 				}
 			}
 			spawn = !spawn;
 		//skeleton random of 2 minion spawn
-		} else if(asset_has_tags(object_index, "skeletonMinionSpawn", asset_object)){
+		} else if (asset_has_tags(object_index, "skeletonMinionSpawn", asset_object)){
 			for(var i = numberPerSpawn; i > 0; i--){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
 				var roll = irandom_range(0, 1);
 				unit = units[roll];
 				var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+				//adding status effects to spawned units
+				if(arrayContainsTag(global.playerRelics, "statusEffect")){
+					if(owner == "player"){
+						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
+						for(var j = 0; j < array_length(statusEffectsArray); j++){
+							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							effect.onHit(newUnit);
+						}
+					}
+				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
+					if(owner == "enemy"){
+						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
+						for(var j = 0; j < array_length(statusEffectsArray); j++){
+							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							effect.onHit(newUnit);
+						}
+					}
+				}
 			}
+				
 		//caged unit spawn
 		} else if (asset_has_tags(object_index, "cagedUnit", asset_object)){
 			for(var i = numberPerSpawn; i > 0; i--){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
 				var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+				//adding status effects to spawned units
+				if(arrayContainsTag(global.playerRelics, "statusEffect")){
+					if(owner == "player"){
+						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
+						for(var j = 0; j < array_length(statusEffectsArray); j++){
+							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							effect.onHit(newUnit);
+						}
+					}
+				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
+					if(owner == "enemy"){
+						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
+						for(var j = 0; j < array_length(statusEffectsArray); j++){
+							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							effect.onHit(newUnit);
+						}
+					}
+				}
 				if(owner == "player"){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
@@ -43,6 +98,24 @@ if(global.timer == -1){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
 				var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+				//adding status effects to spawned units
+				if(arrayContainsTag(global.playerRelics, "statusEffect")){
+					if(owner == "player"){
+						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
+						for(var j = 0; j < array_length(statusEffectsArray); j++){
+							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							effect.onHit(newUnit);
+						}
+					}
+				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
+					if(owner == "enemy"){
+						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
+						for(var j = 0; j < array_length(statusEffectsArray); j++){
+							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							effect.onHit(newUnit);
+						}
+					}
+				}
 			}
 		}
 		
@@ -109,19 +182,6 @@ if(global.timer == -1){
 				var enemySide = 180;
 				var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
 				newUnit.direction = enemySide;
-			}
-		}
-		
-		//attack upgrade buff needs to be generalized and moved into spawn loops
-		if(relicArrayContains(global.playerRelics, attackUpgrade)){
-			if(owner == "player"){
-				var burn = instance_create_depth(x, y, newUnit.depth-1, statusEffectBurning);
-				burn.onHit(newUnit);
-			}
-		} else if (relicArrayContains(global.enemyRelics, attackUpgrade)){
-			if(owner == "enemy"){
-				var burn = instance_create_depth(x, y, newUnit.depth-1, statusEffectBurning);
-				burn.onHit(newUnit);
 			}
 		}
 			

@@ -35,5 +35,8 @@
     "path": "sprites/sprSword/sprSword.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "statusEffect",
+  ],
   "visible": true,
 }
