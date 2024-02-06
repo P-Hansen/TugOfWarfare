@@ -8,7 +8,7 @@ function arrayCrammer(element, index){
 }
 array_foreach(global.lightningTargets, arrayCrammer);
 array_shuffle_ext(possibleTargets);
-
+//show_debug_message(possibleTargets);
 if(array_length(possibleTargets) > 0){
 	target = possibleTargets[0];
 } else {
