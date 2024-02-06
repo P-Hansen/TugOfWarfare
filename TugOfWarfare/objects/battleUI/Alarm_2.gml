@@ -119,69 +119,65 @@ if(global.timer == -1){
 			}
 		}
 		
-		//goblin conscripts
-		if(relicArrayContains(global.playerRelics, goblinConscripts)){
-			if(owner == "player"){
-				var xOffset = random_range(-15, 15);
-				var yOffset = random_range(-15, 15);
-				var enemySide = 0;
-				var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
-				newUnit.enemy = global.enemyFaction;
-				newUnit.enemyBuildings = global.enemyBuildings;
-				newUnit.direction = enemySide;
+		//additional units
+		if(owner == "player"){
+			//asset_has_tags(object_index, "unitSpawning", asset_object)
+			//goblin conscripts
+			if(relicArrayContains(global.playerRelics, goblinConscripts)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 0;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
+					newUnit.enemy = global.enemyFaction;
+					newUnit.enemyBuildings = global.enemyBuildings;
+					newUnit.direction = enemySide;
 			}
-		}
-		if(relicArrayContains(global.enemyRelics, goblinConscripts)){
-			if(owner == "enemy"){
-				var xOffset = random_range(-15, 15);
-				var yOffset = random_range(-15, 15);
-				var enemySide = 180;
-				var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
-				newUnit.direction = enemySide;
+			//crabs!!
+			if(relicArrayContains(global.playerRelics, crabGuards)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 0;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
+					newUnit.enemy = global.enemyFaction;
+					newUnit.enemyBuildings = global.enemyBuildings;
+					newUnit.direction = enemySide;
+			}
+			//squires
+			if(relicArrayContains(global.playerRelics, HireASquire)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 0;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
+					newUnit.enemy = global.enemyFaction;
+					newUnit.enemyBuildings = global.enemyBuildings;
+					newUnit.direction = enemySide;
 			}
 		}
 		
-		//crabs!!
-		if(relicArrayContains(global.playerRelics, crabGuards)){
-			if(owner == "player"){
-				var xOffset = random_range(-15, 15);
-				var yOffset = random_range(-15, 15);
-				var enemySide = 0;
-				var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
-				newUnit.enemy = global.enemyFaction;
-				newUnit.enemyBuildings = global.enemyBuildings;
-				newUnit.direction = enemySide;
+		if(owner == "enenmy"){
+			//goblins
+			if(relicArrayContains(global.enemyRelics, goblinConscripts)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 180;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
+					newUnit.direction = enemySide;
 			}
-		}
-		if(relicArrayContains(global.enemyRelics, crabGuards)){
-			if(owner == "enemy"){
-				var xOffset = random_range(-15, 15);
-				var yOffset = random_range(-15, 15);
-				var enemySide = 180;
-				var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
-				newUnit.direction = enemySide;
+			//crabs
+			if(relicArrayContains(global.enemyRelics, crabGuards)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 180;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
+					newUnit.direction = enemySide;
 			}
-		}
-			
-		//squires
-		if(relicArrayContains(global.playerRelics, HireASquire)){
-			if(owner == "player"){
-				var xOffset = random_range(-15, 15);
-				var yOffset = random_range(-15, 15);
-				var enemySide = 0;
-				var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
-				newUnit.enemy = global.enemyFaction;
-				newUnit.enemyBuildings = global.enemyBuildings;
-				newUnit.direction = enemySide;
-			}
-		}
-		if(relicArrayContains(global.enemyRelics, HireASquire)){
-			if(owner == "enemy"){
-				var xOffset = random_range(-15, 15);
-				var yOffset = random_range(-15, 15);
-				var enemySide = 180;
-				var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
-				newUnit.direction = enemySide;
+			//squires
+			if(relicArrayContains(global.enemyRelics, HireASquire)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 180;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
+					newUnit.direction = enemySide;
 			}
 		}
 			

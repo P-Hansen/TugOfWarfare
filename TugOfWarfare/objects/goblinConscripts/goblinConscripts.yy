@@ -36,5 +36,8 @@
     "path": "sprites/sprScroll/sprScroll.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "unitSpawning",
+  ],
   "visible": true,
 }
