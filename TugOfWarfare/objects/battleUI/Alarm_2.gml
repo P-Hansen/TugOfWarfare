@@ -119,7 +119,7 @@ if(global.timer == -1){
 			}
 		}
 		
-		//additional units
+		//additional units (crabs, goblins, squires)
 		if(owner == "player"){
 			//asset_has_tags(object_index, "unitSpawning", asset_object)
 			//goblin conscripts
@@ -154,7 +154,7 @@ if(global.timer == -1){
 			}
 		}
 		
-		if(owner == "enenmy"){
+		if(owner == "enemy"){
 			//goblins
 			if(relicArrayContains(global.enemyRelics, goblinConscripts)){
 					var xOffset = random_range(-15, 15);

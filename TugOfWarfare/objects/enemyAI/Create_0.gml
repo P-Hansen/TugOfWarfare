@@ -4,7 +4,7 @@
 array_shuffle_ext(global.availbleRelics);
 item = global.availbleRelics[0];
 array_delete(global.availbleRelics, 0, 1);
-var relic = instance_create_layer(room_width-24, 25, "weaponLayer", item);
+var relic = instance_create_layer(room_width-24-(48*array_length(global.enemyRelics)), 25, "weaponLayer", item);
 array_push(global.enemyRelics, relic);
 
 
