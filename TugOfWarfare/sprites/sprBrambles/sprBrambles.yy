@@ -31,7 +31,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7dbb0419-f762-40c9-b6cf-847706303018","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 7,
   "parent": {
     "name": "relics",
     "path": "folders/Sprites/relics.yy",
@@ -76,7 +76,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 16,
-    "yorigin": 16,
+    "yorigin": 32,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

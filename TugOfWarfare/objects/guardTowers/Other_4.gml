@@ -21,26 +21,17 @@ if(place_meeting(_x, _y, grass1)){
 */
 var newBuilding = instance_create_layer(_x, _y, "Instances", building);
 newBuilding.owner = owner;
-newBuilding.enemy = global.enemyFaction;
-newBuilding.enemyBuildings = global.enemyBuildings;
-newBuilding.ownersUnits = global.playerFaction;
-newBuilding.ownersBuildings = global.playerBuildings;
-newBuilding.owner = "player";
+newBuilding.enemy = enemy;
+newBuilding.enemyBuildings = enemyBuildings;
 
 var _y = (room_height/4)/global.GRIDSIZE * global.GRIDSIZE;
 var newBuilding = instance_create_layer(_x, _y, "Instances", building);
 newBuilding.owner = owner;
-newBuilding.enemy = global.enemyFaction;
-newBuilding.enemyBuildings = global.enemyBuildings;
-newBuilding.ownersUnits = global.playerFaction;
-newBuilding.ownersBuildings = global.playerBuildings;
-newBuilding.owner = "player";
+newBuilding.enemy = enemy;
+newBuilding.enemyBuildings = enemyBuildings;
 
 var _y = ((room_height/4)*3)/global.GRIDSIZE * global.GRIDSIZE;
 var newBuilding = instance_create_layer(_x, _y, "Instances", building);
 newBuilding.owner = owner;
-newBuilding.enemy = global.enemyFaction;
-newBuilding.enemyBuildings = global.enemyBuildings;
-newBuilding.ownersUnits = global.playerFaction;
-newBuilding.ownersBuildings = global.playerBuildings;
-newBuilding.owner = "player";
+newBuilding.enemy = enemy;
+newBuilding.enemyBuildings = enemyBuildings;
