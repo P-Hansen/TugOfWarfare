@@ -45,6 +45,11 @@ switch (item) {
 		itemDescription = "Units gain 10% more Hp.";
 	break;
 	
+	case guardTowers:
+		itemName = "Guard Towers";
+		itemDescription = "Three guard towers spawn on your side of the map. They have 1000hp and fire 60 damage arrows every 1.5 seconds.";
+	break;
+	
 	
 	default:
 		itemName = "-";
