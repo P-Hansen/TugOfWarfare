@@ -50,6 +50,16 @@ switch (item) {
 		itemDescription = "Three guard towers spawn on your side of the map. They have 1000hp and fire 60 damage arrows every 1.5 seconds.";
 	break;
 	
+	case brambleSeeds:
+		itemName = "Bramble Seeds";
+		itemDescription = "Start with a wall of brambles that damage and slow enemy units. Brambles slowly grow back and spread towards the enemy";
+	break;
+	
+	case spiderCharm:
+		itemName = "Wave of Spiders";
+		itemDescription = "Two spiders spawn for each building you control every 30 seconds.";
+	break;
+	
 	
 	default:
 		itemName = "-";
