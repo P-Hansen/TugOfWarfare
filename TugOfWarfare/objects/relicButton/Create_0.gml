@@ -11,7 +11,7 @@ itemSprite = object_get_sprite(item);
 
 switch (item) {
 	case thunderStone:
-		itemName = "Thunder Stone";
+		itemName = "The Thunder Stone";
 		itemDescription = "The mighty thunderstone strikes down an enemy at random every 15 seconds.";
 	break;
 	
@@ -56,8 +56,13 @@ switch (item) {
 	break;
 	
 	case spiderCharm:
-		itemName = "Wave of Spiders";
+		itemName = "Waves of Spiders";
 		itemDescription = "Two spiders spawn for each building you control every 30 seconds.";
+	break;
+	
+	case blizzardStone:
+		itemName = "The Blizzard Stone";
+		itemDescription = "Every 17 seconds a mighty blizzard covers the screen and does 60 damge to all units.";
 	break;
 	
 	

@@ -310,6 +310,7 @@
     {"name":"sprGrassTile","order":52,"path":"sprites/sprGrassTile/sprGrassTile.yy",},
     {"name":"bubble","order":6,"path":"objects/bubble/bubble.yy",},
     {"name":"sprGurardTowersIcon","order":19,"path":"sprites/sprGurardTowersIcon/sprGurardTowersIcon.yy",},
+    {"name":"blizzardStone","order":23,"path":"objects/blizzardStone/blizzardStone.yy",},
     {"name":"orcWarlockBuilding","order":6,"path":"objects/orcWarlockBuilding/orcWarlockBuilding.yy",},
     {"name":"skeletonMinionBuilding","order":13,"path":"objects/skeletonMinionBuilding/skeletonMinionBuilding.yy",},
     {"name":"sprHumanCrossbowmenButton","order":3,"path":"sprites/sprHumanCrossbowmenButton/sprHumanCrossbowmenButton.yy",},

@@ -358,6 +358,7 @@
     {"id":{"name":"sprElfArcher","path":"sprites/sprElfArcher/sprElfArcher.yy",},},
     {"id":{"name":"bubble","path":"objects/bubble/bubble.yy",},},
     {"id":{"name":"sprGurardTowersIcon","path":"sprites/sprGurardTowersIcon/sprGurardTowersIcon.yy",},},
+    {"id":{"name":"blizzardStone","path":"objects/blizzardStone/blizzardStone.yy",},},
     {"id":{"name":"orcWarlockBuilding","path":"objects/orcWarlockBuilding/orcWarlockBuilding.yy",},},
     {"id":{"name":"skeletonMinionBuilding","path":"objects/skeletonMinionBuilding/skeletonMinionBuilding.yy",},},
     {"id":{"name":"sprHumanCrossbowmenButton","path":"sprites/sprHumanCrossbowmenButton/sprHumanCrossbowmenButton.yy",},},
