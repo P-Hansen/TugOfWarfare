@@ -65,6 +65,11 @@ switch (item) {
 		itemDescription = "Every 17 seconds a mighty blizzard covers the screen and does 60 damge to all units.";
 	break;
 	
+	case berserkerCharm:
+		itemName = "Berserker Charm";
+		itemDescription = "25% chance your units will spawn as berserkers. Double attack speed but half Health.";
+	break;
+	
 	
 	default:
 		itemName = "-";
