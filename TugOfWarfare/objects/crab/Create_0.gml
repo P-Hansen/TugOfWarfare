@@ -18,5 +18,8 @@ damage = 10;
 range = 10;
 cooldown = 1;
 
+idelFlag = true;
+sightRange = 200;
 
 alarm[1] = room_speed*cooldown;
+alarm[3] = room_speed*1;

@@ -9,7 +9,7 @@ global.GRIDSIZE = 16;
 global.goldTotal = 200;
 global.enemyGoldTotal = 0;
 global.timer = 10;
-global.availbleRelics = [guardTowers, cagedUnit, stoneConstruction]// berserkerCharm, blizzardStone, spiderCharm, brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, crabGuards, HireASquire];
+global.availbleRelics = [guardTowers, cagedUnit, crabGuards]//stoneConstruction, berserkerCharm, blizzardStone, spiderCharm, brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire];
 
 global.humanBuildings = [humanArcherButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
 global.merfolkBuildings = [MerfolkAquamancerButton, MerfolkImpalerButton, MerfolkScoutButton, MerfolkSirenButton, MerfolkWaterElementalButton]
