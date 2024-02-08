@@ -74,7 +74,11 @@ switch (item) {
 		itemName = "Stone Construction";
 		itemDescription = "Buildings are created with double the hp.";
 	break;
-	
+
+	case guardWolves:
+		itemName = "Guard Wolves";
+		itemDescription = "Wolves will spawn around your buildings and protect them.";
+	break;
 	
 	default:
 		itemName = "-";

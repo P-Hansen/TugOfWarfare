@@ -152,6 +152,16 @@ if(global.timer == -1){
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
 			}
+			//wolves
+			if(relicArrayContains(global.playerRelics, guardWolves)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 0;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", wolf);
+					newUnit.enemy = global.enemyFaction;
+					newUnit.enemyBuildings = global.enemyBuildings;
+					newUnit.direction = enemySide;
+			}
 		}
 		
 		if(owner == "enemy"){
@@ -177,6 +187,14 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
+					newUnit.direction = enemySide;
+			}
+			//wolves
+			if(relicArrayContains(global.enemyRelics, guardWolves)){
+					var xOffset = random_range(-15, 15);
+					var yOffset = random_range(-15, 15);
+					var enemySide = 180;
+					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", wolf);
 					newUnit.direction = enemySide;
 			}
 		}
