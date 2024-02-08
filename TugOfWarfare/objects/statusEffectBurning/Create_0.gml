@@ -11,7 +11,7 @@ function onHit(unit){
 			//}
 		})){
 			if(instance_exists(unit)){
-				unit.unitColour = c_red;
+				unit.unitColour = c_orange;
 				array_push(unit.statusEffects, self);
 			}
 		} else { //if unit is already burning
