@@ -70,6 +70,11 @@ switch (item) {
 		itemDescription = "25% chance your units will spawn as berserkers. Double attack speed but half Health.";
 	break;
 	
+	case stoneConstruction:
+		itemName = "Stone Construction";
+		itemDescription = "Buildings are created with double the hp.";
+	break;
+	
 	
 	default:
 		itemName = "-";

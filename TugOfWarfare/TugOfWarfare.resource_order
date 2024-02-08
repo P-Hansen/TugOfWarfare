@@ -211,6 +211,7 @@
     {"name":"goblinWarriorBuilding","order":11,"path":"objects/goblinWarriorBuilding/goblinWarriorBuilding.yy",},
     {"name":"guardTowers","order":18,"path":"objects/guardTowers/guardTowers.yy",},
     {"name":"grass1","order":21,"path":"objects/grass1/grass1.yy",},
+    {"name":"stoneConstruction","order":25,"path":"objects/stoneConstruction/stoneConstruction.yy",},
     {"name":"sprFireball","order":40,"path":"sprites/sprFireball/sprFireball.yy",},
     {"name":"sprOssifiedSlayer","order":4,"path":"sprites/sprOssifiedSlayer/sprOssifiedSlayer.yy",},
     {"name":"guardTowerBuilding","order":17,"path":"objects/guardTowerBuilding/guardTowerBuilding.yy",},

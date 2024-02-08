@@ -17,6 +17,12 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 	newBuilding.owner = "player";
 	global.goldTotal -= price;
 	clicked = false;
+	
+	if(relicArrayContains(global.playerRelics, stoneConstruction)){
+		newBuilding.image_blend = c_ltgray;
+		newBuilding.maxHp = newBuilding.maxHp*2;
+		newBuilding.hp = newBuilding.maxHp;
+	}
 }
 
 

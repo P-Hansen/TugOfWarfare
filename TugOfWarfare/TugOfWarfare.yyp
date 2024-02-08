@@ -250,6 +250,7 @@
     {"id":{"name":"goblinWarriorBuilding","path":"objects/goblinWarriorBuilding/goblinWarriorBuilding.yy",},},
     {"id":{"name":"guardTowers","path":"objects/guardTowers/guardTowers.yy",},},
     {"id":{"name":"grass1","path":"objects/grass1/grass1.yy",},},
+    {"id":{"name":"stoneConstruction","path":"objects/stoneConstruction/stoneConstruction.yy",},},
     {"id":{"name":"sprFireball","path":"sprites/sprFireball/sprFireball.yy",},},
     {"id":{"name":"sprOssifiedSlayer","path":"sprites/sprOssifiedSlayer/sprOssifiedSlayer.yy",},},
     {"id":{"name":"guardTowerBuilding","path":"objects/guardTowerBuilding/guardTowerBuilding.yy",},},
