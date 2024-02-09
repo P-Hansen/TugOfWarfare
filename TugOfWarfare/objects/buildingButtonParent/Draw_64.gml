@@ -6,7 +6,7 @@ if(clicked == true){
 	_y = round(mouse_y/global.GRIDSIZE)*global.GRIDSIZE;
 	
 	//check if space is free show red/green
-	if(instance_place(_x, _y, buildingClass) or _y > room_height-100){
+	if(instance_place(_x, _y, buildingClass) or _y > room_height-100 or _x > room_width/2 or instance_place(_x, _y, ponds)){
 		draw_sprite_ext(buildingSprite, 0, _x, _y, 1, 1, 0, c_red, 0.5);
 	} else {
 		draw_sprite_ext(buildingSprite, 0, _x, _y, 1, 1, 0, c_green, 0.5);
