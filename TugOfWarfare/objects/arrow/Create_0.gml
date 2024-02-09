@@ -8,3 +8,4 @@ damage = 30;
 enemy = [];
 
 
+alarm[1] = room_speed*1;
