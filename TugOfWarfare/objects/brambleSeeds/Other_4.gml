@@ -7,6 +7,8 @@ if(owner == "player"){
 		var bush = instance_create_layer(_x, _y, "weaponLayer", brambles);
 		bush.enemy = global.enemyFaction;
 	}
+	creepingX1 = 400;
+	creepingX2 = room_width/2-100
 } else {
 	for(var i = 0; i < 50; i++){
 		var _x = irandom_range(room_width - 400, room_width/2 + 100);
@@ -14,4 +16,6 @@ if(owner == "player"){
 		var bush = instance_create_layer(_x, _y, "weaponLayer", brambles);
 		bush.enemy = global.playerFaction;
 	}
+	creepingX1 = room_width - 400;
+	creepingX2 = room_width/2 + 100
 }

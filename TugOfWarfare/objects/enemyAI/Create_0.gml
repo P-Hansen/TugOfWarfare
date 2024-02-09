@@ -24,4 +24,13 @@ if(relicArrayContains(global.enemyRelics, stoneConstruction)){
 	newBuilding.hp = newBuilding.maxHp;
 }
 
+/*
+array_shuffle_ext(global.prefix);
+array_shuffle_ext(global.orcNames);
+array_shuffle_ext(global.suffix);
+namePrefix = global.prefix[0];
+orcName = global.orcNames[0];
+nameSuffix = global.suffix[0];
+name = string_concat(namePrefix, orcName, nameSuffix);
+*/
 alarm[1] = 1;

@@ -10,9 +10,9 @@ var buildButtons = function(element, index){
 }
 array_foreach(global.availableBuildings, buildButtons);
 
-
 global.timer = 10;
 global.goldTotal = 200;
+winFlag = false;
 
 alarm[1] = room_speed*1;
 alarm[2] = room_speed*1;
