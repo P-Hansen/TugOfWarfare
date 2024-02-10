@@ -37,6 +37,7 @@
   "spriteMaskId": null,
   "tags": [
     "halfSpawn",
+    "building",
   ],
   "visible": true,
 }

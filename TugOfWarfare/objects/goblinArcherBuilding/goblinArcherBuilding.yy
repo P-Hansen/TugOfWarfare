@@ -35,5 +35,8 @@
     "path": "sprites/sprGoblinArcherBuilding/sprGoblinArcherBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

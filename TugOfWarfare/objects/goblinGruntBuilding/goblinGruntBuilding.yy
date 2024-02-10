@@ -35,5 +35,8 @@
     "path": "sprites/sprGoblinGruntBuilding/sprGoblinGruntBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

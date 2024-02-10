@@ -38,6 +38,7 @@
   "spriteMaskId": null,
   "tags": [
     "skeletonMinionSpawn",
+    "building",
   ],
   "visible": true,
 }

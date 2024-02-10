@@ -35,5 +35,8 @@
     "path": "sprites/sprHarpyBuilding/sprHarpyBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

@@ -35,5 +35,8 @@
     "path": "sprites/sprGoblinWarriorBuilding/sprGoblinWarriorBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

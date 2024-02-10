@@ -35,5 +35,8 @@
     "path": "sprites/sprTestCube/sprTestCube.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

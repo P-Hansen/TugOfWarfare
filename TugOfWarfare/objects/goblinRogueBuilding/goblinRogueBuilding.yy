@@ -35,5 +35,8 @@
     "path": "sprites/sprGoblinRogueBuilding/sprGoblinRogueBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

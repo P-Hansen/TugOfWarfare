@@ -35,5 +35,8 @@
     "path": "sprites/sprGoblinSapperBuilding/sprGoblinSapperBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

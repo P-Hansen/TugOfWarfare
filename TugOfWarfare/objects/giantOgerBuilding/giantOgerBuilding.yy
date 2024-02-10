@@ -35,5 +35,8 @@
     "path": "sprites/sprOgerBuilding/sprOgerBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }

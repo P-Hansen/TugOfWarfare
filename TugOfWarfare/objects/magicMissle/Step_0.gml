@@ -11,17 +11,8 @@ if(trackFlag == true){
 }
 image_angle = direction;
 
-//units
-if(place_meeting(x, y, enemy[0])){
-	var target = instance_place(x, y, enemy[0]);
-	target.hp -= damage;
-	target.flashTimer = 5;
-	instance_destroy(self);
-}
-
-//buildings
-if(place_meeting(x, y, enemy[1])){
-	var target = instance_place(x, y, enemy[1]);
+if(place_meeting(x, y, enemy)){
+	var target = instance_place(x, y, enemy);
 	target.hp -= damage;
 	target.flashTimer = 5;
 	instance_destroy(self);

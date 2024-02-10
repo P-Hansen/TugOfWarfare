@@ -35,5 +35,8 @@
     "path": "sprites/sprEttinMageBuilding/sprEttinMageBuilding.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "building",
+  ],
   "visible": true,
 }
