@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 //units
-if(place_meeting(x, y, enemy[0])){
-	var target = instance_place(x, y, enemy[0]);
+if(place_meeting(x, y, enemy)){
+	var target = instance_place(x, y, enemy);
 	target.hp -= damage;
 	target.flashTimer = 5;
 	
@@ -12,13 +12,5 @@ if(place_meeting(x, y, enemy[0])){
 		burn.onHit(target);
 	}
 	
-	instance_destroy(self);
-}
-
-//buildings
-if(place_meeting(x, y, enemy[1])){
-	var target = instance_place(x, y, enemy[1]);
-	target.hp -= damage;
-	target.flashTimer = 5;
 	instance_destroy(self);
 }

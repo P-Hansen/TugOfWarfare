@@ -13,6 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"57a117da-09bf-489b-a321-f10087063806",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43f52b86-4652-40e1-90fa-39a9d349fbe9",},
   ],
   "gridX": 0,
@@ -44,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,7 +56,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"43f52b86-4652-40e1-90fa-39a9d349fbe9","path":"sprites/sprStoneDone/sprStoneDone.yy",},},},"Disabled":false,"id":"74d63d9c-86bb-467f-ae71-791aacaa0692","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"57a117da-09bf-489b-a321-f10087063806","path":"sprites/sprStoneDone/sprStoneDone.yy",},},},"Disabled":false,"id":"d8648f21-0588-43f3-9e85-5c9d92926f10","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"43f52b86-4652-40e1-90fa-39a9d349fbe9","path":"sprites/sprStoneDone/sprStoneDone.yy",},},},"Disabled":false,"id":"74d63d9c-86bb-467f-ae71-791aacaa0692","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

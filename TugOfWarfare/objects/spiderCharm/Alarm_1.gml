@@ -13,8 +13,14 @@ for(var i = 0; i < count; i++){
 	var _y = irandom_range(0, room_height-100);
 	var newUnit = instance_create_layer(startingX, _y, "instances", spider);
 	newUnit.direction = enemySide;
-	newUnit.enemy = global.enemyFaction;
-	newUnit.enemyBuildings = global.enemyBuildings;
+	if(owner == "player"){
+		newUnit.enemy = global.enemyFaction;
+		newUnit.enemyBuildings = global.enemyBuildings;
+		newUnit.enemySide = 0;
+	} else {
+		newUnit.enemy = global.playerFaction;
+		newUnit.enemyBuildings = global.playerBuildings;	
+	}
 }
 
 alarm[1] = cooldown;
