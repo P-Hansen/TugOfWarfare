@@ -1,8 +1,8 @@
 /// @description Insert description here
 
 //random army
-while(global.playerFaction == global.enemyFaction){
-	roll = 1;//irandom_range(1, 7);
+while(global.playerFaction[0] == global.enemyFaction[0]){
+	roll = irandom_range(1, 7);
 	switch(roll){
 		case 1:
 			global.enemyFaction = [giantClass];

@@ -6,10 +6,11 @@ if(place_meeting(x, y, enemy)){
 	target.flashTimer = 5;
 	
 	//if target doesn't have fireImmune tag
-	if(!asset_has_tags(target.object_index, "fireImmune", asset_object) and
-		!asset_has_tags(target.object_index, "building", asset_object)){
-		var burn = instance_create_depth(x, y, target.depth-1, statusEffectBurning);
-		burn.onHit(target);
+	if(!asset_has_tags(target.object_index, "fireImmune", asset_object) and !asset_has_tags(target.object_index, "building", asset_object)){
+		if(instance_exists(target)){
+			var burn = instance_create_depth(x, y, target.depth-1, statusEffectBurning);
+			burn.onHit(target);
+		}
 	}
 	
 	instance_destroy(self);
