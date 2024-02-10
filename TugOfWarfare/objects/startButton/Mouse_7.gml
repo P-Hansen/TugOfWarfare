@@ -48,5 +48,5 @@ while(global.playerFaction[0] == global.enemyFaction[0]){
 	}
 }
 
-room_goto(rmBattlefield1);
+room_goto(rmBattlefield3);
 
