@@ -9,6 +9,6 @@ hp = maxHp;
 range = 120;
 weapon = arrow;
 damage = 20;
-cooldown = 0.5;
+cooldown = 0.6;
 
 alarm[1] = room_speed*cooldown;

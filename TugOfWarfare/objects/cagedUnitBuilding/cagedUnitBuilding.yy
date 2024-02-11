@@ -38,6 +38,7 @@
   "spriteMaskId": null,
   "tags": [
     "cagedUnit",
+    "building",
   ],
   "visible": true,
 }

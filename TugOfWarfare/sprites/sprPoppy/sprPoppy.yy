@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "sprPoppy",
   "bbox_bottom": 31,
-  "bbox_left": 1,
+  "bbox_left": 0,
   "bbox_right": 30,
-  "bbox_top": 5,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,6 +14,8 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b09889c5-b5a0-49e3-ada2-cdb1a98018a7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97d7304c-2725-4f2d-8fec-ff88447f78c2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e45e7967-0287-4ca7-8116-2d92b846a857",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -43,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,6 +57,8 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b09889c5-b5a0-49e3-ada2-cdb1a98018a7","path":"sprites/sprPoppy/sprPoppy.yy",},},},"Disabled":false,"id":"ee79fa7a-2f20-414e-9c37-396d80f22c5e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"97d7304c-2725-4f2d-8fec-ff88447f78c2","path":"sprites/sprPoppy/sprPoppy.yy",},},},"Disabled":false,"id":"f499c735-1c6b-40d7-9809-7c70abbf7fd8","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e45e7967-0287-4ca7-8116-2d92b846a857","path":"sprites/sprPoppy/sprPoppy.yy",},},},"Disabled":false,"id":"ad4109a9-409c-4f62-ae83-ea12b1571500","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
