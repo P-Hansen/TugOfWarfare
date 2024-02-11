@@ -14,6 +14,20 @@ for(var i = 0; i < room_width-32; i += 32){
 	}
 }
 
+// % chance to spawn brambles
+density = 10;
+
+for(var i = 0; i < room_width-32; i += 32){
+	for(var j = 0; j < room_height-100; j += 32){
+		var xOffset = irandom_range(-16, 16);
+		var yOffset = irandom_range(-16, 16);
+		var roll = irandom_range(1, 100);
+		if(roll <= density){
+			instance_create_layer(i + xOffset, j + yOffset, "Instances", brambles);
+		}
+	}
+}
+
 // % chance to spawn poppy
 density = 10;
 

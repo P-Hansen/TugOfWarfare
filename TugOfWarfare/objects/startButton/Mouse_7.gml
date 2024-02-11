@@ -49,5 +49,5 @@ while(global.playerFaction[0] == global.enemyFaction[0]){
 }
 
 array_shuffle_ext(global.levels);
-//room_goto(global.levels[0]);
-room_goto(rmBattlefieldField);
+room_goto(global.levels[0]);
+//room_goto(rmBattlefieldField);
