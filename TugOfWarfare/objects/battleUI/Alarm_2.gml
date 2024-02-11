@@ -131,6 +131,7 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
+					newUnit.owner = "player";
 			}
 			//crabs!!
 			if(relicArrayContains(global.playerRelics, crabGuards)){
@@ -141,6 +142,7 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
+					newUnit.owner = "player";
 			}
 			//squires
 			if(relicArrayContains(global.playerRelics, HireASquire)){
@@ -151,6 +153,7 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
+					newUnit.owner = "player";
 			}
 			//wolves
 			if(relicArrayContains(global.playerRelics, guardWolves)){
@@ -161,6 +164,7 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
+					newUnit.owner = "player";
 			}
 		}
 		

@@ -14,7 +14,8 @@ if(winFlag == false){
 } else {
 	draw_text(room_width/2, 20, "Victory");
 	if(instance_number(relicButton) <= 0){
-		room_goto(rmBattlefield2);
+		array_shuffle_ext(global.levels);
+		room_goto(global.levels[0]);
 	}
 }
 

@@ -1,5 +1,7 @@
 /// @description Insert description here
 
+depth = -y;
+
 scale = 2;
 image_xscale = scale;
 image_yscale = scale;

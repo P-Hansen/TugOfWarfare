@@ -4,11 +4,11 @@
 if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buildingClass) and _y < room_height-100 and _x < room_width/2 and !place_meeting(_x, _y, ponds)){
 	
 	//killing grass and trees
-	if(place_meeting(_x, _y, grass1)){
+	if(place_meeting(_x, _y, [grass1, grassBurnt, treeBurnt, tree1])){
 		var targets = ds_list_create();
 		var count = instance_place_list(_x, _y, [grass1, grassBurnt, treeBurnt, tree1], targets, false);
 		for (var i = 0; i < count; i++) {
-			var target = ds_list_find_value(targets, i)
+			var target = ds_list_find_value(targets, i);
 			instance_destroy(target, false);
 		}
 		ds_list_destroy(targets);
