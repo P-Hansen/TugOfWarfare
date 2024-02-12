@@ -118,6 +118,7 @@
     {"id":{"name":"sprHumanCrossbowmen","path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},},
     {"id":{"name":"swordSlashSplashGiant","path":"objects/swordSlashSplashGiant/swordSlashSplashGiant.yy",},},
     {"id":{"name":"statusEffectPoison","path":"objects/statusEffectPoison/statusEffectPoison.yy",},},
+    {"id":{"name":"rmBattlefieldBeach","path":"rooms/rmBattlefieldBeach/rmBattlefieldBeach.yy",},},
     {"id":{"name":"sprMerfolkImpalerBuilding","path":"sprites/sprMerfolkImpalerBuilding/sprMerfolkImpalerBuilding.yy",},},
     {"id":{"name":"factionSelectButtonGiant","path":"objects/factionSelectButtonGiant/factionSelectButtonGiant.yy",},},
     {"id":{"name":"sprCage","path":"sprites/sprCage/sprCage.yy",},},
@@ -412,6 +413,7 @@
     {"id":{"name":"grassTile","path":"objects/grassTile/grassTile.yy",},},
     {"id":{"name":"merfolkSiren","path":"objects/merfolkSiren/merfolkSiren.yy",},},
     {"id":{"name":"sprEttinMageBuilding","path":"sprites/sprEttinMageBuilding/sprEttinMageBuilding.yy",},},
+    {"id":{"name":"plantPlacerBeach","path":"objects/plantPlacerBeach/plantPlacerBeach.yy",},},
     {"id":{"name":"sprElfLord","path":"sprites/sprElfLord/sprElfLord.yy",},},
     {"id":{"name":"sprHumanPriest","path":"sprites/sprHumanPriest/sprHumanPriest.yy",},},
     {"id":{"name":"orcWolfRiderBuilding","path":"objects/orcWolfRiderBuilding/orcWolfRiderBuilding.yy",},},
@@ -444,6 +446,7 @@
     {"roomId":{"name":"rmBattlefieldField","path":"rooms/rmBattlefieldField/rmBattlefieldField.yy",},},
     {"roomId":{"name":"rmBattlefieldForest","path":"rooms/rmBattlefieldForest/rmBattlefieldForest.yy",},},
     {"roomId":{"name":"rmBattlefieldBlastedLand","path":"rooms/rmBattlefieldBlastedLand/rmBattlefieldBlastedLand.yy",},},
+    {"roomId":{"name":"rmBattlefieldBeach","path":"rooms/rmBattlefieldBeach/rmBattlefieldBeach.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
