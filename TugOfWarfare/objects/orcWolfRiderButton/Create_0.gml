@@ -7,3 +7,4 @@ building = orcWolfRiderBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprOrcWolfRider;
 price = 100;
+spawnNumber = 2;

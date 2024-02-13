@@ -7,3 +7,4 @@ building = giantEttinMageBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprEttinMage;
 price = 100;
+spawnNumber = 1;

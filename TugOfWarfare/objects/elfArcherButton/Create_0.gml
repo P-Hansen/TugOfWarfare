@@ -7,3 +7,4 @@ building = elfArcherBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprElfArcher;
 price = 100;
+spawnNumber = 1;

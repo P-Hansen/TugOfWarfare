@@ -7,3 +7,4 @@ building = giantOgerBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprOger;
 price = 100;
+spawnNumber = 1;

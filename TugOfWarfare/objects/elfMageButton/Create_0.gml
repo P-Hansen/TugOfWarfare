@@ -7,3 +7,4 @@ building = elfMageBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprElfMage;
 price = 100;
+spawnNumber = 1;

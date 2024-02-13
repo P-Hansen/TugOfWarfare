@@ -7,3 +7,4 @@ building = skeletonMageBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprSkeletalMage;
 price = 100;
+spawnNumber = 3;

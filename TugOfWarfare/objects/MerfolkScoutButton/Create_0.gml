@@ -7,3 +7,4 @@ building = merfolkScoutBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprMerfolkScout;
 price = 100;
+spawnNumber = 3;

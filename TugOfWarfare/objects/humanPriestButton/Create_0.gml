@@ -7,3 +7,4 @@ building = humanPriestBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprHumanPriest;
 price = 100;
+spawnNumber = 3;

@@ -7,3 +7,4 @@ building = humanKnightBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprHumanKnight;
 price = 100;
+spawnNumber = 3;

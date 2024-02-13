@@ -7,3 +7,4 @@ building = merfolkWaterElementalBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprMerfolkWaterElemental;
 price = 100;
+spawnNumber = 2;

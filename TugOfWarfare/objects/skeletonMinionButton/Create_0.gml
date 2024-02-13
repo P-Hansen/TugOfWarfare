@@ -7,3 +7,4 @@ building = skeletonMinionBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprDecrepitBones;
 price = 100;
+spawnNumber = 5;

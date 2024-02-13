@@ -7,3 +7,4 @@ building = giantHarpyBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprHarpy;
 price = 100;
+spawnNumber = 3;

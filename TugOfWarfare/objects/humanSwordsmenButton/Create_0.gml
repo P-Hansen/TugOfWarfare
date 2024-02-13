@@ -7,3 +7,4 @@ building = humanSwordsmanBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprHumanSwordsmen;
 price = 100;
+spawnNumber = 3;

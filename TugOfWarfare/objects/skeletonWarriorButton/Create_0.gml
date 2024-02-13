@@ -7,3 +7,4 @@ building = skeletonWarriorBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprOssifiedSlayer;
 price = 100;
+spawnNumber = 4;

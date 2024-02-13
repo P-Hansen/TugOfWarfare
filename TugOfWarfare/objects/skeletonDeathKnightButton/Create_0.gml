@@ -7,3 +7,4 @@ building = skeletonDeathKnightBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprDeathKnight;
 price = 100;
+spawnNumber = 1;

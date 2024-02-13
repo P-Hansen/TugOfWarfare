@@ -7,3 +7,4 @@ building = goblinGruntBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprGoblinGrunt;
 price = 100;
+spawnNumber = 5;

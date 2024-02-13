@@ -7,3 +7,4 @@ building = skeletonGolemBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprBoneGolem;
 price = 100;
+spawnNumber = 2;

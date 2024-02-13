@@ -7,3 +7,4 @@ building = elfHealerBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprElfHealer;
 price = 100;
+spawnNumber = 1;

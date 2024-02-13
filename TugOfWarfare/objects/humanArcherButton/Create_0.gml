@@ -7,3 +7,4 @@ building = humanArcherBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprHumanArcher;
 price = 100;
+spawnNumber = 2;
