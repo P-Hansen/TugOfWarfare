@@ -246,6 +246,7 @@
     {"name":"guardTowerBuilding","order":17,"path":"objects/guardTowerBuilding/guardTowerBuilding.yy",},
     {"name":"skeletonBuildingClass","order":9,"path":"objects/skeletonBuildingClass/skeletonBuildingClass.yy",},
     {"name":"merfolkScout","order":3,"path":"objects/merfolkScout/merfolkScout.yy",},
+    {"name":"scriptRandomness","order":3,"path":"scripts/scriptRandomness/scriptRandomness.yy",},
     {"name":"crabGuards","order":11,"path":"objects/crabGuards/crabGuards.yy",},
     {"name":"projectileClass","order":5,"path":"objects/projectileClass/projectileClass.yy",},
     {"name":"giantStoneGiantBuilding","order":5,"path":"objects/giantStoneGiantBuilding/giantStoneGiantBuilding.yy",},

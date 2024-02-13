@@ -286,6 +286,7 @@
     {"id":{"name":"guardTowerBuilding","path":"objects/guardTowerBuilding/guardTowerBuilding.yy",},},
     {"id":{"name":"skeletonBuildingClass","path":"objects/skeletonBuildingClass/skeletonBuildingClass.yy",},},
     {"id":{"name":"merfolkScout","path":"objects/merfolkScout/merfolkScout.yy",},},
+    {"id":{"name":"scriptRandomness","path":"scripts/scriptRandomness/scriptRandomness.yy",},},
     {"id":{"name":"crabGuards","path":"objects/crabGuards/crabGuards.yy",},},
     {"id":{"name":"projectileClass","path":"objects/projectileClass/projectileClass.yy",},},
     {"id":{"name":"giantStoneGiantBuilding","path":"objects/giantStoneGiantBuilding/giantStoneGiantBuilding.yy",},},
