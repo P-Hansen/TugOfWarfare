@@ -8,7 +8,7 @@ draw_text(200, 10, "Instance count "+string(instance_count));
 var oldFont = draw_get_font();
 draw_set_font(fontBig);
 draw_set_halign(fa_center);
-
+//spawn timer or victory
 if(winFlag == false){
 	draw_text(room_width/2, 20, string(global.timer));
 } else {
@@ -18,10 +18,21 @@ if(winFlag == false){
 		room_goto(global.levels[0]);
 	}
 }
-
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_font(oldFont)
 
 //bottom UI backboard
 draw_sprite_stretched(sprBackboard, 0, 0, window_get_height()-100, window_get_width(), 100);
+
+//selected unit
+if(instance_exists(unit)){
+	draw_sprite_stretched_ext(unit.sprite_index, 0, room_width/2 + 270, room_height - 80, 32, 32, c_white, 1);
+	draw_set_halign(fa_center);
+	draw_text(room_width/2 + 287, room_height - 30, "Unit Name");
+	draw_set_halign(fa_left);
+	draw_text(room_width/2 + 350, room_height - 90, "Hp: " + string(unit.hp) + "/" + string(unitMaxHp));
+	draw_text(room_width/2 + 350, room_height - 70, "Range: " + string(unitRange));
+	draw_text(room_width/2 + 350, room_height - 50, "Damage: " + string(unitDamage) + " " + unitDamageType);
+	draw_text(room_width/2 + 350, room_height - 30, "Cooldown: " + string(unitCooldown));
+}

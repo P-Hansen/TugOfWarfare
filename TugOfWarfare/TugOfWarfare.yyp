@@ -104,6 +104,7 @@
     {"id":{"name":"goldenrod","path":"objects/goldenrod/goldenrod.yy",},},
     {"id":{"name":"sprHumanSwordsmenButton","path":"sprites/sprHumanSwordsmenButton/sprHumanSwordsmenButton.yy",},},
     {"id":{"name":"sprArrow","path":"sprites/sprArrow/sprArrow.yy",},},
+    {"id":{"name":"OutlineShader","path":"shaders/OutlineShader/OutlineShader.yy",},},
     {"id":{"name":"sprStartButton","path":"sprites/sprStartButton/sprStartButton.yy",},},
     {"id":{"name":"song","path":"objects/song/song.yy",},},
     {"id":{"name":"sprGoblinArcherBuilding","path":"sprites/sprGoblinArcherBuilding/sprGoblinArcherBuilding.yy",},},
