@@ -17,6 +17,7 @@ weapon = swordSlash;
 damage = 10;
 range = 10;
 cooldown = 1;
-
+damageType = "Normal";
+unitName = "Spider"
 
 alarm[1] = room_speed*cooldown;

@@ -20,6 +20,8 @@ cooldown = 1;
 
 idelFlag = true;
 sightRange = 200;
+damageType = "Normal";
+unitName = "Crab"
 
 alarm[1] = room_speed*cooldown;
 alarm[3] = room_speed*1;
