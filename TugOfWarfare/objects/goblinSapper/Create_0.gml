@@ -7,8 +7,10 @@ maxHp = 100;
 hp = maxHp;
 
 weapon = swordSlash;
-damage = 10;
+damage = 100;
 range = 10;
 cooldown = 1;
+damageType = "Explosives";
+unitName = "Sapper"
 
 alarm[1] = room_speed*cooldown;

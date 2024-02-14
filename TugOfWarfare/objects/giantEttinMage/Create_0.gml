@@ -14,5 +14,7 @@ range = 70;
 weapon = fireball;
 damage = 40;
 cooldown = 2;
+damageType = "Fire";
+unitName = "Ettin Mage"
 
 alarm[1] = room_speed*cooldown;

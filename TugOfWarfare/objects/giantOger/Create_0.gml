@@ -14,6 +14,7 @@ weapon = swordSlash;
 range = 10;
 damage = 50;
 cooldown = 1.5;
-
+damageType = "Normal";
+unitName = "Oger"
 
 alarm[1] = room_speed*cooldown;

@@ -10,5 +10,7 @@ range = 80;
 weapon = fireball;
 damage = 40;
 cooldown = 2;
+damageType = "Fire";
+unitName = "Warlock"
 
 alarm[1] = room_speed*cooldown;

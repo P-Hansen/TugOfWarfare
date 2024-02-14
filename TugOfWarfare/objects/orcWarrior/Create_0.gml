@@ -10,6 +10,7 @@ weapon = swordSlashSplash;
 damage = 20;
 range = 10;
 cooldown = 1.1;
-
+damageType = "Splash";
+unitName = "Warrior"
 
 alarm[1] = room_speed*cooldown;

@@ -8,10 +8,12 @@ hp = maxHp;
 enemy = humanClass;
 range = 60;
 weapon = arrow;
-damage = 0;
+damage = 50;
 healing = 50;
 cooldown = 3;
 system = noone;
+damageType = "Healing";
+unitName = "Priest"
 
 yOffset = sprite_get_height(sprite_index);
 yOffset = yOffset*image_yscale;

@@ -10,5 +10,7 @@ weapon = poisonStab;
 damage = 20;
 range = 10;
 cooldown = 1;
+damageType = "Poison";
+unitName = "Rogue"
 
 alarm[1] = room_speed*cooldown;

@@ -13,5 +13,7 @@ range = 100;
 weapon = bolder;
 damage = 150;
 cooldown = 2.7;
+damageType = "Normal";
+unitName = "Stone Giant"
 
 alarm[1] = room_speed*cooldown;

@@ -13,5 +13,7 @@ range = 60;
 weapon = arrow;
 damage = 25;
 cooldown = 1;
+damageType = "Normal";
+unitName = "Crossbowmen"
 
 alarm[1] = room_speed*cooldown;

@@ -14,4 +14,5 @@ if(unit != noone){
 	unitDamage = unit.damage;
 	unitCooldown = unit.cooldown;
 	unitDamageType = unit.damageType;
+	unitName = unit.unitName;
 }

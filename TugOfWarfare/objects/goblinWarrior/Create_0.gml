@@ -10,6 +10,7 @@ weapon = swordSlash;
 damage = 25;
 range = 10;
 cooldown = 1;
-
+damageType = "Normal";
+unitName = "Warrior"
 
 alarm[1] = room_speed*cooldown;

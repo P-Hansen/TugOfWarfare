@@ -9,5 +9,7 @@ range = 70;
 weapon = bubble;
 damage = 20;
 cooldown = 2;
+damageType = "Bubble";
+unitName = "Aquamancer"
 
 alarm[1] = room_speed*cooldown;

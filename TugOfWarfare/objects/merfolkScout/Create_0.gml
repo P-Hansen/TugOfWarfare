@@ -10,5 +10,7 @@ range = 70;
 weapon = spear;
 damage = 45;
 cooldown = 1.6;
+damageType = "Normal";
+unitName = "Scout"
 
 alarm[1] = room_speed*cooldown;

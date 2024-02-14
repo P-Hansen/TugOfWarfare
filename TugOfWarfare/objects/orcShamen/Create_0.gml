@@ -8,10 +8,12 @@ hp = maxHp;
 enemy = orcClass;
 range = 40;
 weapon = arrow;
-damage = 0;
+damage = 50;
 healing = 50;
 cooldown = 2;
 system = noone;
+damageType = "Healing";
+unitName = "Shamen"
 
 yOffset = sprite_get_height(sprite_index);
 yOffset = yOffset*image_yscale;

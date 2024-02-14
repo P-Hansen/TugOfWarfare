@@ -13,5 +13,7 @@ range = 100;
 weapon = arrow;
 damage = 40;
 cooldown = 2;
+damageType = "Normal";
+unitName = "Archer"
 
 alarm[1] = room_speed*cooldown;

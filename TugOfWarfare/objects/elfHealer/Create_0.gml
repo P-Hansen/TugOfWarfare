@@ -8,10 +8,12 @@ hp = maxHp;
 enemy = elfClass;
 range = 70;
 weapon = arrow;
-damage = 0;
+damage = 70;
 healing = 70;
 cooldown = 2;
 system = noone;
+damageType = "Healing";
+unitName = "Healer"
 
 yOffset = sprite_get_height(sprite_index);
 yOffset = yOffset*image_yscale;

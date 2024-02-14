@@ -10,6 +10,7 @@ weapon = swordSlash;
 range = 10;
 damage = 40;
 cooldown = 1;
-
+damageType = "Normal";
+unitName = "Harpy"
 
 alarm[1] = room_speed*cooldown;

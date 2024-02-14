@@ -19,7 +19,8 @@ enemy = global.playerFaction;
 enemyBuildings = global.playerBuildings;
 selectedFlag = false;
 uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");
-damageType = "Regular";
+damageType = "Normal";
+unitName = "Unit Name"
 
 alarm[2] = room_speed*0.25;
 alarm[10] = 10+irandom_range(-5, 5);

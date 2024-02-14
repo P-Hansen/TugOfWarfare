@@ -13,6 +13,7 @@ weapon = swordSlashSplashGiant;
 range = 10;
 damage = 50;
 cooldown = 2.7;
-
+damageType = "Splash";
+unitName = "Hill Giant"
 
 alarm[1] = room_speed*cooldown;

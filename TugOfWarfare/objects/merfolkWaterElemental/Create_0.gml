@@ -14,5 +14,7 @@ weapon = waterSlash;
 damage = 10;
 range = 10;
 cooldown = 2;
+damageType = "Splash";
+unitName = "Water Elemental"
 
 alarm[1] = room_speed*cooldown;
