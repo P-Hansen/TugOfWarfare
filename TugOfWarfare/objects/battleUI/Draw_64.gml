@@ -10,10 +10,23 @@ draw_set_font(fontBig);
 draw_set_halign(fa_center);
 //spawn timer or victory
 if(winFlag == false){
+	//top timer
 	draw_text(room_width/2, 20, string(global.timer));
+	//round title card
+	if(roundFlag == true){
+		draw_rectangle_colour(room_width/2-250, room_height/3-30, room_width/2+250, room_height/3+70, c_white, c_white, c_white, c_white, false);
+		if(global.round <= 3){
+			draw_text(room_width/2, room_height/3, "Round " + string(global.round));
+		} else {
+			draw_text(room_width/2, room_height/3, "Final Round");
+		}
+	}
 } else {
+	//victory text
 	draw_text(room_width/2, 20, "Victory");
+	//go to next level
 	if(instance_number(relicButton) <= 0){
+		global.round += 1;
 		array_shuffle_ext(global.levels);
 		room_goto(global.levels[0]);
 	}

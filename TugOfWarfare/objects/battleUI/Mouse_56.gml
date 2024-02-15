@@ -1,12 +1,14 @@
 /// @description Insert description here
 
+//reset unit selection
 if(instance_exists(unit)){
 	unit.selectedFlag = false;
-	
 }
 
+//select unit
 unit = collision_point(mouse_x, mouse_y, unitClass, false, true);
 
+//pull unit data
 if(unit != noone){
 	unit.selectedFlag = true;
 	unitMaxHp = unit.maxHp;
@@ -16,3 +18,6 @@ if(unit != noone){
 	unitDamageType = unit.damageType;
 	unitName = unit.unitName;
 }
+
+//select button
+button = collision_point(mouse_x, mouse_y, buildingButtonParent, false, true);

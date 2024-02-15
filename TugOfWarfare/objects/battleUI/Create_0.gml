@@ -13,15 +13,17 @@ array_foreach(global.availableBuildings, buildButtons);
 global.timer = 10;
 global.goldTotal = 200;
 winFlag = false;
+roundFlag = true;
 
 unit = noone;
-unitHp = 0;
 unitMaxHp = 0;
 unitRange = 0;
 unitDamage = 0;
 unitCooldown = 0;
 unitDamageType = "";
 unitName = "";
+button = noone;
 
 alarm[1] = room_speed*1;
 alarm[2] = room_speed*1;
+alarm[3] = room_speed*3;

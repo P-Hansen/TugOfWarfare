@@ -9,7 +9,7 @@ hp = maxHp;
 range = 80;
 weapon = magicMissle3x;
 damage = 20;
-cooldown = 1;
+cooldown = 1.2;
 damageType = "3x Normal";
 unitName = "Mage"
 
