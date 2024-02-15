@@ -3,8 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-image_xscale = 0.5;
-image_yscale = 0.5;
+image_xscale = 2;
+image_yscale = 2;
 
 maxHp = 200;
 hp = maxHp;

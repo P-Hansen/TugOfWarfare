@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "sprElfMage",
   "bbox_bottom": 14,
-  "bbox_left": 2,
-  "bbox_right": 8,
+  "bbox_left": 3,
+  "bbox_right": 9,
   "bbox_top": 3,
   "bboxMode": 2,
   "collisionKind": 1,
@@ -65,7 +65,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 6,
+    "xorigin": 8,
     "yorigin": 16,
   },
   "swatchColours": [
@@ -155,5 +155,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 13,
+  "width": 16,
 }

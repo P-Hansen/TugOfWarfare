@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprOrcWarlockBuilding",
+    "path": "sprites/sprOrcWarlockBuilding/sprOrcWarlockBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [
