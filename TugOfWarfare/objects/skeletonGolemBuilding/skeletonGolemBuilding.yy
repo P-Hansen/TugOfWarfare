@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprSkeletonBoneGolemBuilding",
+    "path": "sprites/sprSkeletonBoneGolemBuilding/sprSkeletonBoneGolemBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [

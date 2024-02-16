@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprSkeletonMinionBuilding",
+    "path": "sprites/sprSkeletonMinionBuilding/sprSkeletonMinionBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [

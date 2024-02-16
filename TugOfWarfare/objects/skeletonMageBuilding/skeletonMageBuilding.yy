@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprSkeletonMageBuilding",
+    "path": "sprites/sprSkeletonMageBuilding/sprSkeletonMageBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [
