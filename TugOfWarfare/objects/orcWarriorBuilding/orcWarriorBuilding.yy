@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprOrcWarriorBuilding",
+    "path": "sprites/sprOrcWarriorBuilding/sprOrcWarriorBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [

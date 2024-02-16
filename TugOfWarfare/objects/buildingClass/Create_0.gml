@@ -13,3 +13,6 @@ cooldown = room_speed*20;
 owner = "enemy";
 
 //alarm[1] = room_speed*20;
+
+image_xscale = 1;
+image_yscale = 1;
