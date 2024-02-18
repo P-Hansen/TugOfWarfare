@@ -9,7 +9,7 @@ var oldFont = draw_get_font();
 draw_set_font(fontBig);
 draw_set_halign(fa_center);
 //spawn timer or victory
-if(winFlag == false){
+if(winFlag == false and lossFlag == false){
 	//top timer
 	draw_text(room_width/2, 20, string(global.timer));
 	//round title card
@@ -21,7 +21,7 @@ if(winFlag == false){
 			draw_text(room_width/2, room_height/3, "Final Round");
 		}
 	}
-} else {
+} else if (winFlag == true) {
 	//victory text
 	draw_text(room_width/2, 20, "Victory");
 	//go to next level
@@ -30,6 +30,8 @@ if(winFlag == false){
 		array_shuffle_ext(global.levels);
 		room_goto(global.levels[0]);
 	}
+} else if (lossFlag == true){
+	draw_text(room_width/2, room_height/3, "Game Over");
 }
 draw_set_color(c_white);
 draw_set_halign(fa_left);
