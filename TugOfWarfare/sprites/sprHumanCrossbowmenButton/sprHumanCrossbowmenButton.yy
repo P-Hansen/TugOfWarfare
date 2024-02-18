@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprHumanCrossbowmenButton",
-  "bbox_bottom": 47,
+  "bbox_bottom": 36,
   "bbox_left": 0,
   "bbox_right": 47,
-  "bbox_top": 0,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04ee75aa-73d3-41e0-8059-4fef4019aec5",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 48,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a67e99d1-6c1b-434c-a653-b854c7ac74f4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6937df9d-0741-457a-a8b9-f337e342d558","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96","path":"sprites/sprHumanCrossbowmenButton/sprHumanCrossbowmenButton.yy",},},},"Disabled":false,"id":"2d8d8f9c-ab3b-4bc8-a0ba-bef4779d4c65","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"04ee75aa-73d3-41e0-8059-4fef4019aec5","path":"sprites/sprHumanCrossbowmenButton/sprHumanCrossbowmenButton.yy",},},},"Disabled":false,"id":"e776002a-35f8-4c7a-be12-ae7a4dc9073a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

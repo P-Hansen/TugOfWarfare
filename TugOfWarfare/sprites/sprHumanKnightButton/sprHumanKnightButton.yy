@@ -5,7 +5,7 @@
   "bbox_bottom": 47,
   "bbox_left": 0,
   "bbox_right": 47,
-  "bbox_top": 0,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,15 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0cd440e3-b35c-4541-9d6b-7e5c46d5c7e6",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 48,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb87618d-8f99-4b99-bf3d-e3e9c36e59af","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a67e99d1-6c1b-434c-a653-b854c7ac74f4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"23cf99b2-233b-48f1-a634-8772440dcf73","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -55,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96","path":"sprites/sprHumanKnightButton/sprHumanKnightButton.yy",},},},"Disabled":false,"id":"197049ea-1319-4b6b-8a25-b7f1e1dbca4e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0cd440e3-b35c-4541-9d6b-7e5c46d5c7e6","path":"sprites/sprHumanKnightButton/sprHumanKnightButton.yy",},},},"Disabled":false,"id":"e8bffb8a-1ed4-47a1-b805-6bcad9053d7e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

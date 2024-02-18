@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprHumanPriestButton",
+    "path": "sprites/sprHumanPriestButton/sprHumanPriestButton.yy",
   },
   "spriteMaskId": null,
   "tags": [

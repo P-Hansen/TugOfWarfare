@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprHumanSwordsmenButton",
+    "path": "sprites/sprHumanSwordsmenButton/sprHumanSwordsmenButton.yy",
   },
   "spriteMaskId": null,
   "tags": [
