@@ -160,6 +160,7 @@
     {"name":"sprFactionButtonOrc","order":25,"path":"sprites/sprFactionButtonOrc/sprFactionButtonOrc.yy",},
     {"name":"fireBallDone","order":22,"path":"objects/fireBallDone/fireBallDone.yy",},
     {"name":"sprArrowPoison","order":13,"path":"sprites/sprArrowPoison/sprArrowPoison.yy",},
+    {"name":"sprPixelFont","order":79,"path":"sprites/sprPixelFont/sprPixelFont.yy",},
     {"name":"giantHarpyBuilding","order":11,"path":"objects/giantHarpyBuilding/giantHarpyBuilding.yy",},
     {"name":"sprSwordSlash","order":2,"path":"sprites/sprSwordSlash/sprSwordSlash.yy",},
     {"name":"sprSong","order":8,"path":"sprites/sprSong/sprSong.yy",},

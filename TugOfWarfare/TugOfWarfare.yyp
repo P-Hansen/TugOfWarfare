@@ -189,6 +189,7 @@
     {"id":{"name":"sprFactionButtonOrc","path":"sprites/sprFactionButtonOrc/sprFactionButtonOrc.yy",},},
     {"id":{"name":"fireBallDone","path":"objects/fireBallDone/fireBallDone.yy",},},
     {"id":{"name":"sprArrowPoison","path":"sprites/sprArrowPoison/sprArrowPoison.yy",},},
+    {"id":{"name":"sprPixelFont","path":"sprites/sprPixelFont/sprPixelFont.yy",},},
     {"id":{"name":"giantHarpyBuilding","path":"objects/giantHarpyBuilding/giantHarpyBuilding.yy",},},
     {"id":{"name":"sprSwordSlash","path":"sprites/sprSwordSlash/sprSwordSlash.yy",},},
     {"id":{"name":"unitClass","path":"objects/unitClass/unitClass.yy",},},

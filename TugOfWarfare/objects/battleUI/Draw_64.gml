@@ -1,7 +1,7 @@
 /// @description display and room transition
 
 //gold
-draw_set_color(c_black);
+draw_set_color(c_white);
 draw_text(20, 10, string(global.goldTotal));
 draw_text(200, 10, "Instance count "+string(instance_count));
 //spawn timer
