@@ -8,3 +8,11 @@ buildingSprite = sprTestCube;
 unitSprite = sprHumanKnight;
 price = 100;
 spawnNumber = 3;
+
+maxHp = 450;
+hp = maxHp;
+range = 10;
+damage = 30;
+cooldown = 1.5;
+damageType = "Normal";
+unitName = "Knight"

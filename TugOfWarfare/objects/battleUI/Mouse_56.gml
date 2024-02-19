@@ -7,6 +7,9 @@ if(instance_exists(unit)){
 
 //select unit
 unit = collision_point(mouse_x, mouse_y, unitClass, false, true);
+if(unit == noone){
+	unit = collision_point(mouse_x, mouse_y, buildingButtonParent, false, true);
+}
 
 //pull unit data
 if(unit != noone){
@@ -20,4 +23,4 @@ if(unit != noone){
 }
 
 //select button
-button = collision_point(mouse_x, mouse_y, buildingButtonParent, false, true);
+//button = collision_point(mouse_x, mouse_y, buildingButtonParent, false, true);

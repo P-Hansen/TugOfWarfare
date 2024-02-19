@@ -19,4 +19,4 @@ if(clicked == true){
 draw_self();
 draw_text_color(x-24, y-27, string(spawnNumber) + "x", c_white, c_white, c_white, c_white, 1);
 draw_sprite_stretched_ext(unitSprite, 0, x-8, y-8, 32, 32, c_white, 1);
-draw_text(x-30, y+30, "$100");
+draw_text(x-25, y+30, "$100");
