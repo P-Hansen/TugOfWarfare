@@ -2,7 +2,7 @@
 
 //gold
 draw_set_color(c_white);
-draw_text(20, 10, string(global.goldTotal) + " Gold");
+draw_text(20, 15, string(global.goldTotal) + " Gold");
 //draw_text(200, 10, "Instance count "+string(instance_count));
 //spawn timer
 //var oldFont = draw_get_font();
@@ -17,10 +17,10 @@ if(winFlag == false and lossFlag == false){
 	//round title card
 	if(roundFlag == true){
 		draw_rectangle_colour(room_width/2-250, room_height/3-30, room_width/2+250, room_height/3+70, c_white, c_white, c_white, c_white, false);
-		if(global.round <= 3){
+		if(global.round <= 4){
 			draw_text_transformed(room_width/2, room_height/3, "Round " + string(global.round), 3, 3, 0);
 		} else {
-			draw_text(room_width/2, room_height/3, "Final Round");
+			draw_text_transformed(room_width/2, room_height/3, "Final Round", 3, 3, 0);
 		}
 	}
 } else if (winFlag == true) {
