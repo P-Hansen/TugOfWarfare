@@ -3,27 +3,29 @@
 //gold
 draw_set_color(c_white);
 draw_text(20, 10, string(global.goldTotal));
-draw_text(200, 10, "Instance count "+string(instance_count));
+//draw_text(200, 10, "Instance count "+string(instance_count));
 //spawn timer
-var oldFont = draw_get_font();
-draw_set_font(fontBig);
+//var oldFont = draw_get_font();
+//draw_set_font(fontBig);
 draw_set_halign(fa_center);
+//draw_set_color(c_black);
+
 //spawn timer or victory
 if(winFlag == false and lossFlag == false){
 	//top timer
-	draw_text(room_width/2, 20, string(global.timer));
+	draw_text_transformed(room_width/2, 20, string(global.timer), 3, 3, 0);
 	//round title card
 	if(roundFlag == true){
 		draw_rectangle_colour(room_width/2-250, room_height/3-30, room_width/2+250, room_height/3+70, c_white, c_white, c_white, c_white, false);
 		if(global.round <= 3){
-			draw_text(room_width/2, room_height/3, "Round " + string(global.round));
+			draw_text_transformed(room_width/2, room_height/3, "Round " + string(global.round), 3, 3, 0);
 		} else {
 			draw_text(room_width/2, room_height/3, "Final Round");
 		}
 	}
 } else if (winFlag == true) {
 	//victory text
-	draw_text(room_width/2, 20, "Victory");
+	draw_text_transformed(room_width/2, 20, "Victory", 3, 3, 0);
 	//go to next level
 	if(instance_number(relicButton) <= 0){
 		global.round += 1;
@@ -31,11 +33,11 @@ if(winFlag == false and lossFlag == false){
 		room_goto(global.levels[0]);
 	}
 } else if (lossFlag == true){
-	draw_text(room_width/2, room_height/3, "Game Over");
+	draw_text_transformed(room_width/2, room_height/3, "Game Over", 3, 3, 0);
 }
-draw_set_color(c_white);
+//draw_set_color(c_white);
 draw_set_halign(fa_left);
-draw_set_font(oldFont)
+//draw_set_font(oldFont)
 
 //bottom UI backboard
 draw_sprite_stretched(sprBackboard, 0, 0, window_get_height()-100, window_get_width(), 100);

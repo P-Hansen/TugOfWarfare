@@ -1,6 +1,8 @@
 /// @description 
 
 if(clicked == true){
+	draw_rectangle_colour(x-25, y-25, x+25, y+25, c_yellow, c_yellow, c_yellow, c_yellow, true);
+	
 	//snap to grid
 	_x = round(mouse_x/global.GRIDSIZE)*global.GRIDSIZE;
 	_y = round(mouse_y/global.GRIDSIZE)*global.GRIDSIZE;
@@ -17,3 +19,4 @@ if(clicked == true){
 draw_self();
 draw_text_color(x-24, y-27, string(spawnNumber) + "x", c_white, c_white, c_white, c_white, 1);
 draw_sprite_stretched_ext(unitSprite, 0, x-8, y-8, 32, 32, c_white, 1);
+draw_text(x-30, y+30, "$100");
