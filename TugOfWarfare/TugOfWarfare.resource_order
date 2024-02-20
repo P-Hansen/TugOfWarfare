@@ -329,6 +329,7 @@
     {"name":"goblinGruntButton","order":1,"path":"objects/goblinGruntButton/goblinGruntButton.yy",},
     {"name":"sprOrcShamen","order":3,"path":"sprites/sprOrcShamen/sprOrcShamen.yy",},
     {"name":"giantClass","order":1,"path":"objects/giantClass/giantClass.yy",},
+    {"name":"damageNumber","order":32,"path":"objects/damageNumber/damageNumber.yy",},
     {"name":"daisy","order":14,"path":"objects/daisy/daisy.yy",},
     {"name":"humanPriestButton","order":3,"path":"objects/humanPriestButton/humanPriestButton.yy",},
     {"name":"berserkerCharm","order":24,"path":"objects/berserkerCharm/berserkerCharm.yy",},

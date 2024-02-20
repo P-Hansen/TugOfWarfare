@@ -377,6 +377,7 @@
     {"id":{"name":"goblinGruntButton","path":"objects/goblinGruntButton/goblinGruntButton.yy",},},
     {"id":{"name":"sprOrcShamen","path":"sprites/sprOrcShamen/sprOrcShamen.yy",},},
     {"id":{"name":"giantClass","path":"objects/giantClass/giantClass.yy",},},
+    {"id":{"name":"damageNumber","path":"objects/damageNumber/damageNumber.yy",},},
     {"id":{"name":"daisy","path":"objects/daisy/daisy.yy",},},
     {"id":{"name":"humanPriestButton","path":"objects/humanPriestButton/humanPriestButton.yy",},},
     {"id":{"name":"berserkerCharm","path":"objects/berserkerCharm/berserkerCharm.yy",},},
