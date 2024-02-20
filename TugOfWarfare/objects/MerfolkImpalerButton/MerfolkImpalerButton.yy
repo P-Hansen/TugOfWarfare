@@ -4,8 +4,6 @@
   "name": "MerfolkImpalerButton",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":53,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +12,8 @@
     "path": "folders/Objects/merfolk/buttons.yy",
   },
   "parentObjectId": {
-    "name": "buildingButtonParent",
-    "path": "objects/buildingButtonParent/buildingButtonParent.yy",
+    "name": "MerfolkAquamancerButton",
+    "path": "objects/MerfolkAquamancerButton/MerfolkAquamancerButton.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

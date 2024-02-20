@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprMerfolkSirenBuilding",
+    "path": "sprites/sprMerfolkSirenBuilding/sprMerfolkSirenBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [

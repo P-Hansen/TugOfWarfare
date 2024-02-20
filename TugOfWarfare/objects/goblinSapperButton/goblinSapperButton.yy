@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcWarriorBuilding",
-    "path": "sprites/sprOrcWarriorBuilding/sprOrcWarriorBuilding.yy",
+    "name": "sprGoblinSapperBuilding",
+    "path": "sprites/sprGoblinSapperBuilding/sprGoblinSapperBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,
