@@ -10,7 +10,6 @@ if(amount > 0){
 	//draw_text_transformed_color(x, y, string(amount)+" Gold", 0.5, 0.5, 0, c_red, c_red, c_red, c_red, 1);
 }
 y -= 0.2;
-
 scale = clamp(scale -0.01, 0, 1);
 
 draw_set_halign(fa_top);
