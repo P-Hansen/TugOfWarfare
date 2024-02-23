@@ -6,6 +6,8 @@ if(enemy == noone){
 		var slow = instance_create_depth(x, y, unit.depth-1, statusEffectBrambles);
 		slow.onHit(unit);
 		unit.hp -= 50;
+		var num = instance_create_depth(unit.x, unit.y-16, unit.depth-1, damageNumber);
+		num.amount = 50;
 		instance_destroy(self, false);
 	}
 } else {
@@ -14,6 +16,8 @@ if(enemy == noone){
 		var slow = instance_create_depth(x, y, unit.depth-1, statusEffectBrambles);
 		slow.onHit(unit);
 		unit.hp -= 50;
+		var num = instance_create_depth(unit.x, unit.y-16, unit.depth-1, damageNumber);
+		num.amount = 50;
 		instance_destroy(self, false);
 	}
 }
