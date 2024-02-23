@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-space = 64;
+space = 80;
 startingX = window_get_width()/2-(space*5)/2;
 startingY = window_get_height()-50;
 
