@@ -15,6 +15,6 @@ damage = 10;
 range = 10;
 cooldown = 2;
 damageType = "Splash";
-unitName = "Water Elemental"
+unitName = "Elemental"
 
 alarm[1] = room_speed*cooldown;

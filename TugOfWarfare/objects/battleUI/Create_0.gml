@@ -2,7 +2,7 @@
 
 space = 80;
 startingX = window_get_width()/2-(space*5)/2;
-startingY = window_get_height()-50;
+startingY = window_get_height()-60;
 
 //building buttons
 var buildButtons = function(element, index){

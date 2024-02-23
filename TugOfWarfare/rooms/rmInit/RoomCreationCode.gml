@@ -1,6 +1,6 @@
 randomize();
 
-fontPixel = font_add_sprite_ext(sprPixelFont, "!#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_abcdefghijklmnopqrstuvwxyz", true, 0);
+fontPixel = font_add_sprite_ext(sprPixelFont, "!#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_abcdefghijklmnopqrstuvwxyz", true, -5);
 draw_set_font(fontPixel);
 
 enum status {
