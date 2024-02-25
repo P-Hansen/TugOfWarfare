@@ -35,9 +35,8 @@ function onTick(unit, i){
 	//every 1 second
 	if(frac(statusTimer/2) == 0){
 		unit.hp -= 5;
-		var num = instance_create_depth(unit.x, unit.y-16, unit.depth-1, poisonNumber);
+		var num = instance_create_depth(unit.x, unit.y-16, unit.depth-1, fireNumber);
 		num.amount = 5;
-		num.textColour = c_red;
 		//show_debug_message(string(statusTimer/4));
 		//audio_play_sound(sfxHit, 1, 0);
 	}

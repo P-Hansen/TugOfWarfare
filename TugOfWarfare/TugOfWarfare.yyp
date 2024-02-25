@@ -305,6 +305,7 @@
     {"id":{"name":"sprTree","path":"sprites/sprTree/sprTree.yy",},},
     {"id":{"name":"catTails","path":"objects/catTails/catTails.yy",},},
     {"id":{"name":"orcShamenBuilding","path":"objects/orcShamenBuilding/orcShamenBuilding.yy",},},
+    {"id":{"name":"fireNumber","path":"objects/fireNumber/fireNumber.yy",},},
     {"id":{"name":"sprCrab","path":"sprites/sprCrab/sprCrab.yy",},},
     {"id":{"name":"sprMagicMissleTail","path":"sprites/sprMagicMissleTail/sprMagicMissleTail.yy",},},
     {"id":{"name":"statusEffectBrambles","path":"objects/statusEffectBrambles/statusEffectBrambles.yy",},},

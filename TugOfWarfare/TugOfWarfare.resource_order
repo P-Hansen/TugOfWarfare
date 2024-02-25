@@ -263,6 +263,7 @@
     {"name":"treeBurnt","order":10,"path":"objects/treeBurnt/treeBurnt.yy",},
     {"name":"sprTree","order":8,"path":"sprites/sprTree/sprTree.yy",},
     {"name":"orcShamenBuilding","order":4,"path":"objects/orcShamenBuilding/orcShamenBuilding.yy",},
+    {"name":"fireNumber","order":33,"path":"objects/fireNumber/fireNumber.yy",},
     {"name":"sprCrab","order":5,"path":"sprites/sprCrab/sprCrab.yy",},
     {"name":"sprMagicMissleTail","order":55,"path":"sprites/sprMagicMissleTail/sprMagicMissleTail.yy",},
     {"name":"statusEffectBrambles","order":27,"path":"objects/statusEffectBrambles/statusEffectBrambles.yy",},
