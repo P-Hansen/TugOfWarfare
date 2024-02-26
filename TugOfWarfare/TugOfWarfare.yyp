@@ -173,6 +173,7 @@
     {"id":{"name":"orcWarrior","path":"objects/orcWarrior/orcWarrior.yy",},},
     {"id":{"name":"sprGoblinRogueBuilding","path":"sprites/sprGoblinRogueBuilding/sprGoblinRogueBuilding.yy",},},
     {"id":{"name":"sprOrcBarbarianBuilding","path":"sprites/sprOrcBarbarianBuilding/sprOrcBarbarianBuilding.yy",},},
+    {"id":{"name":"healNumber","path":"objects/healNumber/healNumber.yy",},},
     {"id":{"name":"MerfolkScoutButton","path":"objects/MerfolkScoutButton/MerfolkScoutButton.yy",},},
     {"id":{"name":"guardWolves","path":"objects/guardWolves/guardWolves.yy",},},
     {"id":{"name":"skeletonWarriorButton","path":"objects/skeletonWarriorButton/skeletonWarriorButton.yy",},},

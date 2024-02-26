@@ -144,6 +144,7 @@
     {"name":"orcWarrior","order":7,"path":"objects/orcWarrior/orcWarrior.yy",},
     {"name":"sprGoblinRogueBuilding","order":10,"path":"sprites/sprGoblinRogueBuilding/sprGoblinRogueBuilding.yy",},
     {"name":"sprOrcBarbarianBuilding","order":10,"path":"sprites/sprOrcBarbarianBuilding/sprOrcBarbarianBuilding.yy",},
+    {"name":"healNumber","order":35,"path":"objects/healNumber/healNumber.yy",},
     {"name":"MerfolkScoutButton","order":2,"path":"objects/MerfolkScoutButton/MerfolkScoutButton.yy",},
     {"name":"guardWolves","order":26,"path":"objects/guardWolves/guardWolves.yy",},
     {"name":"skeletonWarriorButton","order":4,"path":"objects/skeletonWarriorButton/skeletonWarriorButton.yy",},

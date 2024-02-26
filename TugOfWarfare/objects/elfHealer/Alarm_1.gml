@@ -14,6 +14,8 @@ if(currentStatus == status.active){
 		target.colourTimer = 15;
 		target.unitColour = c_yellow;
 		target.hp += healing;
+		var num = instance_create_depth(target.x, target.y-16, target.depth-1, healNumber);
+		num.amount = healing;
 	}
 }
 
