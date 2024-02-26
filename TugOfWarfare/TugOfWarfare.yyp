@@ -219,6 +219,7 @@
     {"id":{"name":"spider","path":"objects/spider/spider.yy",},},
     {"id":{"name":"giantHillGiantBuilding","path":"objects/giantHillGiantBuilding/giantHillGiantBuilding.yy",},},
     {"id":{"name":"factionSelectButtonOrc","path":"objects/factionSelectButtonOrc/factionSelectButtonOrc.yy",},},
+    {"id":{"name":"damageNumberRanged","path":"objects/damageNumberRanged/damageNumberRanged.yy",},},
     {"id":{"name":"elfLord","path":"objects/elfLord/elfLord.yy",},},
     {"id":{"name":"spear","path":"objects/spear/spear.yy",},},
     {"id":{"name":"sprStoneGiantBuilding","path":"sprites/sprStoneGiantBuilding/sprStoneGiantBuilding.yy",},},

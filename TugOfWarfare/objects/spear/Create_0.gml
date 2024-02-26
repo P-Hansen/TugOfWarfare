@@ -7,4 +7,4 @@ speed = 4;
 damage = 50;
 enemy = [];
 
-alarm[1] = room_speed*1;
+alarm[1] = room_speed*(1 + random_range(-0.1, 0.1));

@@ -184,6 +184,7 @@
     {"name":"spider","order":21,"path":"objects/spider/spider.yy",},
     {"name":"giantHillGiantBuilding","order":7,"path":"objects/giantHillGiantBuilding/giantHillGiantBuilding.yy",},
     {"name":"factionSelectButtonOrc","order":5,"path":"objects/factionSelectButtonOrc/factionSelectButtonOrc.yy",},
+    {"name":"damageNumberRanged","order":34,"path":"objects/damageNumberRanged/damageNumberRanged.yy",},
     {"name":"elfLord","order":2,"path":"objects/elfLord/elfLord.yy",},
     {"name":"spear","order":1,"path":"objects/spear/spear.yy",},
     {"name":"sprStoneGiantBuilding","order":9,"path":"sprites/sprStoneGiantBuilding/sprStoneGiantBuilding.yy",},
