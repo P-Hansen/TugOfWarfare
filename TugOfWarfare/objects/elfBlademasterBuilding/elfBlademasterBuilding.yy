@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprElfBlademasterBuilding",
+    "path": "sprites/sprElfBlademasterBuilding/sprElfBlademasterBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [

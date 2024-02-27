@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprOrcBarbarianBuilding",
-    "path": "sprites/sprOrcBarbarianBuilding/sprOrcBarbarianBuilding.yy",
+    "name": "sprElfArcherBuilding",
+    "path": "sprites/sprElfArcherBuilding/sprElfArcherBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

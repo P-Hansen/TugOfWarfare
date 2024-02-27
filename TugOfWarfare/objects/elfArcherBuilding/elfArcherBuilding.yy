@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprElfArcherBuilding",
+    "path": "sprites/sprElfArcherBuilding/sprElfArcherBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [

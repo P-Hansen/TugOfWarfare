@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTestCube",
-    "path": "sprites/sprTestCube/sprTestCube.yy",
+    "name": "sprElfHealerBuilding",
+    "path": "sprites/sprElfHealerBuilding/sprElfHealerBuilding.yy",
   },
   "spriteMaskId": null,
   "tags": [
