@@ -8,3 +8,11 @@ buildingSprite = sprTestCube;
 unitSprite = sprEttinMage;
 price = 100;
 spawnNumber = 1;
+
+maxHp = 600;
+hp = maxHp;
+range = 70;
+damage = 40;
+cooldown = 2;
+damageType = "Fire";
+unitName = "Ettin Mage"

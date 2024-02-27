@@ -8,3 +8,11 @@ buildingSprite = sprTestCube;
 unitSprite = sprHillGiant;
 price = 100;
 spawnNumber = "1/2";
+
+maxHp = 2200;
+hp = maxHp;
+range = 10;
+damage = 50;
+cooldown = 2.7;
+damageType = "Splash";
+unitName = "Hill Giant"

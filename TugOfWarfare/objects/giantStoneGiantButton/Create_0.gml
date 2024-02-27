@@ -8,3 +8,11 @@ buildingSprite = sprTestCube;
 unitSprite = sprStoneGiant;
 price = 100;
 spawnNumber = "1/2";
+
+maxHp = 1500;
+hp = maxHp;
+range = 100;
+damage = 150;
+cooldown = 2.7;
+damageType = "Normal";
+unitName = "Stone Giant"
