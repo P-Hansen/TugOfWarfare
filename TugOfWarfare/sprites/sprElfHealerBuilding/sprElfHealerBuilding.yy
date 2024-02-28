@@ -4,8 +4,8 @@
   "name": "sprElfHealerBuilding",
   "bbox_bottom": 47,
   "bbox_left": 0,
-  "bbox_right": 47,
-  "bbox_top": 0,
+  "bbox_right": 46,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf3f1b5c-a41b-442b-8de8-1a75bc08538d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 48,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a67e99d1-6c1b-434c-a653-b854c7ac74f4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c8b6a6e1-c4b5-458d-86cc-68c90606d92a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d72a622-d25d-49b6-8c25-90ad52a9cf96","path":"sprites/sprElfHealerBuilding/sprElfHealerBuilding.yy",},},},"Disabled":false,"id":"75dbdbd9-2426-4b1f-89be-2ca9202891b9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf3f1b5c-a41b-442b-8de8-1a75bc08538d","path":"sprites/sprElfHealerBuilding/sprElfHealerBuilding.yy",},},},"Disabled":false,"id":"880abefa-b396-4106-97a7-2459fdd16f35","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
