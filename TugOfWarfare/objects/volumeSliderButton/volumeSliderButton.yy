@@ -2,12 +2,14 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "volumeSliderButton",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "settings",
+    "path": "folders/Objects/settings.yy",
   },
   "parentObjectId": null,
   "persistent": false,

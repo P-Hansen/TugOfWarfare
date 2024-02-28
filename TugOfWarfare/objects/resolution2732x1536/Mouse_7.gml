@@ -1,3 +1,3 @@
 /// @description Insert description here
 
-window_set_size(1024, 512);
+window_set_size(2732, 1536);

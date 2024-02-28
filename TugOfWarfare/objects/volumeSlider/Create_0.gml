@@ -1,5 +1,9 @@
 /// @description Insert description here
 
+scale = 2;
+image_xscale = scale;
+image_yscale = scale;
+
 maxVol = x + sprite_width;
 currentVol = audio_get_master_gain(0);
 

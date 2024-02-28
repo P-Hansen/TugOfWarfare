@@ -1,5 +1,5 @@
 
-scale = 0.5;
+scale = 1;
 image_xscale = scale;
 image_yscale = scale;
 
