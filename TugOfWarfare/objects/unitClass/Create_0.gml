@@ -22,5 +22,9 @@ uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");
 damageType = "Normal";
 unitName = "Unit Name"
 
+sfx = swing1;
+pitchLow = 0.8;
+pitchHigh = 1;
+
 alarm[2] = room_speed*0.25;
 alarm[10] = 10+irandom_range(-5, 5);

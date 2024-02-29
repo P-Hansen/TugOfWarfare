@@ -16,6 +16,8 @@ if(currentStatus == status.active){
 		target.hp += healing;
 		var num = instance_create_depth(target.x, target.y-16, target.depth-1, healNumber);
 		num.amount = healing;
+		var pitch = random_range(pitchLow, pitchHigh);
+		audio_play_sound(sfx, 1, false, 1, 0, pitch);
 	}
 }
 

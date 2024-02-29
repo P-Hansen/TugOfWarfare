@@ -12,6 +12,9 @@ if(currentStatus == status.active){
 		attack.damage = damage;
 		attack.direction = direction;
 		attack.image_angle = direction;
+		var pitch = random_range(pitchLow, pitchHigh);
+		audio_play_sound(sfx, 1, false, 1, 0, pitch);
+		
 	} else if(speed = 0 and range <= 10){
 		if(instance_exists(target)){
 			var yOffset = target.sprite_height/2;
@@ -20,6 +23,8 @@ if(currentStatus == status.active){
 			attack.damage = damage;
 			attack.direction = direction;
 			attack.image_angle = direction;
+			var pitch = random_range(pitchLow, pitchHigh);
+			audio_play_sound(sfx, 1, false, 1, 0, pitch);
 		}
 		/*if(instance_exists(target)){
 			var dist = distance_to_point(target.x, target.y);
