@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprElfBlademasterBuilding",
-  "bbox_bottom": 46,
+  "bbox_bottom": 45,
   "bbox_left": 1,
   "bbox_right": 45,
-  "bbox_top": 0,
+  "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"74b5cec7-3afc-45d5-903f-0e7e83ae243e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3e356214-13e4-4a10-a758-fabcc6801cb1",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 48,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6051b4e6-83e2-4e67-8a17-43ee8aae1e0e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9d01b4b5-9dbf-416c-b440-bb1d1ef3ae01","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"74b5cec7-3afc-45d5-903f-0e7e83ae243e","path":"sprites/sprElfBlademasterBuilding/sprElfBlademasterBuilding.yy",},},},"Disabled":false,"id":"9dc81f9c-5ec8-4dec-b6f9-8d7bd425ef7b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3e356214-13e4-4a10-a758-fabcc6801cb1","path":"sprites/sprElfBlademasterBuilding/sprElfBlademasterBuilding.yy",},},},"Disabled":false,"id":"d0679817-a206-4e9e-80ae-d8bd6b333112","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

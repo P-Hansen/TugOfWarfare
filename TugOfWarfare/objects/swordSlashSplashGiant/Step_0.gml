@@ -13,7 +13,7 @@ for (var i = 0; i < enemyCount; i++;) {
 		var num = instance_create_depth(target.x, target.y-16, target.depth-1, damageNumber);
 		num.amount = damage;
 		num.scale = 1.5;
-		//audio_play_sound(sfxHit, 0, 0);
+		audio_play_sound(sfxHit, 0, 0);
 	}
 }
 
