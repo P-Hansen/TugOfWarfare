@@ -1,5 +1,6 @@
 /// @description gold increment
 
-global.goldTotal += 3;
-
+if(roundStart == true){
+	global.goldTotal += 3;
+}
 alarm[1] = room_speed*1;
