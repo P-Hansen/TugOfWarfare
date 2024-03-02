@@ -15,8 +15,14 @@ if(clicked == true){
 	}
 }
 
+//grey out when you can't aford it
+if(global.goldTotal < price) {
+	image_blend = c_gray;
+} else {
+	image_blend = c_white;
+}
 
 draw_self();
-draw_text_color(x-24, y-27, string(spawnNumber) + "x", c_white, c_white, c_white, c_white, 1);
-draw_sprite_stretched_ext(unitSprite, 0, x+10, y, 32, 32, c_white, 1);
+draw_text_color(x-24, y-27, string(spawnNumber) + "x", image_blend, image_blend, image_blend, image_blend, 1);
+draw_sprite_stretched_ext(unitSprite, 0, x+10, y, 32, 32, image_blend, 1);
 draw_text(x-25, y+30, "$100");
