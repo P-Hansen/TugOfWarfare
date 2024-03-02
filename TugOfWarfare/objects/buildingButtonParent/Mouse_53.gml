@@ -41,4 +41,8 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 	}
 }
 
+if(clicked == true){
+	clicked = false;
+}
+
 
