@@ -18,5 +18,7 @@ if(place_meeting(x, y, enemy)){
 	var num = instance_create_depth(target.x, target.y-16, target.depth-1, damageNumber);
 	num.amount = damage;
 	num.textColour = $00A651;
+	var pitch = random_range(0.8, 1);
+	audio_play_sound(sfxHit, 1, false, 1, 0, pitch);
 	instance_destroy(self);
 }

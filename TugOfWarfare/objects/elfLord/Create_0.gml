@@ -12,6 +12,6 @@ damage = 20;
 cooldown = 1.5;
 damageType = "Normal";
 unitName = "Lord"
-sfx = choose(swordHit1, swordHit2, swordHit3);
+//sfx = choose(swordHit1, swordHit2, swordHit3);
 
 alarm[1] = room_speed*cooldown;

@@ -11,6 +11,7 @@ weapon = spear;
 damage = 45;
 cooldown = 1.4;
 damageType = "Normal";
-unitName = "Wolf Rider"
+unitName = "Wolf Rider";
+sfx = choose(swing1, swing2);
 
 alarm[1] = room_speed*cooldown;

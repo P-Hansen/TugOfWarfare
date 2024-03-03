@@ -22,7 +22,7 @@ uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");
 damageType = "Normal";
 unitName = "Unit Name"
 
-sfx = swing1;
+sfx = sfxHit;
 pitchLow = 0.8;
 pitchHigh = 1;
 
