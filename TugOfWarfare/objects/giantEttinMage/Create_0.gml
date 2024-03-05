@@ -16,6 +16,6 @@ damage = 40;
 cooldown = 2;
 damageType = "Fire";
 unitName = "Ettin Mage"
-sfx = fireBall;
+sfx = [fireBall];
 
 alarm[1] = room_speed*cooldown;

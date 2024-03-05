@@ -12,6 +12,6 @@ damage = 40;
 cooldown = 1;
 damageType = "Normal";
 unitName = "Harpy"
-sfx = sfxHit;
+sfx = [sfxHit];
 
 alarm[1] = room_speed*cooldown;

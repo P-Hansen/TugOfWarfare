@@ -13,7 +13,8 @@ if(currentStatus == status.active){
 		attack.direction = direction;
 		attack.image_angle = direction;
 		var pitch = random_range(pitchLow, pitchHigh);
-		audio_play_sound(sfx, 1, false, 1, 0, pitch);
+		array_shuffle_ext(sfx);
+		audio_play_sound(sfx[0], 1, false, 1, 0, pitch);
 		
 	} else if(speed = 0 and range <= 10){
 		if(instance_exists(target)){
@@ -24,7 +25,8 @@ if(currentStatus == status.active){
 			attack.direction = direction;
 			attack.image_angle = direction;
 			var pitch = random_range(pitchLow, pitchHigh);
-			audio_play_sound(sfx, 1, false, 1, 0, pitch);
+			array_shuffle_ext(sfx);
+			audio_play_sound(sfx[0], 1, false, 1, 0, pitch);
 		}
 		/*if(instance_exists(target)){
 			var dist = distance_to_point(target.x, target.y);

@@ -15,6 +15,6 @@ damage = 25;
 cooldown = 1;
 damageType = "Normal";
 unitName = "Crossbowmen"
-sfx = bowShot;
+sfx = [bowShot];
 
 alarm[1] = room_speed*cooldown;

@@ -16,5 +16,6 @@ range = 10;
 cooldown = 2;
 damageType = "Splash";
 unitName = "Elemental"
+sfx = [wave1, wave2];
 
 alarm[1] = room_speed*cooldown;

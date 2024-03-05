@@ -15,7 +15,7 @@ damage = 50;
 cooldown = 2.7;
 damageType = "Splash";
 unitName = "Hill Giant"
-sfx = swing2;
+sfx = [swing2];
 pitchLow = 0.4;
 pitchHigh = 0.8;
 

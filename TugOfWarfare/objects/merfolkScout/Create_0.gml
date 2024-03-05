@@ -12,6 +12,6 @@ damage = 45;
 cooldown = 1.6;
 damageType = "Normal";
 unitName = "Scout"
-sfx = choose(swing1, swing2);
+sfx = [swing1, swing2];
 
 alarm[1] = room_speed*cooldown;

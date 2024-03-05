@@ -12,6 +12,6 @@ damage = 20;
 cooldown = 1.2;
 damageType = "3x Normal";
 unitName = "Mage"
-sfx = fireBall;
+sfx = [fireBall];
 
 alarm[1] = room_speed*cooldown;

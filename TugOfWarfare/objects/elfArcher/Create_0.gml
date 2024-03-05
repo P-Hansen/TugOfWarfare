@@ -11,7 +11,7 @@ damage = 20;
 cooldown = 0.6;
 damageType = "Normal";
 unitName = "Sharpshooter"
-sfx = bowShot;
+sfx = [bowShot];
 
 
 alarm[1] = room_speed*cooldown;
