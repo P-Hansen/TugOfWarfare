@@ -4,4 +4,4 @@
 event_inherited();
 
 unit = humanCatapult;
-numberPerSpawn = 2;
+numberPerSpawn = 1;

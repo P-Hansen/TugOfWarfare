@@ -3,16 +3,16 @@
 // Inherit the parent event
 event_inherited();
 
-building = humanArcherBuilding;
+building = humanCatapultBuilding;
 buildingSprite = sprTestCube;
-unitSprite = sprHumanArcher;
+unitSprite = sprHumanCatapult;
 price = 100;
-spawnNumber = 2;
+spawnNumber = 1;
 
-maxHp = 150;
+maxHp = 300;
 hp = maxHp;
-range = 100;
-damage = 40;
-cooldown = 2;
+range = 200;
+damage = 80;
+cooldown = 3;
 damageType = "Normal";
-unitName = "Archer";
+unitName = "Catapult";

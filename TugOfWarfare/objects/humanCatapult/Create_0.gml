@@ -6,15 +6,18 @@ event_inherited();
 image_xscale = 2;
 image_yscale = 2;
 
-maxHp = 150;
+maxHp = 300;
 hp = maxHp;
 
-range = 100;
-weapon = arrow;
-damage = 40;
-cooldown = 2;
+range = 200;
+weapon = bolder;
+damage = 80;
+cooldown = 3;
 damageType = "Normal";
-unitName = "Archer";
-sfx = [bowShot];
+unitName = "Catapult";
+sfx = [swing1, swing2];
 
-alarm[1] = room_speed*cooldown;
+image_speed = 0;
+cooldownAttack = room_speed*cooldown + random_range(-5,5);
+
+//alarm[1] = room_speed*cooldown;

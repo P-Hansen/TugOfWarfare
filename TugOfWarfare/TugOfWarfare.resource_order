@@ -441,7 +441,7 @@
     {"name":"sprFactionButtonSkeleton","order":42,"path":"sprites/sprFactionButtonSkeleton/sprFactionButtonSkeleton.yy",},
     {"name":"humanClass","order":1,"path":"objects/humanClass/humanClass.yy",},
     {"name":"sprLillyPad","order":6,"path":"sprites/sprLillyPad/sprLillyPad.yy",},
-    {"name":"humanArcherBuilding","order":6,"path":"objects/humanArcherBuilding/humanArcherBuilding.yy",},
+    {"name":"humanCatapultBuilding","order":6,"path":"objects/humanCatapultBuilding/humanCatapultBuilding.yy",},
     {"name":"goblinWarrior","order":10,"path":"objects/goblinWarrior/goblinWarrior.yy",},
   ],
 }
