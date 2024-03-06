@@ -3,5 +3,5 @@
 // Inherit the parent event
 event_inherited();
 
-unit = humanArcher;
+unit = humanCatapult;
 numberPerSpawn = 2;
