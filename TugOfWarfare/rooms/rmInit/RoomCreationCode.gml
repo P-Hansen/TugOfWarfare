@@ -8,6 +8,7 @@ enum status {
 	disabled
 }
 
+audio_master_gain(0.5);
 global.GRIDSIZE = 16;
 global.goldTotal = 200;
 global.enemyGoldTotal = 0;

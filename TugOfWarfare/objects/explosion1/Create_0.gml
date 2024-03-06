@@ -9,4 +9,4 @@ alarm[1] = 1;
 alarm[2] = 1;
 alarm[3] = 1;
 
-//audio_play_sound(sfxExplosion1, 0, 0);
+audio_play_sound(explosionSfx1, 0, 0);

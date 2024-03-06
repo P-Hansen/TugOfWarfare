@@ -19,5 +19,6 @@ yOffset = sprite_get_height(sprite_index);
 yOffset = yOffset*image_yscale;
 yOffset = yOffset/2;
 //sightRange = instance_create_depth(x,y-yOffset, depth+1, range1);
+sfx = heal2;
 
 alarm[1] = room_speed*cooldown+random_range(-5,5);
