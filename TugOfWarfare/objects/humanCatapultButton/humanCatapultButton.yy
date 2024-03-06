@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprHumanArcherButton",
-    "path": "sprites/sprHumanArcherButton/sprHumanArcherButton.yy",
+    "name": "sprHumanCatapultBuilding",
+    "path": "sprites/sprHumanCatapultBuilding/sprHumanCatapultBuilding.yy",
   },
   "spriteMaskId": null,
   "visible": true,

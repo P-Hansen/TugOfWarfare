@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprHumanCrossbowmenButton",
-    "path": "sprites/sprHumanCrossbowmenButton/sprHumanCrossbowmenButton.yy",
+    "name": "sprHumanArcherButton",
+    "path": "sprites/sprHumanArcherButton/sprHumanArcherButton.yy",
   },
   "spriteMaskId": null,
   "visible": true,

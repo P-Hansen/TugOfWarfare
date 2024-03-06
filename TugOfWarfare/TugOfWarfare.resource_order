@@ -220,6 +220,7 @@
     {"name":"elfLordButton","order":2,"path":"objects/elfLordButton/elfLordButton.yy",},
     {"name":"giantHarpy","order":10,"path":"objects/giantHarpy/giantHarpy.yy",},
     {"name":"sprFactionButtonGoblin","order":26,"path":"sprites/sprFactionButtonGoblin/sprFactionButtonGoblin.yy",},
+    {"name":"sprHumanCatapultBuilding","order":11,"path":"sprites/sprHumanCatapultBuilding/sprHumanCatapultBuilding.yy",},
     {"name":"elfArcherBuilding","order":6,"path":"objects/elfArcherBuilding/elfArcherBuilding.yy",},
     {"name":"sprGrass2","order":4,"path":"sprites/sprGrass2/sprGrass2.yy",},
     {"name":"sprDeathKnight","order":3,"path":"sprites/sprDeathKnight/sprDeathKnight.yy",},

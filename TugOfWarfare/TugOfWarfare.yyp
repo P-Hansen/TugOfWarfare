@@ -256,6 +256,7 @@
     {"id":{"name":"elfLordButton","path":"objects/elfLordButton/elfLordButton.yy",},},
     {"id":{"name":"giantHarpy","path":"objects/giantHarpy/giantHarpy.yy",},},
     {"id":{"name":"sprFactionButtonGoblin","path":"sprites/sprFactionButtonGoblin/sprFactionButtonGoblin.yy",},},
+    {"id":{"name":"sprHumanCatapultBuilding","path":"sprites/sprHumanCatapultBuilding/sprHumanCatapultBuilding.yy",},},
     {"id":{"name":"elfArcherBuilding","path":"objects/elfArcherBuilding/elfArcherBuilding.yy",},},
     {"id":{"name":"sprGrass2","path":"sprites/sprGrass2/sprGrass2.yy",},},
     {"id":{"name":"sprDeathKnight","path":"sprites/sprDeathKnight/sprDeathKnight.yy",},},
