@@ -12,8 +12,8 @@
     "path": "folders/Objects/giant/buttons.yy",
   },
   "parentObjectId": {
-    "name": "buildingButtonParent",
-    "path": "objects/buildingButtonParent/buildingButtonParent.yy",
+    "name": "giantHillGiantButton",
+    "path": "objects/giantHillGiantButton/giantHillGiantButton.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
