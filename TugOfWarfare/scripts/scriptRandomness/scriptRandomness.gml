@@ -45,7 +45,7 @@ function randomArmy(){
 			default:
 				global.enemyFaction  = [humanClass];
 				global.enemyBuildings = [humanBuildingClass];
-				global.enemyAvailableBuildings = [humanArcherBuilding, humanCrossbownmanBuilding, humanKnightBuilding, humanPriestBuilding, humanSwordsmanBuilding];
+				global.enemyAvailableBuildings = [humanCatapultBuilding, humanCrossbownmanBuilding, humanKnightBuilding, humanPriestBuilding, humanSwordsmanBuilding];
 			break;
 		}
 	}

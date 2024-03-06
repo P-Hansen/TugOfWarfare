@@ -2,7 +2,7 @@
 
 if(selected == true){
 
-draw_sprite_ext(sprHumanArcher, animationSpeed, room_width/2-200, room_height/2-80, -10, 10, 0, c_white, 1);
+draw_sprite_ext(sprHumanCatapult, 0, room_width/2-75, room_height/2-80, 10, 10, 0, c_white, 1);
 draw_sprite_ext(sprHumanCrossbowmen, animationSpeed, room_width/2+95, room_height/2-80, 10, 10, 0, c_white, 1);
 
 draw_sprite_ext(sprHumanPriest, animationSpeed, room_width/2-50, room_height/2-70, 10, 10, 0, c_white, 1);
