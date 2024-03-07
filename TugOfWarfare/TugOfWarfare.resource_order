@@ -81,6 +81,7 @@
     {"name":"factionSelectButtonParent","order":16,"path":"objects/factionSelectButtonParent/factionSelectButtonParent.yy",},
     {"name":"buildingClass","order":9,"path":"objects/buildingClass/buildingClass.yy",},
     {"name":"sprSwampTiles","order":72,"path":"sprites/sprSwampTiles/sprSwampTiles.yy",},
+    {"name":"sprHumanCatapultReload","order":12,"path":"sprites/sprHumanCatapultReload/sprHumanCatapultReload.yy",},
     {"name":"giantStoneGiantButton","order":4,"path":"objects/giantStoneGiantButton/giantStoneGiantButton.yy",},
     {"name":"goldenrod","order":16,"path":"objects/goldenrod/goldenrod.yy",},
     {"name":"sprHumanSwordsmenButton","order":9,"path":"sprites/sprHumanSwordsmenButton/sprHumanSwordsmenButton.yy",},

@@ -23,6 +23,7 @@ if(currentStatus == status.active){
 			}
 			speed = 0;
 			if(cooldownAttack <= 0){
+				sprite_index = sprHumanCatapult;
 				image_speed = 1;
 			}
 		} else {
@@ -33,7 +34,7 @@ if(currentStatus == status.active){
 	//throwing the rock
 	if(speed = 0 and image_index >= image_number-1 and cooldownAttack <= 0){
 		var yOffset = sprite_get_height(sprite_index);
-		yOffset = (yOffset * image_yscale)/2;
+		yOffset = (yOffset * image_yscale)/2 + 30;
 		var xOffset = sprite_get_height(sprite_index);
 		xOffset = (xOffset * image_xscale)/2;
 		xOffset = lengthdir_x(xOffset, direction);
@@ -42,14 +43,15 @@ if(currentStatus == status.active){
 		attack.image_yscale = 0.75;
 		attack.enemy = array_concat(enemy, enemyBuildings);
 		attack.damage = damage;
-		attack.direction = direction;
-		attack.image_angle = direction;
+		attack.direction = direction-10;
+		attack.image_angle = direction-10;
 		var pitch = random_range(pitchLow, pitchHigh);
 		array_shuffle_ext(sfx);
 		audio_play_sound(sfx[0], 1, false, 1, 0, pitch);
-		image_speed = 0;
+		//image_speed = 1;
+		sprite_index = sprHumanCatapultReload;
 		image_index = 0;
-		cooldownAttack = room_speed*cooldown+random_range(-5,5);
+		cooldownAttack = room_speed*cooldown + random_range(-5,5);
 	}
 
 	//preventing stacking

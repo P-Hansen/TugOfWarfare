@@ -104,6 +104,7 @@
     {"id":{"name":"buildingClass","path":"objects/buildingClass/buildingClass.yy",},},
     {"id":{"name":"sprOrcWarrior","path":"sprites/sprOrcWarrior/sprOrcWarrior.yy",},},
     {"id":{"name":"sprSwampTiles","path":"sprites/sprSwampTiles/sprSwampTiles.yy",},},
+    {"id":{"name":"sprHumanCatapultReload","path":"sprites/sprHumanCatapultReload/sprHumanCatapultReload.yy",},},
     {"id":{"name":"giantStoneGiantButton","path":"objects/giantStoneGiantButton/giantStoneGiantButton.yy",},},
     {"id":{"name":"goldenrod","path":"objects/goldenrod/goldenrod.yy",},},
     {"id":{"name":"sprHumanSwordsmenButton","path":"sprites/sprHumanSwordsmenButton/sprHumanSwordsmenButton.yy",},},

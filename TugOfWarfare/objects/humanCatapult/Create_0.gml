@@ -3,15 +3,16 @@
 // Inherit the parent event
 event_inherited();
 
-image_xscale = 2;
-image_yscale = 2;
+scale = 2;
+image_xscale = scale;
+image_yscale = scale;
 
 maxHp = 300;
 hp = maxHp;
 
 range = 200;
 weapon = bolder;
-damage = 80;
+damage = 90;
 cooldown = 3;
 damageType = "Normal";
 unitName = "Catapult";
