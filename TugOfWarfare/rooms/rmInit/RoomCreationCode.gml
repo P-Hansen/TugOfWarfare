@@ -11,7 +11,7 @@ enum status {
 audio_master_gain(0.5);
 global.GRIDSIZE = 16;
 global.goldTotal = 200;
-global.enemyGoldTotal = 0;
+global.enemyGoldTotal = 200;
 global.timer = 10;
 global.round = 1;
 global.availbleRelics = [guardTowers, guardWolves, crabGuards, stoneConstruction, berserkerCharm, blizzardStone, spiderCharm, brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire];

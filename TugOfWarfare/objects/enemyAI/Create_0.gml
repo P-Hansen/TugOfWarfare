@@ -44,6 +44,8 @@ if(relicArrayContains(global.enemyRelics, stoneConstruction)){
 	newBuilding.hp = newBuilding.maxHp;
 }
 
+global.enemyGoldTotal -= 100;
+
 /*
 array_shuffle_ext(global.prefix);
 array_shuffle_ext(global.orcNames);
