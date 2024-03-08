@@ -6,7 +6,7 @@ event_inherited();
 building = skeletonMinionBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprDecrepitBones;
-price = 100;
+price = 90;
 spawnNumber = 5;
 
 maxHp = "150";
