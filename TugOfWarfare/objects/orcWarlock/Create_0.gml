@@ -13,5 +13,6 @@ cooldown = 2;
 damageType = "Fire";
 unitName = "Warlock"
 sfx = [fireBall];
+drop = 3;
 
 alarm[1] = room_speed*cooldown;

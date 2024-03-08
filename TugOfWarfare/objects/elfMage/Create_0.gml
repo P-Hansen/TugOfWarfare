@@ -13,5 +13,6 @@ cooldown = 1.2;
 damageType = "3x Normal";
 unitName = "Mage"
 sfx = [fireBall];
+drop = 6;
 
 alarm[1] = room_speed*cooldown;

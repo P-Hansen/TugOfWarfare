@@ -17,6 +17,7 @@ cooldown = 3;
 damageType = "Normal";
 unitName = "Catapult";
 sfx = [swing1, swing2];
+drop = 6;
 
 image_speed = 0;
 cooldownAttack = room_speed*cooldown + random_range(-5,5);

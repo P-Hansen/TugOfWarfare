@@ -17,5 +17,6 @@ damageType = "Normal";
 unitName = "Stone Giant"
 pitchLow = 0.7;
 pitchHigh = 0.9;
+drop = 12;
 
 alarm[1] = room_speed*cooldown;

@@ -13,5 +13,6 @@ cooldown = 1.5;
 damageType = "Normal";
 unitName = "Archer"
 sfx = [bowShot];
+drop = 1;
 
 alarm[1] = room_speed*cooldown;

@@ -11,5 +11,6 @@ damage = 10;
 cooldown = 2;
 damageType = "Bubble";
 unitName = "Aquamancer"
+drop = 2;
 
 alarm[1] = room_speed*cooldown;

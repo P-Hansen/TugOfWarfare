@@ -13,5 +13,6 @@ cooldown = 1.4;
 damageType = "Normal";
 unitName = "Wolf Rider";
 sfx = [swing1, swing2];
+drop = 3;
 
 alarm[1] = room_speed*cooldown;

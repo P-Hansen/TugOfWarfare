@@ -15,5 +15,6 @@ damage = 40;
 cooldown = 2;
 damageType = "Normal";
 unitName = "Siren"
+drop = 3;
 
 alarm[1] = room_speed*cooldown;

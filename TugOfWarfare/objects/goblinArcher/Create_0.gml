@@ -13,5 +13,6 @@ cooldown = 1.5;
 damageType = "Poison";
 unitName = "Archer"
 sfx = [bowShot];
+drop = 2;
 
 alarm[1] = room_speed*cooldown;

@@ -16,5 +16,6 @@ damage = 20;
 cooldown = 1.5;
 damageType = "Normal";
 unitName = "Bone Golem"
+drop = 3;
 
 alarm[1] = room_speed*cooldown;

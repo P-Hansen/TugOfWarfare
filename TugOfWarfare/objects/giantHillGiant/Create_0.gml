@@ -18,5 +18,6 @@ unitName = "Hill Giant"
 sfx = [swing2];
 pitchLow = 0.4;
 pitchHigh = 0.8;
+drop = 12;
 
 alarm[1] = room_speed*cooldown;

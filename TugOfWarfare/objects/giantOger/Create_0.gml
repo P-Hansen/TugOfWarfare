@@ -18,5 +18,6 @@ damageType = "Normal";
 unitName = "Oger"
 pitchLow = 0.7;
 pitchHigh = 0.9;
+drop = 6;
 
 alarm[1] = room_speed*cooldown;

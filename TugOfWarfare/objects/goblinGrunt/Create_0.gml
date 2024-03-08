@@ -13,5 +13,6 @@ range = 10;
 cooldown = 1;
 damageType = "Normal";
 unitName = "Grunt"
+drop = 1;
 
 alarm[1] = room_speed*cooldown;

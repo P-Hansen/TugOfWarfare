@@ -13,5 +13,6 @@ cooldown = 1.6;
 damageType = "Normal";
 unitName = "Scout"
 sfx = [swing1, swing2];
+drop = 2;
 
 alarm[1] = room_speed*cooldown;
