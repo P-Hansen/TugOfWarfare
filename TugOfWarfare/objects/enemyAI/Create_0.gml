@@ -37,8 +37,7 @@ if(place_meeting(_x, _y, [flammableClass, grassBurnt, treeBurnt, tree1])){
 	ds_list_destroy(targets);
 }
 
-var roll = irandom_range(0, array_length(global.enemyAvailableBuildings)-1);
-var newBuilding = instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[roll]);
+var newBuilding = instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[0]);
 
 if(relicArrayContains(global.enemyRelics, stoneConstruction)){
 	newBuilding.image_blend = c_ltgray;

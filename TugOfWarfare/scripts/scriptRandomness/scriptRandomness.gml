@@ -9,19 +9,19 @@ function randomArmy(){
 			case 1:
 				global.enemyFaction = [giantClass];
 				global.enemyBuildings = [giantBuildingClass];
-				global.enemyAvailableBuildings = [giantEttinMageBuilding, giantHarpyBuilding, giantHillGiantBuilding, giantOgerBuilding, giantStoneGiantBuilding];
+				global.enemyAvailableBuildings = [giantOgerBuilding, giantEttinMageBuilding, giantHarpyBuilding, giantHillGiantBuilding, giantStoneGiantBuilding];
 			break;
 	
 			case 2:
 				global.enemyFaction  = [goblinClass];
 				global.enemyBuildings = [goblinBuildingClass];
-				global.enemyAvailableBuildings = [goblinArcherBuilding, goblinGruntBuilding, goblinRogueBuilding, goblinSapperBuilding, goblinWarriorBuilding];
+				global.enemyAvailableBuildings = [goblinGruntBuilding, goblinArcherBuilding, goblinRogueBuilding, goblinSapperBuilding, goblinWarriorBuilding];
 			break;
 	
 			case 3:
 				global.enemyFaction  = [merfolkClass];
 				global.enemyBuildings = [merfolkBuildingClass];
-				global.enemyAvailableBuildings = [merfolkAquamancerBuilding, merfolkImpalerBuilding, merfolkScoutBuilding, merfolkSirenBuilding, merfolkWaterElementalBuilding];
+				global.enemyAvailableBuildings = [ merfolkWaterElementalBuilding, merfolkAquamancerBuilding, merfolkImpalerBuilding, merfolkScoutBuilding, merfolkSirenBuilding];
 			break;
 	
 			case 4:
@@ -33,19 +33,19 @@ function randomArmy(){
 			case 5:
 				global.enemyFaction  = [elfClass];
 				global.enemyBuildings = [elfBuildingClass];
-				global.enemyAvailableBuildings = [elfArcherBuilding, elfBlademasterBuilding, elfHealerBuilding, elfLordBuilding, elfMageBuilding];
+				global.enemyAvailableBuildings = [elfLordBuilding, elfArcherBuilding, elfBlademasterBuilding, elfHealerBuilding, elfMageBuilding];
 			break;
 		
 			case 6:
 				global.enemyFaction  = [skeletonClass];
 				global.enemyBuildings = [skeletonBuildingClass];
-				global.enemyAvailableBuildings = [skeletonDeathKnightBuilding, skeletonGolemBuilding, skeletonMageBuilding, skeletonMinionBuilding, skeletonWarriorBuilding];
+				global.enemyAvailableBuildings = [skeletonGolemBuilding, skeletonDeathKnightBuilding, skeletonMageBuilding, skeletonMinionBuilding, skeletonWarriorBuilding];
 			break;
 	
 			default:
 				global.enemyFaction  = [humanClass];
 				global.enemyBuildings = [humanBuildingClass];
-				global.enemyAvailableBuildings = [humanCatapultBuilding, humanCrossbownmanBuilding, humanKnightBuilding, humanPriestBuilding, humanSwordsmanBuilding];
+				global.enemyAvailableBuildings = [humanKnightBuilding, humanCatapultBuilding, humanCrossbownmanBuilding, humanPriestBuilding, humanSwordsmanBuilding];
 			break;
 		}
 	}
