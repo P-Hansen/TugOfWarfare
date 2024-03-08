@@ -1,5 +1,5 @@
 /// @description build
-
+/*
 var _x = irandom_range(room_width-100, room_width-48);
 _x = round(_x/global.GRIDSIZE)*global.GRIDSIZE;
 
@@ -28,3 +28,4 @@ if(relicArrayContains(global.enemyRelics, stoneConstruction)){
 
 alarm[1] = room_speed*32;
 
+*/

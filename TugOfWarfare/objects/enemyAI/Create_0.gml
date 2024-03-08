@@ -1,5 +1,7 @@
 /// @description Insert description here
 
+global.enemyGoldTotal = 200;
+
 //clear out old relics
 for(var j = array_length(global.enemyRelics)-1; j >= 0; j--){
 	var oldRelic = global.enemyRelics[j];
@@ -55,4 +57,4 @@ orcName = global.orcNames[0];
 nameSuffix = global.suffix[0];
 name = string_concat(namePrefix, orcName, nameSuffix);
 */
-alarm[1] = 1;
+//alarm[1] = 1;

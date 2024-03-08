@@ -37,5 +37,8 @@
     "path": "sprites/sprHumanCatapult/sprHumanCatapult.yy",
   },
   "spriteMaskId": null,
+  "tags": [
+    "bubbleImmune",
+  ],
   "visible": true,
 }
