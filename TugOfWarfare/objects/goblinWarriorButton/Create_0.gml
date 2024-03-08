@@ -6,7 +6,7 @@ event_inherited();
 building = goblinWarriorBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprGoblinWarrior;
-price = 100;
+price = 90;
 spawnNumber = 5;
 
 maxHp = 200;
