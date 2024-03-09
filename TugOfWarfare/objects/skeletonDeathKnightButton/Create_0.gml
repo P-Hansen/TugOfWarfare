@@ -6,7 +6,7 @@ event_inherited();
 building = skeletonDeathKnightBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprDeathKnight;
-price = 100;
+price = 110;
 spawnNumber = 1;
 
 maxHp = 900;

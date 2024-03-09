@@ -4,7 +4,7 @@
 event_inherited();
 //sprite_index = choose(sprGoblinBrawler, sprGoblinGrunt);
 
-maxHp = 270;
+maxHp = 260;
 hp = maxHp;
 
 weapon = swordSlash;
