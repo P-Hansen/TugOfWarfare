@@ -21,7 +21,7 @@ function randomArmy(){
 			case 3:
 				global.enemyFaction  = [merfolkClass];
 				global.enemyBuildings = [merfolkBuildingClass];
-				global.enemyAvailableBuildings = [ merfolkWaterElementalBuilding, merfolkAquamancerBuilding, merfolkImpalerBuilding, merfolkScoutBuilding, merfolkSirenBuilding];
+				global.enemyAvailableBuildings = [merfolkWaterElementalBuilding, merfolkAquamancerBuilding, merfolkImpalerBuilding, merfolkScoutBuilding, merfolkSirenBuilding];
 			break;
 	
 			case 4:
