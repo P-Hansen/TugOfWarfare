@@ -15,7 +15,7 @@ global.enemyGoldTotal = 200;
 global.timer = 10;
 global.round = 1;
 global.availbleRelics = [guardTowers, guardWolves, crabGuards, stoneConstruction, berserkerCharm, blizzardStone, spiderCharm, brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire];
-global.levels = [rmBattlefieldField, rmBattlefieldSwamp, rmBattlefieldForest, rmBattlefieldBlastedLand, rmBattlefieldBeach];
+global.levels = [rmBattlefieldField, rmBattlefieldSwamp, rmBattlefieldForest, rmBattlefieldBlastedLand, rmBattlefieldBeach, rmBattlefieldFarmField];
 
 global.humanBuildings = [humanCatapultButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
 global.merfolkBuildings = [MerfolkAquamancerButton, MerfolkImpalerButton, MerfolkScoutButton, MerfolkSirenButton, MerfolkWaterElementalButton]

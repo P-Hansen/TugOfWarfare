@@ -4,4 +4,4 @@ randomArmy();
 
 array_shuffle_ext(global.levels);
 //room_goto(global.levels[0]);
-room_goto(rmBattlefieldFarmField);
+room_goto(rmBattlefieldDesert);
