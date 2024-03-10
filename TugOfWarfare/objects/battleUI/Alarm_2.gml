@@ -14,6 +14,7 @@ if(global.timer == -1){
 					//adding status effects to spawned units
 					if(arrayContainsTag(global.playerRelics, "statusEffect")){
 						if(owner == "player"){
+							newUnit.owner = "player";
 							var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
 							for(var j = 0; j < array_length(statusEffectsArray); j++){
 								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -22,6 +23,7 @@ if(global.timer == -1){
 						}
 					} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
 						if(owner == "enemy"){
+							newUnit.owner = "enemy";
 							var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
 							for(var j = 0; j < array_length(statusEffectsArray); j++){
 								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -43,6 +45,7 @@ if(global.timer == -1){
 				//adding status effects to spawned units
 				if(arrayContainsTag(global.playerRelics, "statusEffect")){
 					if(owner == "player"){
+						newUnit.owner = "player";
 						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -51,6 +54,7 @@ if(global.timer == -1){
 					}
 				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
 					if(owner == "enemy"){
+						newUnit.owner = "enemy";
 						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -69,6 +73,7 @@ if(global.timer == -1){
 				//adding status effects to spawned units
 				if(arrayContainsTag(global.playerRelics, "statusEffect")){
 					if(owner == "player"){
+						newUnit.owner = "player";
 						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -77,6 +82,7 @@ if(global.timer == -1){
 					}
 				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
 					if(owner == "enemy"){
+						newUnit.owner = "enemy";
 						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -101,6 +107,7 @@ if(global.timer == -1){
 				//adding status effects to spawned units
 				if(arrayContainsTag(global.playerRelics, "statusEffect")){
 					if(owner == "player"){
+						newUnit.owner = "player";
 						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -109,6 +116,7 @@ if(global.timer == -1){
 					}
 				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
 					if(owner == "enemy"){
+						newUnit.owner = "enemy";
 						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
@@ -176,6 +184,7 @@ if(global.timer == -1){
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
 					newUnit.direction = enemySide;
+					newUnit.owner = "enemy";
 			}
 			//crabs
 			if(relicArrayContains(global.enemyRelics, crabGuards)){
@@ -184,6 +193,7 @@ if(global.timer == -1){
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
 					newUnit.direction = enemySide;
+					newUnit.owner = "enemy";
 			}
 			//squires
 			if(relicArrayContains(global.enemyRelics, HireASquire)){
@@ -192,6 +202,7 @@ if(global.timer == -1){
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
 					newUnit.direction = enemySide;
+					newUnit.owner = "enemy";
 			}
 			//wolves
 			if(relicArrayContains(global.enemyRelics, guardWolves)){
@@ -200,6 +211,7 @@ if(global.timer == -1){
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", wolf);
 					newUnit.direction = enemySide;
+					newUnit.owner = "enemy";
 			}
 		}
 			

@@ -20,7 +20,8 @@ enemyBuildings = global.playerBuildings;
 selectedFlag = false;
 uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");
 damageType = "Normal";
-unitName = "Unit Name"
+unitName = "Unit Name";
+owner = "";
 
 sfx = [sfxHit];
 pitchLow = 0.8;

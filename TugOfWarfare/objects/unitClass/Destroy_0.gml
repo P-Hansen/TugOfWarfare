@@ -4,10 +4,13 @@ for(var i = 0; i < array_length(statusEffects); i++){
 	statusEffects[i].onEnd(self, i);
 }
 
-if(enemy == global.playerFaction){
+if(owner == "player"){
 	var num = instance_create_depth(x, y, depth, goldNumber);
 	num.amount = drop;
 	global.goldTotal += drop;
 } else {
+	var num = instance_create_depth(x, y, depth, goldNumber);
+	num.amount = drop;
+	num.image_blend = c_black;
 	global.enemyGoldTotal += drop;
 }
