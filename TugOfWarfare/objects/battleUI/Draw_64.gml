@@ -16,7 +16,7 @@ if(winFlag == false and lossFlag == false){
 	draw_text_transformed(room_width/2, 20, string(global.timer), 3, 3, 0);
 	//round title card
 	if(roundFlag == true){
-		draw_rectangle_colour(room_width/2-250, room_height/3-30, room_width/2+250, room_height/3+70, c_white, c_white, c_white, c_white, false);
+		//draw_rectangle_colour(room_width/2-250, room_height/3-30, room_width/2+250, room_height/3+70, c_white, c_white, c_white, c_white, false);
 		if(global.round <= 4){
 			draw_text_transformed(room_width/2, room_height/3, "Round " + string(global.round), 3, 3, 0);
 		} else {
