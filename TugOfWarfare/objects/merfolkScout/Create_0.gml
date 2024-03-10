@@ -8,7 +8,7 @@ hp = maxHp;
 
 range = 70;
 weapon = spear;
-damage = 45;
+damage = 40;
 cooldown = 1.6;
 damageType = "Normal";
 unitName = "Scout"

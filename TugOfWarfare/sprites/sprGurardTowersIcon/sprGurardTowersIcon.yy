@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprGurardTowersIcon",
-  "bbox_bottom": 31,
+  "bbox_bottom": 30,
   "bbox_left": 0,
   "bbox_right": 33,
   "bbox_top": 0,

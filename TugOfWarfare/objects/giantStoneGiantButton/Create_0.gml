@@ -6,7 +6,7 @@ event_inherited();
 building = giantStoneGiantBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprStoneGiant;
-price = 100;
+price = 110;
 spawnNumber = "1/2";
 
 maxHp = 1500;

@@ -9,9 +9,9 @@ image_yscale = 0.5;
 maxHp = 200;
 hp = maxHp;
 
-range = 70;
+range = 80;
 weapon = song;
-damage = 40;
+damage = 50;
 cooldown = 2;
 damageType = "Normal";
 unitName = "Siren"

@@ -11,8 +11,8 @@ spawnNumber = 2;
 
 maxHp = 200;
 hp = maxHp;
-range = 70;
-damage = 40;
+range = 80;
+damage = 50;
 cooldown = 2;
 damageType = "Normal";
 unitName = "Siren"

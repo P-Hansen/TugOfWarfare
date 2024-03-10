@@ -6,10 +6,10 @@ event_inherited();
 building = humanCatapultBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprHumanCatapult;
-price = 100;
+price = 110;
 spawnNumber = 1;
 
-maxHp = 300;
+maxHp = 600;
 hp = maxHp;
 range = 200;
 damage = 90;

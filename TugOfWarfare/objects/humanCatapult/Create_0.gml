@@ -7,7 +7,7 @@ scale = 2;
 image_xscale = scale;
 image_yscale = scale;
 
-maxHp = 300;
+maxHp = 600;
 hp = maxHp;
 
 range = 200;
