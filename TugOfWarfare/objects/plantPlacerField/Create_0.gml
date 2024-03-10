@@ -15,7 +15,7 @@ for(var i = 0; i < room_width-32; i += 32){
 }
 
 // % chance to spawn brambles
-density = 10;
+density = 2;
 
 for(var i = 0; i < room_width-32; i += 32){
 	for(var j = 0; j < room_height-100; j += 32){
@@ -100,7 +100,7 @@ for(var i = 0; i < 20; i++){
 }
 
 //filling placement areas
-density = 100;
+density = 50;
 
 for(var i = 32; i < room_width-32; i += 32){
 	for(var j = 64; j < room_height-100; j += 32){
