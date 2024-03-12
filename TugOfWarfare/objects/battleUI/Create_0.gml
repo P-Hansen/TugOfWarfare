@@ -1,12 +1,13 @@
 /// @description Insert description here
 
 space = 80;
-startingX = window_get_width()/2-(space*5)/2;
-startingY = window_get_height()-60;
+startingX = room_width/2-(space*5)/2;
+startingY = room_height-60;
+depth -= 1000;
 
 //building buttons
 var buildButtons = function(element, index){
-	instance_create_layer(startingX+(index*space), startingY, "weaponLayer", element);
+	instance_create_depth(startingX+(index*space), startingY, depth-1000, element);
 }
 array_foreach(global.availableBuildings, buildButtons);
 
@@ -25,6 +26,8 @@ unitDamageType = "";
 unitName = "";
 button = noone;
 roundStart = false;
+windowHeight = room_height;
+windowWidth = room_width;
 
 alarm[1] = room_speed*1;
 alarm[2] = room_speed*1;
