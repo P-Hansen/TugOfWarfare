@@ -15,4 +15,4 @@ range = 40;
 damage = 50;
 cooldown = 2;
 damageType = "Healing";
-unitName = "Shamen"
+unitName = "Shaman"

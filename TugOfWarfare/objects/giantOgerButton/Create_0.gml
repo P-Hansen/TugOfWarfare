@@ -15,4 +15,4 @@ range = 10;
 damage = 50;
 cooldown = 1.5;
 damageType = "Normal";
-unitName = "Oger"
+unitName = "Ogre"

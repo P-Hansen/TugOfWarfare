@@ -91,10 +91,12 @@ if(global.timer == -1){
 					}
 				}
 				if(owner == "player"){
+					newUnit.owner = "player";
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = 0;
 				} else {
+					newUnit.owner = "enemy";
 					newUnit.direction = 180;
 				}
 			}

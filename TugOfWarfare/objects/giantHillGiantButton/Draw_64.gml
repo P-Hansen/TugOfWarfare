@@ -25,4 +25,4 @@ if(global.goldTotal < price) {
 draw_self();
 draw_text_color(x-24, y-27, string(spawnNumber) + "x", image_blend, image_blend, image_blend, image_blend, 1);
 draw_sprite_stretched_ext(unitSprite, 0, x+10, y, 32, 32, image_blend, 1);
-draw_text(x-25, y+30, "$100");
+draw_text(x-25, y+30, "$" + string(price));

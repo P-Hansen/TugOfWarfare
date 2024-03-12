@@ -13,7 +13,7 @@ healing = 50;
 cooldown = 2;
 system = noone;
 damageType = "Healing";
-unitName = "Shamen"
+unitName = "Shaman"
 
 yOffset = sprite_get_height(sprite_index);
 yOffset = yOffset*image_yscale;
