@@ -6,13 +6,13 @@ event_inherited();
 building = merfolkSirenBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprMerfolkSiren;
-price = 100;
+price = 110;
 spawnNumber = 2;
 
-maxHp = 200;
+maxHp = 250;
 hp = maxHp;
-range = 80;
-damage = 50;
+range = 90;
+damage = 65;
 cooldown = 2;
 damageType = "Normal";
 unitName = "Siren"

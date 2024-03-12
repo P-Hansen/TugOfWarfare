@@ -7,7 +7,7 @@ building = merfolkAquamancerBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprMerfolkAquamancer;
 price = 100;
-spawnNumber = 3;
+spawnNumber = 2;
 
 maxHp = 200;
 hp = maxHp;
