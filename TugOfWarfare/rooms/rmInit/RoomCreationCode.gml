@@ -14,7 +14,7 @@ global.goldTotal = 200;
 global.enemyGoldTotal = 200;
 global.timer = 10;
 global.round = 1;
-global.availbleRelics = [guardTowers, guardWolves, crabGuards, stoneConstruction, berserkerCharm, blizzardStone, spiderCharm, brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire];
+global.availbleRelics = [guardTowers, guardWolves, crabGuards, stoneConstruction, berserkerCharm, blizzardStone, spiderCharm, brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire, attackUpgrade, defenceUpgrade, treasureChest];
 global.levels = [rmBattlefieldField, rmBattlefieldSwamp, rmBattlefieldForest, rmBattlefieldBlastedLand, rmBattlefieldBeach, rmBattlefieldFarmField, rmBattlefieldDesert, rmBattlefieldCastleRuins];
 
 global.humanBuildings = [humanCatapultButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
