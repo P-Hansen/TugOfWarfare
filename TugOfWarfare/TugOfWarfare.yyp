@@ -106,6 +106,7 @@
     {"id":{"name":"sprOrcWarrior","path":"sprites/sprOrcWarrior/sprOrcWarrior.yy",},},
     {"id":{"name":"sprSwampTiles","path":"sprites/sprSwampTiles/sprSwampTiles.yy",},},
     {"id":{"name":"sprHumanCatapultReload","path":"sprites/sprHumanCatapultReload/sprHumanCatapultReload.yy",},},
+    {"id":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
     {"id":{"name":"giantStoneGiantButton","path":"objects/giantStoneGiantButton/giantStoneGiantButton.yy",},},
     {"id":{"name":"goldenrod","path":"objects/goldenrod/goldenrod.yy",},},
     {"id":{"name":"sprHumanSwordsmenButton","path":"sprites/sprHumanSwordsmenButton/sprHumanSwordsmenButton.yy",},},
@@ -470,6 +471,7 @@
     {"id":{"name":"sprElfArcher","path":"sprites/sprElfArcher/sprElfArcher.yy",},},
     {"id":{"name":"TileSetCastleRuins","path":"tilesets/TileSetCastleRuins/TileSetCastleRuins.yy",},},
     {"id":{"name":"resolution1366x768","path":"objects/resolution1366x768/resolution1366x768.yy",},},
+    {"id":{"name":"sprCrown","path":"sprites/sprCrown/sprCrown.yy",},},
     {"id":{"name":"bubble","path":"objects/bubble/bubble.yy",},},
     {"id":{"name":"sprGurardTowersIcon","path":"sprites/sprGurardTowersIcon/sprGurardTowersIcon.yy",},},
     {"id":{"name":"blizzardStone","path":"objects/blizzardStone/blizzardStone.yy",},},
@@ -530,6 +532,7 @@
     {"roomId":{"name":"rmBattlefieldFarmField","path":"rooms/rmBattlefieldFarmField/rmBattlefieldFarmField.yy",},},
     {"roomId":{"name":"rmBattlefieldDesert","path":"rooms/rmBattlefieldDesert/rmBattlefieldDesert.yy",},},
     {"roomId":{"name":"rmBattlefieldCastleRuins","path":"rooms/rmBattlefieldCastleRuins/rmBattlefieldCastleRuins.yy",},},
+    {"roomId":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
