@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-var relic = instance_create_depth(201+(48*array_length(global.playerRelics)), 25, depth, item);
+var relic = instance_create_depth(200+(48*array_length(global.playerRelics)), 25, depth, item);
 relic.enemy = global.enemyFaction;
 relic.enemyBuildings = global.enemyBuildings;
 relic.ownersUnits = global.playerFaction;

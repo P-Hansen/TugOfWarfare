@@ -25,7 +25,7 @@ unitCooldown = 0;
 unitDamageType = "";
 unitName = "";
 button = noone;
-roundStart = false;
+global.roundStart = false;
 windowHeight = room_height;
 windowWidth = room_width;
 

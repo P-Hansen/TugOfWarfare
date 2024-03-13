@@ -2,7 +2,7 @@
 
 //gold
 draw_set_color(c_white);
-draw_text(40, 15, string(global.goldTotal) + " Gold");
+draw_text(50, 15, string(global.goldTotal) + " Gold");
 //draw_text(200, 10, "Instance count "+string(instance_count));
 //spawn timer
 //var oldFont = draw_get_font();

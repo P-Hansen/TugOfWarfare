@@ -9,7 +9,7 @@ if(winFlag == false and instance_number(global.enemyBuildings[0]) <= 0){
 }
 
 //loss
-if(roundStart == true){
+if(global.roundStart == true){
 	if(instance_number(global.playerBuildings[0]) <= 0){
 		//room transition
 		if(lossFlag == false){

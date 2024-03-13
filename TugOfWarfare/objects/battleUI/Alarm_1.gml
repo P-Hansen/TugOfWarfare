@@ -1,6 +1,6 @@
 /// @description gold increment
 
-if(roundStart == true){
+if(global.roundStart == true){
 	global.goldTotal += 2;
 	global.enemyGoldTotal += 2;
 }
