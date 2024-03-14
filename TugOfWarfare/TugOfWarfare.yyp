@@ -126,6 +126,7 @@
     {"id":{"name":"sprElfLordBuilding","path":"sprites/sprElfLordBuilding/sprElfLordBuilding.yy",},},
     {"id":{"name":"scriptFire","path":"scripts/scriptFire/scriptFire.yy",},},
     {"id":{"name":"sprHumanCrossbowmen","path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",},},
+    {"id":{"name":"rmMainMenu","path":"rooms/rmMainMenu/rmMainMenu.yy",},},
     {"id":{"name":"swordSlashSplashGiant","path":"objects/swordSlashSplashGiant/swordSlashSplashGiant.yy",},},
     {"id":{"name":"statusEffectPoison","path":"objects/statusEffectPoison/statusEffectPoison.yy",},},
     {"id":{"name":"rmBattlefieldBeach","path":"rooms/rmBattlefieldBeach/rmBattlefieldBeach.yy",},},
@@ -161,6 +162,7 @@
     {"id":{"name":"skeletonClass","path":"objects/skeletonClass/skeletonClass.yy",},},
     {"id":{"name":"giantStoneGiant","path":"objects/giantStoneGiant/giantStoneGiant.yy",},},
     {"id":{"name":"crossbow","path":"sounds/crossbow/crossbow.yy",},},
+    {"id":{"name":"mainMenu","path":"objects/mainMenu/mainMenu.yy",},},
     {"id":{"name":"sprGoblinArcher","path":"sprites/sprGoblinArcher/sprGoblinArcher.yy",},},
     {"id":{"name":"sprCastleRuinsTiles","path":"sprites/sprCastleRuinsTiles/sprCastleRuinsTiles.yy",},},
     {"id":{"name":"sprFireballDone","path":"sprites/sprFireballDone/sprFireballDone.yy",},},
@@ -535,6 +537,7 @@
     {"roomId":{"name":"rmBattlefieldDesert","path":"rooms/rmBattlefieldDesert/rmBattlefieldDesert.yy",},},
     {"roomId":{"name":"rmBattlefieldCastleRuins","path":"rooms/rmBattlefieldCastleRuins/rmBattlefieldCastleRuins.yy",},},
     {"roomId":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
+    {"roomId":{"name":"rmMainMenu","path":"rooms/rmMainMenu/rmMainMenu.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
