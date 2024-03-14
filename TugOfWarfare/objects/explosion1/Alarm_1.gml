@@ -12,6 +12,7 @@ for (var i = 0; i < enemyCount; i++;) {
 	num.amount = damage;
 	num.textColour = choose(c_orange, c_red);
 	//audio_play_sound(sfxHit, 0, 0);
+	global.damageDone += damage;
 }
 
 ds_list_destroy(enemiesInRange);

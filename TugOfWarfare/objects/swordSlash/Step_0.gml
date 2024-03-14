@@ -6,5 +6,6 @@ if(damageDoneFlag == false and place_meeting(x, y, enemy)){
 	target.flashTimer = 5;
 	damageDoneFlag = true;
 	var num = instance_create_depth(target.x, target.y-16, target.depth-1, damageNumber);
+	global.damageDone += damage;
 	num.amount = damage;
 }

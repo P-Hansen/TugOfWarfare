@@ -15,6 +15,7 @@ if(place_meeting(x, y, enemy)){
 	var num = instance_create_depth(target.x, target.y-16, target.depth-1, damageNumber);
 	num.amount = damage;
 	num.textColour = choose(c_orange, c_red);
+	global.damageDone += damage;
 	instance_destroy(self);
 }
 

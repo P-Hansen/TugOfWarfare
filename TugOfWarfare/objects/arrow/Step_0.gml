@@ -9,5 +9,6 @@ if(place_meeting(x, y, enemy)){
 	num.direction = direction;
 	var pitch = random_range(0.8, 1);
 	audio_play_sound(sfxHit, 1, false, 1, 0, pitch);
+	global.damageDone += damage;
 	instance_destroy(self);
 }

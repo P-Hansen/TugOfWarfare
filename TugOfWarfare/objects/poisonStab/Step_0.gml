@@ -14,5 +14,8 @@ if(damageDoneFlag == false and place_meeting(x, y, enemy)){
 	}
 	var num = instance_create_depth(target.x, target.y-16, target.depth-1, damageNumber);
 	num.amount = damage;
+	var pitch = random_range(0.8, 1);
+	audio_play_sound(sfxHit, 1, false, 1, 0, pitch);
+	global.damageDone += damage;
 	damageDoneFlag = true;
 }

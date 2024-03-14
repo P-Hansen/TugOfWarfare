@@ -14,6 +14,7 @@ for (var i = 0; i < enemyCount; i++;) {
 		num.amount = damage;
 		num.scale = 1.5;
 		audio_play_sound(sfxHit, 0, 0);
+		global.damageDone += damage;
 	}
 }
 

@@ -50,3 +50,15 @@ function randomArmy(){
 		}
 	}
 }
+
+function commas(str){
+var len = string_length(str)
+
+for (var i = len; i>0; i--){
+	if (i mod 3 = len mod 3 && i != len){
+		str = string_insert(",",str,i+1)
+	}
+}
+
+return str;
+}
