@@ -3,5 +3,5 @@
 randomArmy();
 
 array_shuffle_ext(global.levels);
-room_goto(global.levels[0]);
-//room_goto(rmBattlefieldBlastedLand);
+//room_goto(global.levels[0]);
+room_goto(rmBattlefieldFarmField);

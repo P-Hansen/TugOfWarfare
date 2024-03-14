@@ -9,9 +9,11 @@ if(global.enemyGoldTotal >= 100){
 	_y = round(_y/global.GRIDSIZE)*global.GRIDSIZE;
 
 	//killing grass and trees
-	if(place_meeting(_x, _y, [flammableClass, grassBurnt, treeBurnt, tree1])){
+	if(collision_rectangle(_x-24, _y-24, _x+24, _y+24, [flammableClass, grassBurnt, treeBurnt, tree1], false, true) != noone){
 		var targets = ds_list_create();
-		var count = instance_place_list(_x, _y, [flammableClass, grassBurnt, treeBurnt, tree1], targets, false);
+		var count = collision_rectangle_list(_x-24, _y-24, _x+24, _y+24, [flammableClass, grassBurnt, treeBurnt, tree1], false, true, targets, false);
+		show_debug_message(_x);
+		show_debug_message(targets);
 		for (var i = 0; i < count; i++) {
 			var target = ds_list_find_value(targets, i);
 			instance_destroy(target, false);
