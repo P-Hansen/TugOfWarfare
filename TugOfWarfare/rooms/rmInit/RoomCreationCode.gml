@@ -36,6 +36,13 @@ global.enemyAvailableBuildings = [];
 global.enemyRelics = [];
 global.roundStart = false;
 
+global.goldSpent = 0;
+global.unitsBuilt = 0;
+global.buildingsBuild = 0;
+global.damageDone = 0;
+global.unitsKilled = 0;
+global.buildingsKilled = 0;
+
 global.prefix = ["Mad ", "Sir. ", "Thundering ", "Commander ", "Prince ", "Icy "];
 global.orcNames = ["Zugarod", "Ulmug", "Garthax", "Durz", "Tulgan", "Nargulg", "Glasha", "Shadbak", "Agrob", "Bolgar"];
 global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the Deep", " the Negotiator", " the Spider Queen"];
