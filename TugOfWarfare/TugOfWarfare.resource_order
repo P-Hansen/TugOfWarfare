@@ -226,6 +226,7 @@
     {"name":"sprPlacementArea","order":53,"path":"sprites/sprPlacementArea/sprPlacementArea.yy",},
     {"name":"spr_flame","order":49,"path":"sprites/spr_flame/spr_flame.yy",},
     {"name":"elfLordButton","order":2,"path":"objects/elfLordButton/elfLordButton.yy",},
+    {"name":"victoryScreen","order":37,"path":"objects/victoryScreen/victoryScreen.yy",},
     {"name":"giantHarpy","order":10,"path":"objects/giantHarpy/giantHarpy.yy",},
     {"name":"sprFactionButtonGoblin","order":26,"path":"sprites/sprFactionButtonGoblin/sprFactionButtonGoblin.yy",},
     {"name":"sprHumanCatapultBuilding","order":11,"path":"sprites/sprHumanCatapultBuilding/sprHumanCatapultBuilding.yy",},

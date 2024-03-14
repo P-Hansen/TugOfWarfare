@@ -262,6 +262,7 @@
     {"id":{"name":"spr_flame","path":"sprites/spr_flame/spr_flame.yy",},},
     {"id":{"name":"merfolkAquamancer","path":"objects/merfolkAquamancer/merfolkAquamancer.yy",},},
     {"id":{"name":"elfLordButton","path":"objects/elfLordButton/elfLordButton.yy",},},
+    {"id":{"name":"victoryScreen","path":"objects/victoryScreen/victoryScreen.yy",},},
     {"id":{"name":"giantHarpy","path":"objects/giantHarpy/giantHarpy.yy",},},
     {"id":{"name":"sprFactionButtonGoblin","path":"sprites/sprFactionButtonGoblin/sprFactionButtonGoblin.yy",},},
     {"id":{"name":"sprHumanCatapultBuilding","path":"sprites/sprHumanCatapultBuilding/sprHumanCatapultBuilding.yy",},},
