@@ -313,6 +313,7 @@
     {"id":{"name":"sprBackboard","path":"sprites/sprBackboard/sprBackboard.yy",},},
     {"id":{"name":"goblinWarriorButton","path":"objects/goblinWarriorButton/goblinWarriorButton.yy",},},
     {"id":{"name":"sprMerfolkScoutBuilding","path":"sprites/sprMerfolkScoutBuilding/sprMerfolkScoutBuilding.yy",},},
+    {"id":{"name":"sprCloud","path":"sprites/sprCloud/sprCloud.yy",},},
     {"id":{"name":"sprSpider","path":"sprites/sprSpider/sprSpider.yy",},},
     {"id":{"name":"sprFactionButton","path":"sprites/sprFactionButton/sprFactionButton.yy",},},
     {"id":{"name":"orcWolfRider","path":"objects/orcWolfRider/orcWolfRider.yy",},},

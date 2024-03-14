@@ -275,6 +275,7 @@
     {"name":"sprBackboard","order":9,"path":"sprites/sprBackboard/sprBackboard.yy",},
     {"name":"goblinWarriorButton","order":4,"path":"objects/goblinWarriorButton/goblinWarriorButton.yy",},
     {"name":"sprMerfolkScoutBuilding","order":8,"path":"sprites/sprMerfolkScoutBuilding/sprMerfolkScoutBuilding.yy",},
+    {"name":"sprCloud","order":97,"path":"sprites/sprCloud/sprCloud.yy",},
     {"name":"sprSpider","order":20,"path":"sprites/sprSpider/sprSpider.yy",},
     {"name":"sprFactionButton","order":22,"path":"sprites/sprFactionButton/sprFactionButton.yy",},
     {"name":"orcWolfRider","order":9,"path":"objects/orcWolfRider/orcWolfRider.yy",},

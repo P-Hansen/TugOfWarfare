@@ -48,3 +48,4 @@ global.orcNames = ["Zugarod", "Ulmug", "Garthax", "Durz", "Tulgan", "Nargulg", "
 global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the Deep", " the Negotiator", " the Spider Queen"];
 
 room_goto(rmFactionSelect);
+//room_goto(rmWin);
