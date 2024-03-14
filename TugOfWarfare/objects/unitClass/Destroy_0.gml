@@ -8,6 +8,7 @@ if(enemy == global.playerFaction){
 	var num = instance_create_depth(x, y, depth, goldNumber);
 	num.amount = drop;
 	global.goldTotal += drop;
+	global.unitsKilled += 1;
 } else {
 	//var num = instance_create_depth(x, y, depth, goldNumber);
 	//num.amount = 999;

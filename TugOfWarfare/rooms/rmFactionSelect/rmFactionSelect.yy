@@ -17,7 +17,6 @@
     {"name":"inst_AA1CD38","path":"rooms/rmFactionSelect/rmFactionSelect.yy",},
     {"name":"inst_70F667C1","path":"rooms/rmFactionSelect/rmFactionSelect.yy",},
     {"name":"inst_780C832A","path":"rooms/rmFactionSelect/rmFactionSelect.yy",},
-    {"name":"inst_160EA209","path":"rooms/rmFactionSelect/rmFactionSelect.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -32,7 +31,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_AA1CD38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"factionSelectButtonElf","path":"objects/factionSelectButtonElf/factionSelectButtonElf.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":688.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70F667C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"factionSelectButtonSkeleton","path":"objects/factionSelectButtonSkeleton/factionSelectButtonSkeleton.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":784.0,"y":608.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_780C832A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"settingsIcon","path":"objects/settingsIcon/settingsIcon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":24.0,"y":24.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_160EA209","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"relicPick","path":"objects/relicPick/relicPick.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":72.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4288256409,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

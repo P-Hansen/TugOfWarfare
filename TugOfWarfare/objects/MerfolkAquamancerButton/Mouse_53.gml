@@ -32,6 +32,8 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 	var newBuilding = instance_create_layer(_x, _y, "Instances", building);
 	newBuilding.owner = "player";
 	global.goldTotal -= price;
+	global.goldSpent += price;
+	global.buildingsBuild += 1;
 	clicked = false;
 	//build sfx
 	var pitch = random_range(0.8, 1);

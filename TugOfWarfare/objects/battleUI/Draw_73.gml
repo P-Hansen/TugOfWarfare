@@ -5,10 +5,8 @@ draw_set_color(c_white);
 draw_text(50, 15, string(global.goldTotal) + " Gold");
 //draw_text(200, 10, "Instance count "+string(instance_count));
 //spawn timer
-//var oldFont = draw_get_font();
-//draw_set_font(fontBig);
 draw_set_halign(fa_center);
-//draw_set_color(c_black);
+
 
 //spawn timer or victory
 if(winFlag == false and lossFlag == false){
