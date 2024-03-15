@@ -43,8 +43,12 @@ if(currentStatus == status.active){
 		attack.image_yscale = 0.75;
 		attack.enemy = array_concat(enemy, enemyBuildings);
 		attack.damage = damage;
-		attack.direction = direction-10;
-		attack.image_angle = direction-10;
+		if(instance_exists(target)){
+			attack.direction = point_direction(attack.x, attack.y, target.x, target.y);
+		} else {
+			attack.direction = direction-10;
+		}
+		attack.image_angle = direction;
 		var pitch = random_range(pitchLow, pitchHigh);
 		array_shuffle_ext(sfx);
 		audio_play_sound(sfx[0], 1, false, 1, 0, pitch);

@@ -1,5 +1,6 @@
 /// @description attack
 
+/*
 if(currentStatus == status.active){
 	if(speed = 0 and image_index >= image_number-1){
 		var yOffset = sprite_get_height(sprite_index);
@@ -10,7 +11,11 @@ if(currentStatus == status.active){
 		var attack = instance_create_layer(x+xOffset, y-yOffset, "weaponLayer", weapon);
 		attack.enemy = array_concat(enemy, enemyBuildings);
 		attack.damage = damage;
-		attack.direction = point_direction(attack.x, attack.y, target.x, target.y);
+		if(instance_exists(target)){
+			attack.direction = point_direction(attack.x, attack.y, target.x, target.y);
+		} else {
+			attack.direction = direction;
+		}
 		attack.image_angle = direction;
 		var pitch = random_range(pitchLow, pitchHigh);
 		array_shuffle_ext(sfx);
@@ -20,3 +25,4 @@ if(currentStatus == status.active){
 }
 
 alarm[1] = room_speed*cooldown+random_range(-5,5);
+*/
