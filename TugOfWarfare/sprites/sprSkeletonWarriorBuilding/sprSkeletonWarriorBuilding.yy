@@ -19,6 +19,7 @@
   "height":48,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"8787c26c-e0b9-4e38-8f8b-93c4554eafa7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"8787c26c-e0b9-4e38-8f8b-93c4554eafa7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"84ab226a-b6f8-4e2c-8757-af288e9a6b94","blendMode":0,"displayName":"default","isLocked":false,"name":"84ab226a-b6f8-4e2c-8757-af288e9a6b94","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprSkeletonWarriorBuilding",

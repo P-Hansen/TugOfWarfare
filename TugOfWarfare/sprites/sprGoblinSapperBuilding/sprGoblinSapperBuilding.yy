@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprGoblinSapperBuilding",
   "bboxMode":0,
-  "bbox_bottom":47,
+  "bbox_bottom":46,
   "bbox_left":1,
   "bbox_right":46,
   "bbox_top":7,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bd35ff03-9dbe-44f5-af06-bdf17f66a255","name":"bd35ff03-9dbe-44f5-af06-bdf17f66a255","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"40d3f06c-910a-4c39-b09c-2748b8f954a0","name":"40d3f06c-910a-4c39-b09c-2748b8f954a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7ee9bf38-3716-42ab-8887-f8b8630570ed","blendMode":0,"displayName":"default","isLocked":false,"name":"7ee9bf38-3716-42ab-8887-f8b8630570ed","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e9465d3a-f8e2-4463-899b-1017383df0a7","blendMode":0,"displayName":"default","isLocked":false,"name":"e9465d3a-f8e2-4463-899b-1017383df0a7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprGoblinSapperBuilding",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd35ff03-9dbe-44f5-af06-bdf17f66a255","path":"sprites/sprGoblinSapperBuilding/sprGoblinSapperBuilding.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c462ad26-4aaf-4bcd-ae30-f10f3d3599a5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40d3f06c-910a-4c39-b09c-2748b8f954a0","path":"sprites/sprGoblinSapperBuilding/sprGoblinSapperBuilding.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1b62cb09-3508-4dfc-a70e-da1ba166a096","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
