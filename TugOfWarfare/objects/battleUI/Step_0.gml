@@ -6,7 +6,12 @@ if(global.roundStart == true){
 		winFlag = true;
 		alarm[2] = -1;
 		if(global.round == 5){
-			global.enemyRelics = [];
+			//clear out old relics
+			for(var j = array_length(global.enemyRelics)-1; j >= 0; j--){
+				var oldRelic = global.enemyRelics[j];
+				instance_destroy(oldRelic);
+				array_delete(global.enemyRelics, j, 1);
+			}
 			room_goto(rmWin);
 		} else {
 			randomArmy();
