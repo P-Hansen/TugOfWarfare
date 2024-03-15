@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -43,7 +43,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"resolution683x384","order":4,"path":"objects/resolution683x384/resolution683x384.yy",},
     {"name":"skeletonWarriorBuilding","order":14,"path":"objects/skeletonWarriorBuilding/skeletonWarriorBuilding.yy",},
     {"name":"elfBlademasterBuilding","order":8,"path":"objects/elfBlademasterBuilding/elfBlademasterBuilding.yy",},
