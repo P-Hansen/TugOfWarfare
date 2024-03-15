@@ -27,12 +27,8 @@ if(winFlag == false and lossFlag == false){
 	//go to next level
 	if(instance_number(relicButton) <= 0){
 		global.round += 1;
-		if(global.round == 5){
-			room_goto(rmWin);
-		} else {
 			array_shuffle_ext(global.levels);
 			room_goto(global.levels[0]);
-		}
 	}
 } else if (lossFlag == true){
 	draw_text_transformed(windowWidth/2, windowHeight/3, "Game Over", 3, 3, 0);

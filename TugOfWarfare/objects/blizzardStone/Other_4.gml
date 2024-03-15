@@ -1,5 +1,3 @@
 /// @description Insert description here
 
-
-i = 0;
-alarm[1] = 1;
+roomName = room_get_name(room);
