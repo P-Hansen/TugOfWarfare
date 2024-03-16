@@ -284,6 +284,7 @@
     {"name":"scriptRandomness","order":3,"path":"scripts/scriptRandomness/scriptRandomness.yy",},
     {"name":"scriptRelics","order":2,"path":"scripts/scriptRelics/scriptRelics.yy",},
     {"name":"scriptTargeting","order":1,"path":"scripts/scriptTargeting/scriptTargeting.yy",},
+    {"name":"musicBattle_Tactics_code_box","order":17,"path":"sounds/musicBattle_Tactics_code_box/musicBattle_Tactics_code_box.yy",},
     {"name":"bowShot","order":1,"path":"sounds/bowShot/bowShot.yy",},
     {"name":"crossbow","order":9,"path":"sounds/crossbow/crossbow.yy",},
     {"name":"explosionSfx1","order":13,"path":"sounds/explosionSfx1/explosionSfx1.yy",},

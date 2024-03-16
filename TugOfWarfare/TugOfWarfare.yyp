@@ -325,6 +325,7 @@
     {"id":{"name":"scriptRelics","path":"scripts/scriptRelics/scriptRelics.yy",},},
     {"id":{"name":"scriptTargeting","path":"scripts/scriptTargeting/scriptTargeting.yy",},},
     {"id":{"name":"OutlineShader","path":"shaders/OutlineShader/OutlineShader.yy",},},
+    {"id":{"name":"musicBattle_Tactics_code_box","path":"sounds/musicBattle_Tactics_code_box/musicBattle_Tactics_code_box.yy",},},
     {"id":{"name":"bowShot","path":"sounds/bowShot/bowShot.yy",},},
     {"id":{"name":"crossbow","path":"sounds/crossbow/crossbow.yy",},},
     {"id":{"name":"explosionSfx1","path":"sounds/explosionSfx1/explosionSfx1.yy",},},

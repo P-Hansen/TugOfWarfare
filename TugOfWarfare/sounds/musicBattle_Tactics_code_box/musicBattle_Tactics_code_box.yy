@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"musicBattle_Tactics_code_box",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":74.232,
+  "name":"musicBattle_Tactics_code_box",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"musicBattle_Tactics_code_box.mp3",
+  "type":0,
+  "volume":1.0,
+}
