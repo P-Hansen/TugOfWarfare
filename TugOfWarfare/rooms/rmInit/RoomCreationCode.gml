@@ -17,12 +17,12 @@ global.round = 1;
 global.availbleRelics = [guardTowers, guardWolves, crabGuards, stoneConstruction, berserkerCharm, blizzardStone, spiderCharm, brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire, attackUpgrade, defenceUpgrade, treasureChest];
 global.levels = [rmBattlefieldField, rmBattlefieldSwamp, rmBattlefieldForest, rmBattlefieldBlastedLand, rmBattlefieldBeach, rmBattlefieldFarmField, rmBattlefieldDesert, rmBattlefieldCastleRuins];
 
-global.humanBuildings = [humanCatapultButton, humanCrossbowmenButton, humanKnightButton, humanPriestButton, humanSwordsmenButton];
-global.merfolkBuildings = [MerfolkAquamancerButton, MerfolkImpalerButton, MerfolkScoutButton, MerfolkSirenButton, MerfolkWaterElementalButton]
-global.orcBuildings = [orcBarbarianButton, orcShamenButton, orcWarlockButton, orcWarriorButton, orcWolfRiderButton];
-global.goblinBuldings = [goblinArcherButton, goblinGruntButton, goblinRogueButton, goblinSapperButton, goblinWarriorButton];
-global.giantBuildings = [giantEttinMageButton, giantHarpyButton, giantHillGiantButton, giantOgerButton, giantStoneGiantButton];
-global.elfBuildings = [elfArcherButton, elfBlademasterButton, elfHealerButton, elfLordButton, elfMageButton];
+global.humanBuildings = [humanCatapultButton, humanCrossbowmenButton, humanPriestButton, humanSwordsmenButton, humanKnightButton];
+global.merfolkBuildings = [MerfolkSirenButton, MerfolkAquamancerButton, MerfolkScoutButton, MerfolkImpalerButton, MerfolkWaterElementalButton]
+global.orcBuildings = [orcWarlockButton, orcWolfRiderButton, orcShamenButton, orcWarriorButton, orcBarbarianButton];
+global.goblinBuldings = [goblinArcherButton, goblinRogueButton, goblinSapperButton, goblinWarriorButton, goblinGruntButton];
+global.giantBuildings = [giantStoneGiantButton, giantHillGiantButton, giantEttinMageButton, giantHarpyButton,  giantOgerButton];
+global.elfBuildings = [elfArcherButton, elfMageButton, elfHealerButton, elfBlademasterButton, elfLordButton];
 global.skeletonBuildings = [skeletonDeathKnightButton, skeletonGolemButton, skeletonMageButton, skeletonWarriorButton, skeletonMinionButton];
 
 global.playerFaction = [humanClass];
