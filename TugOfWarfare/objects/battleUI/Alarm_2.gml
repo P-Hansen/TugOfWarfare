@@ -211,6 +211,8 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
+					newUnit.enemy = global.playerFaction;
+					newUnit.enemyBuildings = global.playerBuildings;
 			}
 			//crabs
 			if(relicArrayContains(global.enemyRelics, crabGuards)){
@@ -220,6 +222,8 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
+					newUnit.enemy = global.playerFaction;
+					newUnit.enemyBuildings = global.playerBuildings;
 			}
 			//squires
 			if(relicArrayContains(global.enemyRelics, HireASquire)){
@@ -229,6 +233,8 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
+					newUnit.enemy = global.playerFaction;
+					newUnit.enemyBuildings = global.playerBuildings;
 			}
 			//wolves
 			if(relicArrayContains(global.enemyRelics, guardWolves)){
@@ -238,6 +244,8 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", wolf);
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
+					newUnit.enemy = global.playerFaction;
+					newUnit.enemyBuildings = global.playerBuildings;
 			}
 		}
 			
