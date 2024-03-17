@@ -5,6 +5,7 @@ y += irandom_range(-5,5);
 
 amount = 0;
 textColour = c_yellow;
+audio_play_sound(gold, 1, false);
 
 alarm[1] = game_get_speed(gamespeed_fps)*1.4;
 

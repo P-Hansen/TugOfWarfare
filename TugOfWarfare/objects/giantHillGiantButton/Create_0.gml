@@ -18,3 +18,4 @@ damage = 50;
 cooldown = 2.7;
 damageType = "Splash";
 unitName = "Hill Giant"
+

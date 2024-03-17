@@ -12,7 +12,7 @@ hp = maxHp;
 
 range = 70;
 weapon = fireball;
-damage = 40;
+damage = 80;
 cooldown = 2;
 damageType = "Fire";
 unitName = "Ettin Mage"
