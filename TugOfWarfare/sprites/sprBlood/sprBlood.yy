@@ -2,8 +2,8 @@
   "$GMSprite":"",
   "%Name":"sprBlood",
   "bboxMode":0,
-  "bbox_bottom":29,
-  "bbox_left":10,
+  "bbox_bottom":30,
+  "bbox_left":9,
   "bbox_right":20,
   "bbox_top":3,
   "collisionKind":1,
@@ -19,6 +19,7 @@
   "height":32,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"f2c19d51-a9b5-4e80-814c-1ac58201e761","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"f2c19d51-a9b5-4e80-814c-1ac58201e761","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"7efa5fab-5dd8-45a2-b46e-1fe4b59d03a6","blendMode":0,"displayName":"default","isLocked":false,"name":"7efa5fab-5dd8-45a2-b46e-1fe4b59d03a6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprBlood",

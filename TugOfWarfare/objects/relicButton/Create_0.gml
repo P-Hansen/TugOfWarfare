@@ -85,6 +85,11 @@ switch (item) {
 		itemDescription = "+1 gold per enemy unit killed.";
 	break;
 	
+	case trollBlood:
+		itemName = "Trolls Blood";
+		itemDescription = "Units heal 5 Hp per second.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";

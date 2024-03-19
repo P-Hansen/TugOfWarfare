@@ -11,6 +11,7 @@ if(global.timer == -1){
 					var xOffset = random_range(-15, 15);
 					var yOffset = random_range(-15, 15);
 					var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+					newUnit.owner = owner;
 					if(owner == "player"){
 						global.unitsBuilt += 1;
 					}
@@ -21,6 +22,7 @@ if(global.timer == -1){
 							var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
 							for(var j = 0; j < array_length(statusEffectsArray); j++){
 								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+								newUnit.owner = owner;
 								effect.onHit(newUnit);
 							}
 						}
@@ -30,6 +32,7 @@ if(global.timer == -1){
 							var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
 							for(var j = 0; j < array_length(statusEffectsArray); j++){
 								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+								newUnit.owner = owner;
 								effect.onHit(newUnit);
 							}
 						}
@@ -45,6 +48,7 @@ if(global.timer == -1){
 				var roll = irandom_range(0, 1);
 				unit = units[roll];
 				var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+				newUnit.owner = owner;
 				if(owner == "player"){
 					global.unitsBuilt += 1;
 				}
@@ -55,6 +59,7 @@ if(global.timer == -1){
 						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							newUnit.owner = owner;
 							effect.onHit(newUnit);
 						}
 					}
@@ -64,6 +69,7 @@ if(global.timer == -1){
 						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
 						for(var j = 0; j < array_length(statusEffectsArray); j++){
 							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+							newUnit.owner = owner;
 							effect.onHit(newUnit);
 						}
 					}
@@ -76,6 +82,7 @@ if(global.timer == -1){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
 				var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+				newUnit.owner = owner;
 				if(owner == "player"){
 					global.unitsBuilt += 1;
 				}
@@ -115,6 +122,7 @@ if(global.timer == -1){
 				var xOffset = random_range(-15, 15);
 				var yOffset = random_range(-15, 15);
 				var newUnit = instance_create_layer(x+xOffset, y+yOffset, "instances", unit);
+				newUnit.owner = owner;
 				if(owner == "player"){
 					global.unitsBuilt += 1;
 				}
@@ -150,6 +158,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 0;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
+					newUnit.owner = owner;
 					if(owner == "player"){
 						global.unitsBuilt += 1;
 					}
@@ -164,6 +173,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 0;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
+					newUnit.owner = owner;
 					if(owner == "player"){
 						global.unitsBuilt += 1;
 					}
@@ -178,6 +188,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 0;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
+					newUnit.owner = owner;
 					if(owner == "player"){
 						global.unitsBuilt += 1;
 					}
@@ -192,6 +203,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 0;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", wolf);
+					newUnit.owner = owner;
 					if(owner == "player"){
 						global.unitsBuilt += 1;
 					}
@@ -209,6 +221,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
+					newUnit.owner = owner;
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
@@ -220,6 +233,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
+					newUnit.owner = owner;
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
@@ -231,6 +245,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
+					newUnit.owner = owner;
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
@@ -242,6 +257,7 @@ if(global.timer == -1){
 					var yOffset = random_range(-15, 15);
 					var enemySide = 180;
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", wolf);
+					newUnit.owner = owner;
 					newUnit.direction = enemySide;
 					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
