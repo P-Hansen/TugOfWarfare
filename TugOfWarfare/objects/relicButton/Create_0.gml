@@ -90,6 +90,11 @@ switch (item) {
 		itemDescription = "Units heal 5 Hp per second.";
 	break;
 	
+	case herbalism:
+		itemName = "Herbalism";
+		itemDescription = "+2 gold for each patch of grass built over.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";

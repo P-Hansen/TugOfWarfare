@@ -19,6 +19,24 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 	}
 	
 	//killing grass
+	if(place_meeting(_x, _y, [grass1])){
+		var targets = ds_list_create();
+		var count = instance_place_list(_x, _y, [grass1], targets, false);
+		for (var i = 0; i < count; i++) {
+			var target = ds_list_find_value(targets, i);
+			//herbalism money
+			if(relicArrayContains(global.playerRelics, herbalism)){
+				var num = instance_create_depth(target.x,target.y, depth-10, goldNumber);
+				num.amount = 2;
+				global.goldTotal += 2;
+			}
+			instance_destroy(target, false);
+		}
+		ds_list_destroy(targets);
+	}
+		
+	
+	//killing other plants
 	if(place_meeting(_x, _y, [flammableClass, grassBurnt, treeBurnt])){
 		var targets = ds_list_create();
 		var count = instance_place_list(_x, _y, [flammableClass, grassBurnt, treeBurnt], targets, false);
