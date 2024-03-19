@@ -95,6 +95,11 @@ switch (item) {
 		itemDescription = "+2 gold for each patch of grass built over.";
 	break;
 	
+	case goldenScarabItem:
+		itemName = "Golden Scarab";
+		itemDescription = "50% chance on death to spawn a scarab that will avenge its master.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
