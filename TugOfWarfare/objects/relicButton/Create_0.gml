@@ -100,6 +100,11 @@ switch (item) {
 		itemDescription = "50% chance on death to spawn a scarab that will avenge its master.";
 	break;
 	
+	case flamingSwords:
+		itemName = "Flaming Swords";
+		itemDescription = "Any melee units that don't do splash damage will now light enemy units on fire when attacking.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
