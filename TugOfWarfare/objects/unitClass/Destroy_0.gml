@@ -6,11 +6,17 @@ for(var i = 0; i < array_length(statusEffects); i++){
 
 if(enemy == global.playerFaction){
 	var num = instance_create_depth(x, y, depth, goldNumber);
+	
+	if(relicArrayContains(global.playerRelics, bounty)){
+		drop = drop + 1;
+	}
+
 	num.amount = drop;
 	global.goldTotal += drop;
 	global.unitsKilled += 1;
 } else {
-	//var num = instance_create_depth(x, y, depth, goldNumber);
-	//num.amount = 999;
+	if(relicArrayContains(global.enemyRelics, bounty)){
+		drop = drop + 1;
+	}
 	global.enemyGoldTotal += drop;
 }

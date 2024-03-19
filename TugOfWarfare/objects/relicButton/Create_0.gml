@@ -80,6 +80,11 @@ switch (item) {
 		itemDescription = "Wolves will spawn around your buildings and protect them.";
 	break;
 	
+	case bounty:
+		itemName = "Bounty";
+		itemDescription = "+1 gold per enemy unit killed.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
