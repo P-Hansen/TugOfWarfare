@@ -37,5 +37,8 @@
     "path":"sprites/sprSquire/sprSquire.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "minion",
+  ],
   "visible":true,
 }

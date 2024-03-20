@@ -40,5 +40,8 @@
     "path":"sprites/sprCrab/sprCrab.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "minion",
+  ],
   "visible":true,
 }

@@ -37,5 +37,8 @@
     "path":"sprites/sprGoldenScarab/sprGoldenScarab.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "minion",
+  ],
   "visible":true,
 }

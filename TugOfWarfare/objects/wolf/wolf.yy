@@ -37,5 +37,8 @@
     "path":"sprites/sprWolf/sprWolf.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "minion",
+  ],
   "visible":true,
 }

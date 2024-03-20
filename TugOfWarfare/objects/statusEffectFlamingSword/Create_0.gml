@@ -1,10 +1,10 @@
 /// @description Insert description here
 
-statusTimer = 0;
-
 function onHit(unit){
 	if(unit.weapon == swordSlash or unit.weapon == tridentStab){
-		unit.weapon = swordSlashFlaming;
+		if(!asset_has_tags(unit.object_index, "minion", asset_object)){
+			unit.weapon = swordSlashFlaming;
+		}
 	}
 	//array_push(unit.statusEffects, self);
 }

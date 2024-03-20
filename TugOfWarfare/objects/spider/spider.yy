@@ -37,5 +37,8 @@
     "path":"sprites/sprSpider/sprSpider.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "minion",
+  ],
   "visible":true,
 }

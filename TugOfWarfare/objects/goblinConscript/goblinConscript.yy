@@ -37,5 +37,8 @@
     "path":"sprites/sprGoblinBrawler/sprGoblinBrawler.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "minion",
+  ],
   "visible":true,
 }
