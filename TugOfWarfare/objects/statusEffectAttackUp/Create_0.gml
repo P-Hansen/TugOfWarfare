@@ -3,7 +3,7 @@
 statusTimer = 0;
 
 function onHit(unit){
-	unit.damage = unit.damage*1.1;
+	unit.damage = round(unit.damage*1.1);
 	
 	//array_push(unit.statusEffects, self);
 }

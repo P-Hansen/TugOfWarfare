@@ -3,7 +3,7 @@
 statusTimer = 0;
 
 function onHit(unit){
-	unit.maxHp = (unit.maxHp)*1.1;
+	unit.maxHp = round((unit.maxHp)*1.1);
 	unit.hp = unit.maxHp;
 	
 	//array_push(unit.statusEffects, self);
