@@ -105,6 +105,11 @@ switch (item) {
 		itemDescription = "Any melee units that don't do splash damage will now light enemy units on fire when attacking.";
 	break;
 	
+	case poisonArrows:
+		itemName = "Poison Arrows";
+		itemDescription = "Arrows and spears now deal half damage but poison enemy units.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
