@@ -16,7 +16,7 @@ global.timer = 10;
 global.round = 1;
 global.availbleRelics = [guardTowers, guardWolves, crabGuards, stoneConstruction, berserkerCharm, blizzardStone, spiderCharm,
 		brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire,
-		bounty, trollBlood, herbalism, goldenScarabItem, flamingSwords, poisonArrows, assassins];
+		bounty, trollBlood, herbalism, goldenScarabItem, flamingSwords, poisonArrows];
 		
 global.levels = [rmBattlefieldField, rmBattlefieldSwamp, rmBattlefieldForest, rmBattlefieldBlastedLand, rmBattlefieldBeach, rmBattlefieldFarmField, rmBattlefieldDesert, rmBattlefieldCastleRuins];
 
@@ -51,8 +51,8 @@ global.orcNames = ["Zugarod", "Ulmug", "Garthax", "Durz", "Tulgan", "Nargulg", "
 global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the Deep", " the Negotiator", " the Spider Queen"];
 
 //room_goto(rmFactionSelect);
-room_goto(rmMainMenu);
-
+room_goto(rmWin);
+/*
 //give yourself items for testing
 item = assassins;
 
@@ -63,3 +63,4 @@ relic.ownersUnits = global.playerFaction;
 relic.ownersBuildings = global.playerBuildings;
 relic.owner = "player";
 array_push(global.playerRelics, relic);
+*/
