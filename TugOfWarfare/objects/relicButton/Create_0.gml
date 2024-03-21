@@ -115,6 +115,11 @@ switch (item) {
 		itemDescription = "Every 30 seconds spawn assassins for each mage or healer building the enenmy has and target those units.";
 	break;
 	
+	case gnollWarpack:
+		itemName = "Gnoll Warpack";
+		itemDescription = "Every 30 seconds summon a Gnoll warpack equal to half the number of buildings you have constructed.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
