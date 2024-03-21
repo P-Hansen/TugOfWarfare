@@ -1,21 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"skeletonMageBuilding",
+  "%Name":"assassins",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"skeletonMageBuilding",
+  "name":"assassins",
   "overriddenProperties":[],
   "parent":{
-    "name":"skeleton",
-    "path":"folders/Objects/skeleton.yy",
+    "name":"relics",
+    "path":"folders/Objects/relics.yy",
   },
   "parentObjectId":{
-    "name":"skeletonBuildingClass",
-    "path":"objects/skeletonBuildingClass/skeletonBuildingClass.yy",
+    "name":"relicClass",
+    "path":"objects/relicClass/relicClass.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -33,13 +35,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSkeletonMageBuilding",
-    "path":"sprites/sprSkeletonMageBuilding/sprSkeletonMageBuilding.yy",
+    "name":"sprAssassinItem",
+    "path":"sprites/sprAssassinItem/sprAssassinItem.yy",
   },
   "spriteMaskId":null,
-  "tags":[
-    "building",
-    "mageBuilding",
-  ],
   "visible":true,
 }

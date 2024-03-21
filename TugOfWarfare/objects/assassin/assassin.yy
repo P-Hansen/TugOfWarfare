@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"skeletonMageBuilding",
+  "%Name":"assassin",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"skeletonMageBuilding",
+  "name":"assassin",
   "overriddenProperties":[],
   "parent":{
-    "name":"skeleton",
-    "path":"folders/Objects/skeleton.yy",
+    "name":"relics",
+    "path":"folders/Objects/relics.yy",
   },
   "parentObjectId":{
-    "name":"skeletonBuildingClass",
-    "path":"objects/skeletonBuildingClass/skeletonBuildingClass.yy",
+    "name":"unitClass",
+    "path":"objects/unitClass/unitClass.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,13 +34,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSkeletonMageBuilding",
-    "path":"sprites/sprSkeletonMageBuilding/sprSkeletonMageBuilding.yy",
+    "name":"sprAssassin",
+    "path":"sprites/sprAssassin/sprAssassin.yy",
   },
   "spriteMaskId":null,
   "tags":[
-    "building",
-    "mageBuilding",
+    "minion",
   ],
   "visible":true,
 }

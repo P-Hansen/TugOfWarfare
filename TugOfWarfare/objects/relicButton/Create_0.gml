@@ -110,6 +110,11 @@ switch (item) {
 		itemDescription = "Arrows and spears now deal half damage but poison enemy units.";
 	break;
 	
+	case assassins:
+		itemName = "Assassins";
+		itemDescription = "Every 30 seconds spawn assassins for each mage or healer building the enenmy has and target those units.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";

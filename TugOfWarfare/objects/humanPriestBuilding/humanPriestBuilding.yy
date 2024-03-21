@@ -39,6 +39,7 @@
   "spriteMaskId":null,
   "tags":[
     "building",
+    "mageBuilding",
   ],
   "visible":true,
 }
