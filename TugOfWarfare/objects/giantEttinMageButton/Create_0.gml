@@ -15,4 +15,4 @@ range = 70;
 damage = 80;
 cooldown = 2;
 damageType = "Fire";
-unitName = "Ettin Mage"
+unitName = "Ettin magi"

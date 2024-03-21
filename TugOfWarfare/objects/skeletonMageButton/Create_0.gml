@@ -15,4 +15,4 @@ range = 60;
 damage = 20;
 cooldown = 1;
 damageType = "Fire";
-unitName = "Mage"
+unitName = "Pyromancer"

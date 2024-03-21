@@ -15,7 +15,7 @@ weapon = fireball;
 damage = 80;
 cooldown = 2;
 damageType = "Fire";
-unitName = "Ettin Mage"
+unitName = "Ettin magi"
 sfx = [fireBall];
 drop = 6;
 

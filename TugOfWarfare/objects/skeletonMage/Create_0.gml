@@ -11,7 +11,7 @@ weapon = fireball;
 damage = 20;
 cooldown = 1;
 damageType = "Fire";
-unitName = "Mage"
+unitName = "Pyromancer"
 sfx = [fireBall];
 drop = 2;
 
