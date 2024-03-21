@@ -1,9 +1,15 @@
 /// @description Insert description here
 
 function onHit(unit){
-	if(unit.weapon == arrow or unit.weapon == spear){
+	if(unit.weapon == arrow){
 		if(!asset_has_tags(unit.object_index, "minion", asset_object)){
 			unit.weapon = poisonArrow;
+			unit.damage = round(unit.damage/2);
+		}
+	}
+	if(unit.weapon == spear){
+		if(!asset_has_tags(unit.object_index, "minion", asset_object)){
+			unit.weapon = poisonSpear;
 			unit.damage = round(unit.damage/2);
 		}
 	}

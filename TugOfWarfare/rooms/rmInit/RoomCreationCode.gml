@@ -51,10 +51,10 @@ global.orcNames = ["Zugarod", "Ulmug", "Garthax", "Durz", "Tulgan", "Nargulg", "
 global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the Deep", " the Negotiator", " the Spider Queen"];
 
 //room_goto(rmFactionSelect);
-room_goto(rmWin);
-/*
+room_goto(rmMainMenu);
+
 //give yourself items for testing
-item = assassins;
+item = poisonArrows;
 
 var relic = instance_create_depth(200+(48*array_length(global.playerRelics)), 25, -1000, item);
 relic.enemy = global.enemyFaction;
@@ -63,4 +63,3 @@ relic.ownersUnits = global.playerFaction;
 relic.ownersBuildings = global.playerBuildings;
 relic.owner = "player";
 array_push(global.playerRelics, relic);
-*/
