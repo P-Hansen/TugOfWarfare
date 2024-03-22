@@ -135,6 +135,11 @@ switch (item) {
 		itemDescription = "At 666 seconds summon an undead army of ghosts.";
 	break;
 	
+	case holyArmy:
+		itemName = "Holy Army";
+		itemDescription = "At 11 minutes and 6 seconds summon an army of Angels.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
