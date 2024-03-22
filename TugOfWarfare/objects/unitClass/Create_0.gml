@@ -22,6 +22,7 @@ uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");
 damageType = "Normal";
 unitName = "Unit Name";
 owner = "";
+enemySide = 180;
 
 sfx = [sfxHit];
 pitchLow = 0.8;

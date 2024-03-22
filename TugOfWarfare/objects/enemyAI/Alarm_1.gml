@@ -20,6 +20,7 @@ if(collision_rectangle(_x-24, _y-24, _x+24, _y+24, [flammableClass, grassBurnt, 
 }
 
 var newBuilding = instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[0]);
+newBuilding.owner = "enemy";
 
 if(relicArrayContains(global.enemyRelics, stoneConstruction)){
 	newBuilding.image_blend = c_ltgray;

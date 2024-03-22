@@ -49,6 +49,7 @@ if(global.enemyGoldTotal >= 100){
 
 	var roll = irandom_range(0, array_length(global.enemyAvailableBuildings)-1);
 	var newBuilding = instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[roll]);
+	newBuilding.owner = "enemy";
 
 	if(relicArrayContains(global.enemyRelics, stoneConstruction)){
 		newBuilding.image_blend = c_ltgray;

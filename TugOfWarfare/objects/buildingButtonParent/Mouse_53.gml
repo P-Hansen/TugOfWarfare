@@ -34,7 +34,6 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 		}
 		ds_list_destroy(targets);
 	}
-		
 	
 	//killing other plants
 	if(place_meeting(_x, _y, [flammableClass, grassBurnt, treeBurnt])){

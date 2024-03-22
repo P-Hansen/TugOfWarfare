@@ -16,27 +16,7 @@ if(global.timer == -1){
 						global.unitsBuilt += 1;
 					}
 					//adding status effects to spawned units
-					if(arrayContainsTag(global.playerRelics, "statusEffect")){
-						if(owner == "player"){
-							newUnit.owner = "player";
-							var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
-							for(var j = 0; j < array_length(statusEffectsArray); j++){
-								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-								newUnit.owner = owner;
-								effect.onHit(newUnit);
-							}
-						}
-					} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
-						if(owner == "enemy"){
-							newUnit.owner = "enemy";
-							var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
-							for(var j = 0; j < array_length(statusEffectsArray); j++){
-								var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-								newUnit.owner = owner;
-								effect.onHit(newUnit);
-							}
-						}
-					}
+					addStatus(newUnit, owner);					
 				}
 			}
 			spawn = !spawn;
@@ -53,27 +33,7 @@ if(global.timer == -1){
 					global.unitsBuilt += 1;
 				}
 				//adding status effects to spawned units
-				if(arrayContainsTag(global.playerRelics, "statusEffect")){
-					if(owner == "player"){
-						newUnit.owner = "player";
-						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
-						for(var j = 0; j < array_length(statusEffectsArray); j++){
-							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-							newUnit.owner = owner;
-							effect.onHit(newUnit);
-						}
-					}
-				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
-					if(owner == "enemy"){
-						newUnit.owner = "enemy";
-						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
-						for(var j = 0; j < array_length(statusEffectsArray); j++){
-							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-							newUnit.owner = owner;
-							effect.onHit(newUnit);
-						}
-					}
-				}
+				addStatus(newUnit, owner);		
 			}
 				
 		//caged unit spawn
@@ -87,25 +47,8 @@ if(global.timer == -1){
 					global.unitsBuilt += 1;
 				}
 				//adding status effects to spawned units
-				if(arrayContainsTag(global.playerRelics, "statusEffect")){
-					if(owner == "player"){
-						newUnit.owner = "player";
-						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
-						for(var j = 0; j < array_length(statusEffectsArray); j++){
-							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-							effect.onHit(newUnit);
-						}
-					}
-				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
-					if(owner == "enemy"){
-						newUnit.owner = "enemy";
-						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
-						for(var j = 0; j < array_length(statusEffectsArray); j++){
-							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-							effect.onHit(newUnit);
-						}
-					}
-				}
+				addStatus(newUnit, owner);		
+				
 				if(owner == "player"){
 					newUnit.owner = "player";
 					newUnit.enemy = global.enemyFaction;
@@ -127,25 +70,7 @@ if(global.timer == -1){
 					global.unitsBuilt += 1;
 				}
 				//adding status effects to spawned units
-				if(arrayContainsTag(global.playerRelics, "statusEffect")){
-					if(owner == "player"){
-						newUnit.owner = "player";
-						var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
-						for(var j = 0; j < array_length(statusEffectsArray); j++){
-							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-							effect.onHit(newUnit);
-						}
-					}
-				} else if (arrayContainsTag(global.enemyRelics, "statusEffect")){
-					if(owner == "enemy"){
-						newUnit.owner = "enemy";
-						var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
-						for(var j = 0; j < array_length(statusEffectsArray); j++){
-							var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
-							effect.onHit(newUnit);
-						}
-					}
-				}
+				addStatus(newUnit, owner);		
 			}
 		}
 		
@@ -165,7 +90,8 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
-					newUnit.owner = "player";
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 			//crabs!!
 			if(relicArrayContains(global.playerRelics, crabGuards)){
@@ -180,7 +106,8 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
-					newUnit.owner = "player";
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 			//squires
 			if(relicArrayContains(global.playerRelics, HireASquire)){
@@ -195,7 +122,8 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
-					newUnit.owner = "player";
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 			//wolves
 			if(relicArrayContains(global.playerRelics, guardWolves)){
@@ -210,7 +138,8 @@ if(global.timer == -1){
 					newUnit.enemy = global.enemyFaction;
 					newUnit.enemyBuildings = global.enemyBuildings;
 					newUnit.direction = enemySide;
-					newUnit.owner = "player";
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 		}
 		
@@ -223,9 +152,10 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", goblinConscript);
 					newUnit.owner = owner;
 					newUnit.direction = enemySide;
-					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
 					newUnit.enemyBuildings = global.playerBuildings;
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 			//crabs
 			if(relicArrayContains(global.enemyRelics, crabGuards)){
@@ -235,9 +165,10 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", crab);
 					newUnit.owner = owner;
 					newUnit.direction = enemySide;
-					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
 					newUnit.enemyBuildings = global.playerBuildings;
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 			//squires
 			if(relicArrayContains(global.enemyRelics, HireASquire)){
@@ -247,9 +178,10 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", squire);
 					newUnit.owner = owner;
 					newUnit.direction = enemySide;
-					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
 					newUnit.enemyBuildings = global.playerBuildings;
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 			//wolves
 			if(relicArrayContains(global.enemyRelics, guardWolves)){
@@ -259,12 +191,13 @@ if(global.timer == -1){
 					var newUnit = instance_create_layer(x + xOffset, y + yOffset, "instances", wolf);
 					newUnit.owner = owner;
 					newUnit.direction = enemySide;
-					newUnit.owner = "enemy";
 					newUnit.enemy = global.playerFaction;
 					newUnit.enemyBuildings = global.playerBuildings;
+					//adding status effects to spawned units
+					addStatus(newUnit, owner);
 			}
 		}
-			
+		
 	}
 	global.timer = 20;
 }

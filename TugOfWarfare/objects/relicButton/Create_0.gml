@@ -125,6 +125,11 @@ switch (item) {
 		itemDescription = "The first building you construct is now a fortress and will produce +1 units.";
 	break;
 	
+	case witheringCurse:
+		itemName = "Withering Curse";
+		itemDescription = "Enemy units are cursed and loose 3 Hp per 0.75 seconds.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";

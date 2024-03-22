@@ -29,3 +29,49 @@ function arrayReturnTagItems(array, tag){
 	}
 	return taggedArray;
 }
+
+function addStatus(newUnit, owner){
+	if(owner == "player"){
+		if(arrayContainsTag(global.playerRelics, "statusEffect")){
+			var statusEffectsArray = arrayReturnTagItems(global.playerRelics, "statusEffect");
+			for(var j = 0; j < array_length(statusEffectsArray); j++){
+				var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+				effect.onHit(newUnit);
+			}
+		}
+		//curse
+		if(relicArrayContains(global.enemyRelics, witheringCurse)){
+			var effect = instance_create_depth(x, y, depth, statusEffectWitheringCurse);
+			effect.onHit(newUnit);
+		}
+		
+	} else if(owner == "enemy"){
+		if (arrayContainsTag(global.enemyRelics, "statusEffect")){
+			var statusEffectsArray = arrayReturnTagItems(global.enemyRelics, "statusEffect");
+			for(var j = 0; j < array_length(statusEffectsArray); j++){
+				var effect = instance_create_depth(x, y, newUnit.depth-1, statusEffectsArray[j].effect);
+				effect.onHit(newUnit);
+			}
+		}
+		//curse
+		if(relicArrayContains(global.playerRelics, witheringCurse)){
+			var effect = instance_create_depth(x, y, depth, statusEffectWitheringCurse);
+			effect.onHit(newUnit);
+		}
+	}
+	
+	//withering curse
+	/*
+	if(owner == "player"){
+		if(relicArrayContains(global.enemyRelics, witheringCurse)){
+			var effect = instance_create_depth(x, y, depth, statusEffectWitheringCurse);
+			effect.onHit(newUnit);
+		}
+	} else if (owner == "enemy"){
+		if(relicArrayContains(global.playerRelics, witheringCurse)){
+			var effect = instance_create_depth(x, y, depth, statusEffectWitheringCurse);
+			effect.onHit(newUnit);
+		}
+	}
+	*/
+}
