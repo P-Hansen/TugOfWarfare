@@ -27,4 +27,12 @@ if(relicArrayContains(global.enemyRelics, stoneConstruction)){
 	newBuilding.hp = newBuilding.maxHp;
 }
 
+if(relicArrayContains(global.enemyRelics, fortress)){
+	if(fortress.placed == false){
+		newBuilding.numberPerSpawn += 1;
+		fortress.placed = true;
+		instance_create_layer(_x, _y, "Instances", fortessPad);
+	}
+}
+
 global.enemyGoldTotal -= 100;

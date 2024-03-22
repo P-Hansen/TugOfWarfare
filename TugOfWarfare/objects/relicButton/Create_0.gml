@@ -120,6 +120,11 @@ switch (item) {
 		itemDescription = "Every 30 seconds summon a Gnoll warpack equal to half the number of buildings you have constructed.";
 	break;
 	
+	case fortress:
+		itemName = "Fortress";
+		itemDescription = "The first building you construct is now a fortress and will produce +1 units.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";

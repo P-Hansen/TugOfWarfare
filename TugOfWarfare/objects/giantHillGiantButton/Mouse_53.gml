@@ -67,6 +67,14 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 		newBuilding.maxHp = newBuilding.maxHp*2;
 		newBuilding.hp = newBuilding.maxHp;
 	}
+	
+	if(relicArrayContains(global.playerRelics, fortress)){
+		if(fortress.placed == false){
+			newBuilding.numberPerSpawn += 1;
+			fortress.placed = true;
+			instance_create_layer(_x, _y, "Instances", fortessPad);
+		}
+	}
 }
 
 if(clicked == true){
