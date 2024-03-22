@@ -12,7 +12,7 @@ itemSprite = object_get_sprite(item);
 switch (item) {
 	case thunderStone:
 		itemName = "The Thunder Stone";
-		itemDescription = "The mighty thunderstone strikes down an enemy at random every 15 seconds.";
+		itemDescription = "The mighty thunderstone strikes down an enemy at random every 15 seconds and the strorm move closer every strike.";
 	break;
 	
 	case treasureChest:
@@ -128,6 +128,11 @@ switch (item) {
 	case witheringCurse:
 		itemName = "Withering Curse";
 		itemDescription = "Enemy units are cursed and loose 3 Hp per 0.75 seconds.";
+	break;
+	
+	case undeadArmy:
+		itemName = "Undead Army";
+		itemDescription = "At 666 seconds summon an undead army of ghosts.";
 	break;
 	
 	default:

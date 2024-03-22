@@ -6,14 +6,13 @@ if(global.roundStart == true){
 	for(var j = 0; j < array_length(ownersBuildings); j++){
 		count += instance_number(ownersBuildings[j]);
 	}
-	count = round(count/2);
+	count = count*2;
 
 	//spawning spiders
 	for(var i = 0; i < count; i++){
 		var enemySide = 180;
-		var _y = 0;//irandom_range(0, room_height-100);
-		var unit = choose(gnollPikeman, gnollWarrior);
-		var newUnit = instance_create_layer(startingX, _y, "instances", unit);
+		var _y = irandom_range(0, room_height-100);
+		var newUnit = instance_create_layer(startingX, _y, "instances", angel);
 		newUnit.direction = enemySide;
 		if(owner == "player"){
 			newUnit.enemy = global.enemyFaction;
