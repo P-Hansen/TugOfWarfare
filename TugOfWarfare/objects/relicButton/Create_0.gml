@@ -145,6 +145,11 @@ switch (item) {
 		itemDescription = "+15% ranged attack damage.";
 	break;
 	
+	case platemail:
+		itemName = "Platemail";
+		itemDescription = "+20% Hp -5% attack speed.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
