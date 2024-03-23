@@ -1,6 +1,8 @@
 /// @description 
 
 if(clicked == true){
+	draw_rectangle_colour(x-25, y-25, x+25, y+25, c_yellow, c_yellow, c_yellow, c_yellow, true);
+	
 	//snap to grid
 	_x = round(mouse_x/global.GRIDSIZE)*global.GRIDSIZE;
 	_y = round(mouse_y/global.GRIDSIZE)*global.GRIDSIZE;
