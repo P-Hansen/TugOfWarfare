@@ -37,5 +37,8 @@
     "path":"sprites/sprHumanArcher/sprHumanArcher.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

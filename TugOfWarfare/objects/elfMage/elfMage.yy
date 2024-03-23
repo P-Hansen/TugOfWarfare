@@ -37,5 +37,8 @@
     "path":"sprites/sprElfMage/sprElfMage.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

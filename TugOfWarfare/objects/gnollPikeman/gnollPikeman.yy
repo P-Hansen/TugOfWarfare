@@ -37,5 +37,8 @@
     "path":"sprites/sprGnollPikeman/sprGnollPikeman.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

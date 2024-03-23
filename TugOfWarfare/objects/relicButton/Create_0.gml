@@ -140,6 +140,11 @@ switch (item) {
 		itemDescription = "At 11 minutes and 6 seconds summon an army of Angels.";
 	break;
 	
+	case rangedAttackUpgrade:
+		itemName = "Target Practice";
+		itemDescription = "+15% ranged attack damage.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";

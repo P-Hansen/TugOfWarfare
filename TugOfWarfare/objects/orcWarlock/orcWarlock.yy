@@ -37,5 +37,8 @@
     "path":"sprites/sprOrcWarlock/sprOrcWarlock.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

@@ -37,5 +37,8 @@
     "path":"sprites/sprElfArcher/sprElfArcher.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

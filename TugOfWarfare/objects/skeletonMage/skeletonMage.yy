@@ -37,5 +37,8 @@
     "path":"sprites/sprSkeletalMage/sprSkeletalMage.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

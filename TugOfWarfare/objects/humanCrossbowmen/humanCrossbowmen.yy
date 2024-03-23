@@ -37,5 +37,8 @@
     "path":"sprites/sprHumanCrossbowmen/sprHumanCrossbowmen.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

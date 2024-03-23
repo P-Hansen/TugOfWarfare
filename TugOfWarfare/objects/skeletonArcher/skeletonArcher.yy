@@ -37,5 +37,8 @@
     "path":"sprites/sprBrittleArcher/sprBrittleArcher.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

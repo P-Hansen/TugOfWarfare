@@ -17,7 +17,7 @@ global.round = 1;
 global.availbleRelics = [guardTowers, guardWolves, crabGuards, stoneConstruction, berserkerCharm, blizzardStone, spiderCharm,
 		brambleSeeds, thunderStone, attackUpgrade, defenceUpgrade, treasureChest, goblinConscripts, HireASquire,
 		bounty, trollBlood, herbalism, goldenScarabItem, flamingSwords, poisonArrows, gnollWarpack, fortress, witheringCurse,
-		undeadArmy, holyArmy];
+		undeadArmy, holyArmy, rangedAttackUpgrade];
 		
 global.levels = [rmBattlefieldField, rmBattlefieldSwamp, rmBattlefieldForest, rmBattlefieldBlastedLand, rmBattlefieldBeach, rmBattlefieldFarmField, rmBattlefieldDesert, rmBattlefieldCastleRuins];
 
@@ -53,9 +53,9 @@ global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the D
 
 //room_goto(rmFactionSelect);
 room_goto(rmMainMenu);
-/*
+
 //give yourself items for testing
-item = barricades;
+item = rangedAttackUpgrade;
 
 var relic = instance_create_depth(200+(48*array_length(global.playerRelics)), 25, -1000, item);
 relic.enemy = global.enemyFaction;
@@ -64,4 +64,3 @@ relic.ownersUnits = global.playerFaction;
 relic.ownersBuildings = global.playerBuildings;
 relic.owner = "player";
 array_push(global.playerRelics, relic);
-*/

@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"giantEttinMage",
+  "%Name":"statusEffectRangedAttackUp",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"giantEttinMage",
+  "name":"statusEffectRangedAttackUp",
   "overriddenProperties":[],
   "parent":{
-    "name":"giant",
-    "path":"folders/Objects/giant.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"giantClass",
-    "path":"objects/giantClass/giantClass.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,13 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprEttinMage",
-    "path":"sprites/sprEttinMage/sprEttinMage.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "tags":[
-    "ranged",
-  ],
   "visible":true,
 }

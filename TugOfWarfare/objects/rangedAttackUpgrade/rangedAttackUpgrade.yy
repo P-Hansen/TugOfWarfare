@@ -1,21 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"giantEttinMage",
+  "%Name":"rangedAttackUpgrade",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"giantEttinMage",
+  "name":"rangedAttackUpgrade",
   "overriddenProperties":[],
   "parent":{
-    "name":"giant",
-    "path":"folders/Objects/giant.yy",
+    "name":"relics",
+    "path":"folders/Objects/relics.yy",
   },
   "parentObjectId":{
-    "name":"giantClass",
-    "path":"objects/giantClass/giantClass.yy",
+    "name":"relicClass",
+    "path":"objects/relicClass/relicClass.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprEttinMage",
-    "path":"sprites/sprEttinMage/sprEttinMage.yy",
+    "name":"sprBullseye",
+    "path":"sprites/sprBullseye/sprBullseye.yy",
   },
   "spriteMaskId":null,
   "tags":[
-    "ranged",
+    "statusEffect",
   ],
   "visible":true,
 }

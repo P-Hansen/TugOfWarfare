@@ -37,5 +37,8 @@
     "path":"sprites/sprGoblinArcher/sprGoblinArcher.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

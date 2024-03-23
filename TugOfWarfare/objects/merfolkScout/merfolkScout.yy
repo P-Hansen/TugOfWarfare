@@ -37,5 +37,8 @@
     "path":"sprites/sprMerfolkScout/sprMerfolkScout.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

@@ -39,6 +39,7 @@
   "spriteMaskId":null,
   "tags":[
     "bubbleImmune",
+    "ranged",
   ],
   "visible":true,
 }

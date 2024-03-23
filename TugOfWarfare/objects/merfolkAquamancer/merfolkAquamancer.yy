@@ -37,5 +37,8 @@
     "path":"sprites/sprMerfolkAquamancer/sprMerfolkAquamancer.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

@@ -37,5 +37,8 @@
     "path":"sprites/sprOrcWolfRider/sprOrcWolfRider.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }

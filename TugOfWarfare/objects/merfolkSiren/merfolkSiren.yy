@@ -37,5 +37,8 @@
     "path":"sprites/sprMerfolkSiren/sprMerfolkSiren.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "ranged",
+  ],
   "visible":true,
 }
