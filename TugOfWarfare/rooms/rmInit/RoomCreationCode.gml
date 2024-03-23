@@ -53,9 +53,9 @@ global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the D
 
 //room_goto(rmFactionSelect);
 room_goto(rmMainMenu);
-
+/*
 //give yourself items for testing
-item = holyArmy;
+item = barricades;
 
 var relic = instance_create_depth(200+(48*array_length(global.playerRelics)), 25, -1000, item);
 relic.enemy = global.enemyFaction;
@@ -64,3 +64,4 @@ relic.ownersUnits = global.playerFaction;
 relic.ownersBuildings = global.playerBuildings;
 relic.owner = "player";
 array_push(global.playerRelics, relic);
+*/
