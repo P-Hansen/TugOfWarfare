@@ -150,6 +150,11 @@ switch (item) {
 		itemDescription = "+20% Hp -5% attack speed.";
 	break;
 	
+	case healingPotions:
+		itemName = "Healing Potions";
+		itemDescription = "Each unit gets 1 healing potion and when they are below 30% hp they use it to heal 50.";
+	break;
+	
 	default:
 		itemName = "-";
 		itemDescription = "...";
