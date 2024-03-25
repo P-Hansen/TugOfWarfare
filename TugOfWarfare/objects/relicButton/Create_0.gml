@@ -12,7 +12,7 @@ itemSprite = object_get_sprite(item);
 switch (item) {
 	case thunderStone:
 		itemName = "The Thunder Stone";
-		itemDescription = "The mighty thunderstone strikes down an enemy at random every 15 seconds and the strorm move closer every strike.";
+		itemDescription = "The mighty thunderstone strikes down an enemy at random every 15 seconds and the strorm moves closer every strike.";
 	break;
 	
 	case treasureChest:
@@ -147,7 +147,7 @@ switch (item) {
 	
 	case platemail:
 		itemName = "Platemail";
-		itemDescription = "+20% Hp -5% attack speed.";
+		itemDescription = "melee units get +20% Hp -5% attack speed.";
 	break;
 	
 	case healingPotions:

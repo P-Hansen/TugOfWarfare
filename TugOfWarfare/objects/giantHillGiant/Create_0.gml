@@ -15,9 +15,9 @@ damage = 50;
 cooldown = 2.7;
 damageType = "Splash";
 unitName = "Hill Giant"
-sfx = [swing2];
-pitchLow = 0.4;
-pitchHigh = 0.8;
+sfx = [giantSwing];
+pitchLow = 1;
+pitchHigh = 1.2;
 drop = 12;
 
 alarm[1] = room_speed*cooldown;

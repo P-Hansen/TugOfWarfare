@@ -5,6 +5,7 @@ if(roomName != "rmWin"){
 	count += 1;
 	if(count > 10){
 		count = 1;
+		soundFlag = false;
 	}
 	sinCount += 0.18; //approx 17sec
 	var sinNumber = dsin(sinCount);
@@ -14,6 +15,11 @@ if(roomName != "rmWin"){
 
 	//creating snow
 	if(sinNumber >= 0){
+		if(soundFlag == false){
+			//audio_play_sound(blizzard, 1, false);
+			soundFlag = true;
+		}
+		
 		if(sinNumber >= count){
 			effect_create_above(ef_snow, 10, 10, 1, c_white);
 			effect_create_above(ef_rain, 10, 10, 1, c_aqua);

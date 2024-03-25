@@ -18,7 +18,7 @@ if(i > 150){
 	draw_text(room_width/2, room_height/2+80, "\n\n\nBuildings Constructed: " + commas(string(global.buildingsBuild)));
 }
 if(i > 180){
-	draw_text(room_width/2, room_height/2+80, "\n\n\n\n\nDamage done: " + commas(string(global.damageDone)));
+	draw_text(room_width/2, room_height/2+80, "\n\n\n\n\nDamage done: " + commas(string(round(global.damageDone))));
 }
 if(i > 210){
 	draw_text(room_width/2, room_height/2+80, "\n\n\n\n\n\nUnits Killed: " + commas(string(global.unitsKilled)));

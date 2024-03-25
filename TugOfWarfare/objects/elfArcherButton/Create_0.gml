@@ -6,7 +6,7 @@ event_inherited();
 building = elfArcherBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprElfArcher;
-price = 100;
+price = 110;
 spawnNumber = 1;
 
 maxHp = 300;

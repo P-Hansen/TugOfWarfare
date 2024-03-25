@@ -32,7 +32,8 @@ if(relicArrayContains(global.enemyRelics, fortress)){
 	if(fortress.placed == false){
 		newBuilding.numberPerSpawn += 1;
 		fortress.placed = true;
-		instance_create_layer(_x, _y, "Instances", fortessPad);
+		var fort = instance_create_layer(_x, _y, "Instances", fortessPad);
+		fort.depth = newBuilding.depth - 1;
 	}
 }
 

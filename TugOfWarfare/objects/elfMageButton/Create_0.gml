@@ -6,7 +6,7 @@ event_inherited();
 building = elfMageBuilding;
 buildingSprite = sprTestCube;
 unitSprite = sprElfMage;
-price = 100;
+price = 110;
 spawnNumber = 1;
 
 maxHp = 500;
