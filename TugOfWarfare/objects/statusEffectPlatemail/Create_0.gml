@@ -7,7 +7,7 @@ function onHit(unit){
 	if(unit.range <= 10){
 		unit.maxHp = round(unit.maxHp*1.20);
 		unit.hp = unit.maxHp;
-		unit.cooldown = unit.cooldown*0.95;
+		unit.cooldown = unit.cooldown*1.05;
 	}
 	//array_push(unit.statusEffects, self);
 }
