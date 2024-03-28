@@ -2,11 +2,22 @@
 
 //building with gold
 if(global.enemyGoldTotal >= 100){
-	var _x = irandom_range(room_width-200, room_width-48);
-	_x = round(_x/global.GRIDSIZE)*global.GRIDSIZE;
 
-	var _y = irandom_range(48, room_height-100);
-	_y = round(_y/global.GRIDSIZE)*global.GRIDSIZE;
+	//picking the building
+	if(index == 0){
+		var _x = irandom_range(room_width-200, room_width-48);
+		_x = round(_x/global.GRIDSIZE)*global.GRIDSIZE;
+
+		var _y = irandom_range(48, room_height-340);
+		_y = round(_y/global.GRIDSIZE)*global.GRIDSIZE;
+	}
+	_y += 48;
+	var newBuilding = instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[index]);
+	newBuilding.owner = "enemy";
+	index += 1;
+	if(index >= 5){
+		index = 0;
+	}
 	
 		//killing trees
 	if(collision_rectangle(_x-24, _y-24, _x+24, _y+24, [tree1], false, true) != noone){
@@ -45,14 +56,6 @@ if(global.enemyGoldTotal >= 100){
 			instance_destroy(target, false);
 		}
 		ds_list_destroy(targets);
-	}
-
-	//picking the building
-	var newBuilding = instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[index]);
-	newBuilding.owner = "enemy";
-	index += 1;
-	if(index >= 5){
-		index = 0;
 	}
 
 	if(relicArrayContains(global.enemyRelics, stoneConstruction)){

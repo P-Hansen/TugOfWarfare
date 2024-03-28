@@ -21,6 +21,8 @@ for(var i = 0; i < array_length(global.playerRelics); i++){
 
 alarm[1] = 1;
 index = 1;
+_y = 0
+_x = 0
 
 /*
 array_shuffle_ext(global.prefix);

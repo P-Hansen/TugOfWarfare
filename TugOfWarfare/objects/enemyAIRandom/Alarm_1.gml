@@ -1,9 +1,9 @@
 /// @description initial building
 
-var _x = irandom_range(room_width-100, room_width-48);
+_x = irandom_range(room_width-100, room_width-48);
 _x = round(_x/global.GRIDSIZE)*global.GRIDSIZE;
 
-var _y = irandom_range(48, room_height-100);
+_y = irandom_range(48, room_height-100);
 _y = round(_y/global.GRIDSIZE)*global.GRIDSIZE;
 
 //killing grass and trees
