@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-global.enemyGoldTotal = 200;
+global.enemyGoldTotal = 300;
 
 //clear out old relics
 for(var j = array_length(global.enemyRelics)-1; j >= 0; j--){
@@ -20,7 +20,7 @@ for(var i = 0; i < array_length(global.playerRelics); i++){
 }
 
 alarm[1] = 1;
-
+index = 1;
 
 /*
 array_shuffle_ext(global.prefix);

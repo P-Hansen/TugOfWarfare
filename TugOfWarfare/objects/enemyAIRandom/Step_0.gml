@@ -2,7 +2,7 @@
 
 //building with gold
 if(global.enemyGoldTotal >= 100){
-	var _x = irandom_range(room_width-100, room_width-48);
+	var _x = irandom_range(room_width-200, room_width-48);
 	_x = round(_x/global.GRIDSIZE)*global.GRIDSIZE;
 
 	var _y = irandom_range(48, room_height-100);
@@ -47,6 +47,7 @@ if(global.enemyGoldTotal >= 100){
 		ds_list_destroy(targets);
 	}
 
+	//picking the building
 	var roll = irandom_range(0, array_length(global.enemyAvailableBuildings)-1);
 	var newBuilding = instance_create_layer(_x, _y, "Instances", global.enemyAvailableBuildings[roll]);
 	newBuilding.owner = "enemy";

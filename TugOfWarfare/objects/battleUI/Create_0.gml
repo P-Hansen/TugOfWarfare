@@ -12,7 +12,7 @@ var buildButtons = function(element, index){
 array_foreach(global.availableBuildings, buildButtons);
 
 global.timer = 10;
-global.goldTotal = 200;
+global.goldTotal = 300;
 winFlag = false;
 lossFlag = false;
 roundFlag = true;
