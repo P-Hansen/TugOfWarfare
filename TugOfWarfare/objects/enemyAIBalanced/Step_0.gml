@@ -5,10 +5,10 @@ if(global.enemyGoldTotal >= 100){
 
 	//picking the building
 	if(index == 0){
-		var _x = irandom_range(room_width-200, room_width-48);
+		_x = irandom_range(room_width-200, room_width-48);
 		_x = round(_x/global.GRIDSIZE)*global.GRIDSIZE;
 
-		var _y = irandom_range(48, room_height-340);
+		_y = irandom_range(48, room_height-340);
 		_y = round(_y/global.GRIDSIZE)*global.GRIDSIZE;
 	}
 	_y += 48;
