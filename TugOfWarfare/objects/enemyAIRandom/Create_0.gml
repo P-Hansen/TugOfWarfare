@@ -10,7 +10,8 @@ for(var j = array_length(global.enemyRelics)-1; j >= 0; j--){
 }
 
 //picking random relics
-for(var i = 0; i < array_length(global.playerRelics); i++){
+
+for(var i = 0; i < array_length(global.playerRelics) + global.difficulty; i++){
 	array_shuffle_ext(global.availbleRelics);
 	item = global.availbleRelics[0];
 	array_delete(global.availbleRelics, 0, 1);
@@ -33,4 +34,4 @@ orcName = global.orcNames[0];
 nameSuffix = global.suffix[0];
 name = string_concat(namePrefix, orcName, nameSuffix);
 */
-//alarm[1] = 1;
+
