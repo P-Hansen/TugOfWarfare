@@ -9,7 +9,7 @@ draw_set_halign(fa_center);
 
 
 //spawn timer or victory
-if(winFlag == false and lossFlag == false){
+if(winFlag == false and lossFlag == false and drawFlag == false){
 	//top timer
 	draw_text_transformed(windowWidth/2, 20, string(global.timer), 3, 3, 0);
 	//round title card
@@ -32,7 +32,17 @@ if(winFlag == false and lossFlag == false){
 	}
 } else if (lossFlag == true){
 	draw_text_transformed(windowWidth/2, windowHeight/3, "Game Over", 3, 3, 0);
+} else if (drawFlag == true){
+	//Draw text
+	draw_text_transformed(windowWidth/2, 20, "Draw", 3, 3, 0);
+	//go to next level
+	if(instance_number(relicButton) <= 0){
+		global.round += 1;
+			array_shuffle_ext(global.levels);
+			room_goto(global.levels[0]);
+	}
 }
+
 //draw_set_color(c_white);
 draw_set_halign(fa_left);
 //draw_set_font(oldFont)

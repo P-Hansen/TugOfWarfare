@@ -16,6 +16,7 @@ global.goldTotal = 300;
 winFlag = false;
 lossFlag = false;
 roundFlag = true;
+drawFlag = false;
 
 unit = noone;
 unitMaxHp = 0;
@@ -33,3 +34,4 @@ alarm[1] = room_speed*1;
 alarm[2] = room_speed*1;
 alarm[3] = room_speed*3;
 alarm[4] = 5;
+alarm[6] = room_speed*900;
