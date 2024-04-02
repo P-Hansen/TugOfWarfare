@@ -11,7 +11,7 @@ spawnNumber = 3;
 
 maxHp = 300;
 hp = maxHp;
-damage = 40;
+damage = 35;
 range = 10;
 cooldown = 1;
 damageType = "Normal";

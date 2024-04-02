@@ -8,7 +8,7 @@ hp = maxHp;
 
 weapon = swordSlash;
 range = 10;
-damage = 40;
+damage = 35;
 cooldown = 1;
 damageType = "Normal";
 unitName = "Harpy"
