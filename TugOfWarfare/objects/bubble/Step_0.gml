@@ -7,6 +7,11 @@ image_yscale = scale+oscillation/4;
 
 if(place_meeting(x, y, enemy)){
 	var target = instance_place(x, y, enemy);
+	if(owner == "player" and x > room_width/2){
+		damage -= global.passiveArmour;
+	} else if(owner == "enemy" and x < room_width/2) {
+		damage -= global.passiveArmour;
+	}
 	target.hp -= damage;
 	target.flashTimer = 5;
 	

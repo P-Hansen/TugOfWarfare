@@ -9,5 +9,6 @@ counter = random_range(0,360);
 speed = 2;
 damage = 30;
 enemy = [];
+owner = noone;
 
 alarm[1] = room_speed*1;

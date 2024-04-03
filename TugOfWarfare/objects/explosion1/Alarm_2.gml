@@ -12,7 +12,12 @@ for (var i = 0; i < enemyCount; i++;) {
 		var burn = instance_create_depth(x, y, target.depth-1, statusEffectBurning);
 		burn.onHit(target);
 	}
-
+	
+	if(owner == "player" and x > room_width/2){
+		damage -= global.passiveArmour;
+	} else if(owner == "enemy" and x < room_width/2) {
+		damage -= global.passiveArmour;
+	}
 	target.hp -= damage;
 	target.flashTimer = 5;
 	var num = instance_create_depth(target.x, target.y-16, target.depth-1, damageNumber);

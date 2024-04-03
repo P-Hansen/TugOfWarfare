@@ -9,6 +9,7 @@ if(currentStatus == status.active){
 			attack.damage = damage;
 			attack.direction = direction;
 			attack.image_angle = direction;
+			attack.owner = owner;
 		}
 	}
 }

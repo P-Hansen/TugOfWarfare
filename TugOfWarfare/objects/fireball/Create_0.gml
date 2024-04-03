@@ -6,5 +6,6 @@ image_yscale = scale;
 speed = 2;
 damage = 30;
 enemy = [];
+owner = noone;
 
 alarm[1] = room_speed*(1.5 + random_range(-0.1, 0.1));

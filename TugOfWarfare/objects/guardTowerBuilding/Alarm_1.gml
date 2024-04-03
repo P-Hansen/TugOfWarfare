@@ -13,6 +13,7 @@ if(currentStatus == status.active){
 		attack.direction = direction;
 		attack.image_angle = direction;
 		attack.speed = 6;
+		attack.owner = owner;
 	}
 }
 

@@ -4,6 +4,7 @@ scale = 0.65;
 image_xscale = scale;
 image_yscale = scale;
 damage = 100;
+owner = noone;
 
 alarm[1] = 1;
 alarm[2] = 1;

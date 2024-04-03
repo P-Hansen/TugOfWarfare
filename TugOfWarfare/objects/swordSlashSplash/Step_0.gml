@@ -7,6 +7,11 @@ var target = noone;
 for (var i = 0; i < enemyCount; i++;) {
 	target = ds_list_find_value(enemiesInRange, i);
 	if(!array_contains(targets, target)){
+		if(owner == "player" and x > room_width/2){
+			damage -= global.passiveArmour;
+		} else if(owner == "enemy" and x < room_width/2) {
+			damage -= global.passiveArmour;
+		}
 		target.hp -= damage;
 		target.flashTimer = 5;
 		array_push(targets, target);

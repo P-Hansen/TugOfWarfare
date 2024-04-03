@@ -12,6 +12,7 @@ if(currentStatus == status.active){
 		attack.damage = damage;
 		attack.direction = direction;
 		attack.image_angle = direction;
+		attack.owner = owner;
 		var pitch = random_range(pitchLow, pitchHigh);
 		array_shuffle_ext(sfx);
 		audio_play_sound(sfx[0], 1, false, 1, 0, pitch);
@@ -28,6 +29,7 @@ if(currentStatus == status.active){
 			attack.damage = damage;
 			attack.direction = direction;
 			attack.image_angle = direction;
+			attack.owner = owner;
 			var pitch = random_range(pitchLow, pitchHigh);
 			array_shuffle_ext(sfx);
 			audio_play_sound(sfx[0], 1, false, 1, 0, pitch);

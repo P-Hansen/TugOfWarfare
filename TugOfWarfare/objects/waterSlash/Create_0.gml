@@ -8,5 +8,6 @@ damage = 20;
 damageDoneFlag = false;
 targets = [];
 enemy = [];
+owner = noone;
 
 alarm[1] = 8;

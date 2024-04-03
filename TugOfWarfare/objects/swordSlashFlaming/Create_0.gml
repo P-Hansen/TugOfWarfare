@@ -7,5 +7,6 @@ speed = 0;
 damage = 40;
 damageDoneFlag = false;
 enemy = [];
+owner = noone;
 
 alarm[1] = 5;
