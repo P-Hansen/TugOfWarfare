@@ -16,7 +16,7 @@ damage = 90;
 cooldown = 3;
 damageType = "Normal";
 unitName = "Catapult";
-sfx = [swing1, swing2];
+sfx = [sfxCatapult];
 drop = 6;
 
 image_speed = 0;
