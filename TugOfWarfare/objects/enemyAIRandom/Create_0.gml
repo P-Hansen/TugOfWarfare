@@ -1,6 +1,7 @@
 /// @description Insert description here
 
 global.enemyGoldTotal = 300;
+relicNumber = array_length(global.playerRelics);
 
 //clear out old relics
 for(var j = array_length(global.enemyRelics)-1; j >= 0; j--){
@@ -10,8 +11,8 @@ for(var j = array_length(global.enemyRelics)-1; j >= 0; j--){
 }
 
 //picking random relics
-
-for(var i = 0; i < array_length(global.playerRelics) + global.difficulty; i++){
+if(global.round == 5) {relicNumber++;}
+for(var i = 0; i < relicNumber + global.difficulty; i++){
 	array_shuffle_ext(global.availbleRelics);
 	item = global.availbleRelics[0];
 	array_delete(global.availbleRelics, 0, 1);
