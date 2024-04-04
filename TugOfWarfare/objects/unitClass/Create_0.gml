@@ -27,6 +27,9 @@ enemySide = 180;
 sfx = [sfxHit];
 pitchLow = 0.8;
 pitchHigh = 1;
+ogSpeed = moveSpeed;
+wet = false;
 
 alarm[2] = room_speed*0.25;
+alarm[9] = room_speed*0.5;
 alarm[10] = 10+irandom_range(-5, 5);

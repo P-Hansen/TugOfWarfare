@@ -13,4 +13,4 @@ alarm[3] = room_speed*1;
 index = 1;
 _y = 0;
 _x = 0;
-global.timer = 1;
+global.timer = 0;

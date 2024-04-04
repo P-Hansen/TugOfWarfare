@@ -25,10 +25,20 @@ if(selectedFlag == true){
 
 	// put stuff in -> vec2 2 values
 	shader_set_uniform_f(uniForm_Handle, texture_Width, texture_Height );
-	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, unitColour, image_alpha);
+	if(wet == true){
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, unitColour, image_alpha);
+		//draw_sprite_part_ext(sprite_index, image_index, 0, 0, sprite_width, sprite_height, x, y, image_xscale, image_yscale, unitColour, image_alpha);
+	} else {
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, unitColour, image_alpha);
+	}
 	shader_reset();
 } else {
-	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, unitColour, image_alpha);
+	if(wet == true){
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, unitColour, image_alpha);
+		//draw_sprite_part_ext(sprite_index, image_index, 0, 0, sprite_width, sprite_height, x, y, image_xscale, image_yscale, unitColour, image_alpha);
+	} else {
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, unitColour, image_alpha);
+	}
 }
 
 draw_healthbar(x-10, y+3, x+10, y+4, (hp/maxHp)*100, c_black, c_red, c_lime, 0, 1, true)

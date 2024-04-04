@@ -238,7 +238,7 @@
     {"name":"poisonNumber","order":13,"path":"objects/poisonNumber/poisonNumber.yy",},
     {"name":"poisonSpear","order":24,"path":"objects/poisonSpear/poisonSpear.yy",},
     {"name":"poisonStab","order":10,"path":"objects/poisonStab/poisonStab.yy",},
-    {"name":"ponds","order":29,"path":"objects/ponds/ponds.yy",},
+    {"name":"ponds","order":27,"path":"objects/ponds/ponds.yy",},
     {"name":"poppy","order":13,"path":"objects/poppy/poppy.yy",},
     {"name":"projectileClass","order":5,"path":"objects/projectileClass/projectileClass.yy",},
     {"name":"randomAI","order":49,"path":"objects/randomAI/randomAI.yy",},
