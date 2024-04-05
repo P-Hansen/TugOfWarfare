@@ -51,6 +51,7 @@ archer2 = choose(sprMerfolkScout, sprOrcWolfRider);
 mage = choose(sprHumanPriest, sprOrcWarlock);
 frontLine = choose(sprHumanSwordsmen, sprGoblinWarrior, sprOrcWarrior);
 tank = choose(sprHumanKnight, sprOrcBarbarian);
+unlock = true;
 
 selected = false;
 animationSpeed = 0;

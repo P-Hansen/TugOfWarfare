@@ -49,6 +49,14 @@ global.buildingsKilled = 0;
 global.difficulty = 0;
 global.passiveArmour = 3;
 
+global.HumanUnlocked = true;
+global.OrcUnlocked = true;
+global.ElfUnlocked = false;
+global.GiantUnlocked = false;
+global.MerfolkUnlocked = false;
+global.SkeletonUnlocked = false;
+global.GoblinUnlocked = false;
+
 global.prefix = ["Mad ", "Sir. ", "Thundering ", "Commander ", "Prince ", "Icy "];
 global.orcNames = ["Zugarod", "Ulmug", "Garthax", "Durz", "Tulgan", "Nargulg", "Glasha", "Shadbak", "Agrob", "Bolgar"];
 global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the Deep", " the Negotiator", " the Spider Queen"];

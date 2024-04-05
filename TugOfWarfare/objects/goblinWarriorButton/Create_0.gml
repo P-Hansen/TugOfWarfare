@@ -9,7 +9,7 @@ unitSprite = sprGoblinWarrior;
 price = 90;
 spawnNumber = 5;
 
-maxHp = 200;
+maxHp = 190;
 hp = maxHp;
 damage = 25;
 range = 10;

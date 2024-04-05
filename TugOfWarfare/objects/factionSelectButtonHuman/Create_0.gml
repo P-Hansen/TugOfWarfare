@@ -11,6 +11,10 @@ global.playerFaction = class;
 global.playerBuildings = classBuildings;
 global.enemyFaction = class;
 selected = true;
+unlock = global.HumanUnlocked;
+if(unlock == false){
+	image_index = 2
+}
 
 animationSpeed = 0;
 alarm[1] = room_speed/5;
