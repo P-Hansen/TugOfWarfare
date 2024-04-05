@@ -9,7 +9,7 @@ unitSprite = sprHumanSwordsmen;
 price = 100;
 spawnNumber = 3;
 
-maxHp = 300;
+maxHp = 290;
 hp = maxHp;
 damage = 35;
 range = 10;

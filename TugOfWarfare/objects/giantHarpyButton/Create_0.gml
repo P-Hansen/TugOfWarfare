@@ -9,7 +9,7 @@ unitSprite = sprHarpy;
 price = 100;
 spawnNumber = 3;
 
-maxHp = 300;
+maxHp = 290;
 hp = maxHp;
 range = 10;
 damage = 35;
