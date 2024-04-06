@@ -29,6 +29,7 @@ pitchLow = 0.8;
 pitchHigh = 1;
 ogSpeed = moveSpeed;
 wet = false;
+oldColour = c_white;
 
 alarm[2] = room_speed*0.25;
 alarm[9] = room_speed*0.5;

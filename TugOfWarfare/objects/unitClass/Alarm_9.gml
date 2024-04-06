@@ -1,6 +1,7 @@
 /// @description touching water?
 
 if(place_meeting(x, y, ponds)){
+	oldColour = unitColour;
 	unitColour = c_aqua;
 	moveSpeed = ogSpeed - 0.3;
 	wet = true;
@@ -13,11 +14,14 @@ if(place_meeting(x, y, ponds)){
 		var i = array_find_index(statusEffects, function(element, index){
 			return element.object_index == statusEffectBurning;
 		});
+		//end burning status effect
 		statusEffects[i].onEnd(self, i);
 	}
 	
 } else {
-	unitColour = c_white;
+	if(unitColour == c_aqua){
+		unitColour = oldColour;
+	}
 	moveSpeed = ogSpeed;
 	wet = false;
 }
