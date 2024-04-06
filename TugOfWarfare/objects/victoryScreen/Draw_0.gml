@@ -26,6 +26,11 @@ if(i > 210){
 if(i > 240){
 	draw_text(room_width/2, room_height/2+80, "\n\n\n\n\n\n\nBuildings Razed: " + commas(string(global.buildingsKilled)));
 }
+if(i > 270){
+	draw_text(room_width/2, room_height/2+80, "\n\n\n\n\n\n\n\n\n" + unlock);
+}
+
+
 
 draw_set_halign(fa_left);
 
