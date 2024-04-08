@@ -8,6 +8,7 @@ function ssaveConfigureUnlocks() : SSave("unlocks") constructor {
 	add_value("merfolkUnlocked", SSAVE_TYPE.BOOLEAN, 1);
 	add_value("skeletonUnlocked", SSAVE_TYPE.BOOLEAN, 1);
 	add_value("goblinUnlocked", SSAVE_TYPE.BOOLEAN, 1);
+	//add_value("masterVolume", SSAVE_TYPE.REAL, 1);
 }
 
 function ssaveSave(){
