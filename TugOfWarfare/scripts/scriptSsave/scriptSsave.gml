@@ -3,11 +3,11 @@
 function ssaveConfigureUnlocks() : SSave("unlocks") constructor {
 	add_value("humanUnlocked", SSAVE_TYPE.BOOLEAN, 1);
 	add_value("orcUnlocked", SSAVE_TYPE.BOOLEAN, 1);
-	add_value("elfUnlocked", SSAVE_TYPE.BOOLEAN, 1);
-	add_value("giantUnlocked", SSAVE_TYPE.BOOLEAN, 1);
-	add_value("merfolkUnlocked", SSAVE_TYPE.BOOLEAN, 1);
-	add_value("skeletonUnlocked", SSAVE_TYPE.BOOLEAN, 1);
-	add_value("goblinUnlocked", SSAVE_TYPE.BOOLEAN, 1);
+	add_value("elfUnlocked", SSAVE_TYPE.BOOLEAN, 0);
+	add_value("giantUnlocked", SSAVE_TYPE.BOOLEAN, 0);
+	add_value("merfolkUnlocked", SSAVE_TYPE.BOOLEAN, 0);
+	add_value("skeletonUnlocked", SSAVE_TYPE.BOOLEAN, 0);
+	add_value("goblinUnlocked", SSAVE_TYPE.BOOLEAN, 0);
 	//add_value("masterVolume", SSAVE_TYPE.REAL, 1);
 }
 
