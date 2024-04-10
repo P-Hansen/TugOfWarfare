@@ -40,15 +40,18 @@ global.enemyAvailableBuildings = [];
 global.enemyRelics = [];
 global.roundStart = false;
 
+//end game stats
 global.goldSpent = 0;
 global.unitsBuilt = 0;
 global.buildingsBuild = 0;
 global.damageDone = 0;
 global.unitsKilled = 0;
 global.buildingsKilled = 0;
+
 global.difficulty = 0;
 global.passiveArmour = 3;
 
+//unlocks
 global.HumanUnlocked = true;
 global.OrcUnlocked = true;
 global.ElfUnlocked = false;
