@@ -9,7 +9,7 @@ unitSprite = sprHumanKnight;
 price = 100;
 spawnNumber = 3;
 
-maxHp = 450;
+maxHp = 470;
 hp = maxHp;
 range = 10;
 damage = 30;

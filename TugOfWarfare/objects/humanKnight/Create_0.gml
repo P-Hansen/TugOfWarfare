@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-maxHp = 450;
+maxHp = 470;
 hp = maxHp;
 
 weapon = swordSlash;
