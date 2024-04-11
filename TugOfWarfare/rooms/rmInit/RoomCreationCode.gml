@@ -59,8 +59,9 @@ global.GiantUnlocked = false;
 global.MerfolkUnlocked = false;
 global.SkeletonUnlocked = false;
 global.GoblinUnlocked = false;
-ssaveConfigureUnlocks();
+global.saveFile = new ssaveConfigureUnlocks();
 ssaveLoad();
+ssaveSave();
 
 global.prefix = ["Mad ", "Sir. ", "Thundering ", "Commander ", "Prince ", "Icy "];
 global.orcNames = ["Zugarod", "Ulmug", "Garthax", "Durz", "Tulgan", "Nargulg", "Glasha", "Shadbak", "Agrob", "Bolgar"];
