@@ -17,7 +17,9 @@ if(place_meeting(x, y, ponds)){
 	}
 	
 } else {
-	unitColour = c_white;
+	if(unitColour == c_aqua){
+		unitColour = oldColour;
+	}
 	moveSpeed = ogSpeed;
 	wet = false;
 }

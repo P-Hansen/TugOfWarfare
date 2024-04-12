@@ -1,7 +1,6 @@
 /// @description touching water?
 
 if(place_meeting(x, y, ponds)){
-	oldColour = unitColour;
 	unitColour = c_aqua;
 	moveSpeed = ogSpeed - 0.3;
 	wet = true;
