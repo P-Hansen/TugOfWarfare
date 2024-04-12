@@ -71,7 +71,7 @@ global.suffix = [" the Hound Master", " the Slaver", " of the Wilds", " of the D
 room_goto(rmMainMenu);
 /*
 //give yourself items for testing
-item = blizzardStone;
+item = fortress;
 
 var relic = instance_create_depth(200+(48*array_length(global.playerRelics)), 25, -1000, item);
 relic.enemy = global.enemyFaction;
