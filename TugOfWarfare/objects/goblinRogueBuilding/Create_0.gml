@@ -5,3 +5,4 @@ event_inherited();
 
 unit = goblinRogue;
 numberPerSpawn = 3;
+price = 100;

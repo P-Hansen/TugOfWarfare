@@ -5,3 +5,4 @@ event_inherited();
 
 unit = skeletonWarrior;
 numberPerSpawn = 4;
+price = 100;

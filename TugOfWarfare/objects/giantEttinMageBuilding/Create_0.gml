@@ -5,3 +5,4 @@ event_inherited();
 
 unit = giantEttinMage;
 numberPerSpawn = 1;
+price = 100;

@@ -6,3 +6,4 @@ event_inherited();
 unit = noone;
 units = [skeletonArcher, skeletonMinion];
 numberPerSpawn = 5;
+price = 90;

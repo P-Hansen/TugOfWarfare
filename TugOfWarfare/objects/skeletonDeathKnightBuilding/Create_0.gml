@@ -5,3 +5,4 @@ event_inherited();
 
 unit = skeletonDeathKnight;
 numberPerSpawn = 1;
+price = 110;

@@ -5,3 +5,4 @@ event_inherited();
 
 unit = merfolkWaterElemental;
 numberPerSpawn = 2;
+price = 100;

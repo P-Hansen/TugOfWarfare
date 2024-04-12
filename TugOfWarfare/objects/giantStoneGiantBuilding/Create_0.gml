@@ -11,3 +11,4 @@ unit = giantStoneGiant;
 numberPerSpawn = 1;
 cooldown = room_speed*40;
 spawn = true;
+price = 110;

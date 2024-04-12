@@ -5,3 +5,4 @@ event_inherited();
 
 unit = elfLord;
 numberPerSpawn = 2;
+price = 100;

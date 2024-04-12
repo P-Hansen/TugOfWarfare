@@ -5,3 +5,4 @@ event_inherited();
 
 unit = goblinGrunt;
 numberPerSpawn = 5;
+price = 90;

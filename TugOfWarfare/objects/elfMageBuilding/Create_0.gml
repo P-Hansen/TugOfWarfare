@@ -5,3 +5,4 @@ event_inherited();
 
 unit = elfMage;
 numberPerSpawn = 1;
+price = 110;

@@ -5,3 +5,4 @@ event_inherited();
 
 unit = merfolkAquamancer;
 numberPerSpawn = 2;
+price = 100;

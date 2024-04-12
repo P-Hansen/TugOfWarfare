@@ -5,3 +5,4 @@ event_inherited();
 
 unit = skeletonMage;
 numberPerSpawn = 3;
+price = 100;

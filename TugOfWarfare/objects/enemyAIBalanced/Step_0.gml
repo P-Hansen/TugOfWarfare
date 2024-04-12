@@ -64,5 +64,5 @@ if(global.enemyGoldTotal >= 100){
 		newBuilding.hp = newBuilding.maxHp;
 	}
 	
-	global.enemyGoldTotal -= 100;
+	global.enemyGoldTotal -= newBuilding.price;
 }

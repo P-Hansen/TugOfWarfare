@@ -5,3 +5,4 @@ event_inherited();
 
 unit = merfolkSiren;
 numberPerSpawn = 2;
+price = 110;

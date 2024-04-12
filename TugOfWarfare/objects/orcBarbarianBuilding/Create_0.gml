@@ -5,3 +5,4 @@ event_inherited();
 
 unit = orcBarbarian;
 numberPerSpawn = 2;
+price = 100;

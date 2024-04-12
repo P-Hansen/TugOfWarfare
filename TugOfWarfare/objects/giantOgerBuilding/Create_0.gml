@@ -5,3 +5,4 @@ event_inherited();
 
 unit = giantOger;
 numberPerSpawn = 1;
+price = 100;

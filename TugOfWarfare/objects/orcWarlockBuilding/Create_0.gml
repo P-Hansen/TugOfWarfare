@@ -5,3 +5,4 @@ event_inherited();
 
 unit = orcWarlock;
 numberPerSpawn = 2;
+price = 100;

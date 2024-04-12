@@ -5,3 +5,4 @@ event_inherited();
 
 unit = elfArcher;
 numberPerSpawn = 1;
+price = 110;
