@@ -3,8 +3,8 @@
 if(currentStatus == status.active){
 	//finding a target
 	if(!instance_exists(target) or target.hp >= target.maxHp){
-		for (var i = 0; i < instance_number(enemy); ++i;) {
-		    var pTarget = instance_find(enemy, i);
+		for (var i = 0; i < instance_number(humanClass); ++i;) {
+		    var pTarget = instance_find(humanClass, i);
 			if(pTarget.hp < pTarget.maxHp and pTarget != id){
 				target = pTarget;
 				break;
