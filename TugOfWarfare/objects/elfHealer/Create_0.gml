@@ -5,7 +5,6 @@ event_inherited();
 
 maxHp = 400;
 hp = maxHp;
-enemy = elfClass;
 range = 70;
 weapon = arrow;
 damage = 70;

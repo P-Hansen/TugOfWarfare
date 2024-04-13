@@ -5,7 +5,6 @@ event_inherited();
 
 maxHp = 300;
 hp = maxHp;
-enemy = orcClass;
 range = 40;
 weapon = arrow;
 damage = 50;
