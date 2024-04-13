@@ -56,12 +56,14 @@ if(clicked == true and global.goldTotal	>= price and !place_meeting(_x, _y, buil
 	var pitch = random_range(0.8, 1);
 	audio_play_sound(hammer1, 1, false, 1, 0, pitch);
 	
+	//stone construction
 	if(relicArrayContains(global.playerRelics, stoneConstruction)){
 		newBuilding.image_blend = c_ltgray;
 		newBuilding.maxHp = newBuilding.maxHp*2;
 		newBuilding.hp = newBuilding.maxHp;
 	}
 	
+	//fortress
 	if(relicArrayContains(global.playerRelics, fortress)){
 		if(fortress.placed == false){
 			newBuilding.numberPerSpawn += 1;
