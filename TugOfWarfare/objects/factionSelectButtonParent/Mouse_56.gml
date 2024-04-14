@@ -7,6 +7,7 @@ if(position_meeting(mouse_x, mouse_y, self) and unlock){
 	global.playerBuildings = classBuildings;
 	global.enemyFaction = class;
 	selected = true;
+	audio_play_sound(sfx, 1, false);
 } else if (position_meeting(mouse_x, mouse_y, factionSelectButtonParent)){
 	var button = instance_position(mouse_x, mouse_y, factionSelectButtonParent);
 	if(button.unlock == true){

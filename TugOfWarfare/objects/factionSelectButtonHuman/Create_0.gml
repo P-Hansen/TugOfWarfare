@@ -18,3 +18,4 @@ if(unlock == false){
 
 animationSpeed = 0;
 alarm[1] = room_speed/5;
+sfx = sfxForTheKing;
