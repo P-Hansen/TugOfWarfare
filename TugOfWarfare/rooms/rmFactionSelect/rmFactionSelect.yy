@@ -1,7 +1,7 @@
 {
   "$GMRoom":"",
   "%Name":"rmFactionSelect",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rmFactionSelect/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
